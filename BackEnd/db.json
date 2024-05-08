@@ -1,3 +1,1463 @@
+[{
+  "Men-Product": [
+      {
+          "id": "1",
+          "picture": "https://www.harley-davidson.com/content/dam/h-d/images/category-images/2022/category-carousel/mens-jackets-cat-carousel-1.jpg?impolicy=myresize&rw=125",
+          "category": "Jackets & Vests"
+      },
+      {
+          "id": "2",
+          "picture": "https://www.harley-davidson.com/content/dam/h-d/images/category-images/2022/category-carousel/mens-helmets-cat-carousel-1.jpg?impolicy=myresize&rw=125",
+          "category": "Helmets"
+      },
+      {
+          "id": "3",
+          "picture": "https://www.harley-davidson.com/content/dam/h-d/images/category-images/2022/category-carousel/mens-button-down-cat-carousel-1.jpg?impolicy=myresize&rw=125",
+          "category": "Button Downs"
+      },
+      {
+          "id": "4",
+          "picture": "https://www.harley-davidson.com/content/dam/h-d/images/category-images/2022/category-carousel/mens-boots-cat-carousel-1.jpg?impolicy=myresize&rw=125",
+          "category": "Boots & Shoes"
+      },
+      {
+          "id": "5",
+          "picture": "https://www.harley-davidson.com/content/dam/h-d/images/category-images/2022/category-carousel/mens-eu-shirt-cat-carousel-1.jpg?impolicy=myresize&rw=125",
+          "category": "T-shirts & Polos"
+      },
+      {
+          "id": "6",
+          "picture": "https://www.harley-davidson.com/content/dam/h-d/images/category-images/2022/category-carousel/mens-sweatshirt-cat-carousel-1.jpg?impolicy=myresize&rw=125",
+          "category": "Sweatshirts & Hoodies"
+      },
+      {
+          "id": "7",
+          "picture": "https://www.harley-davidson.com/content/dam/h-d/images/category-images/2022/category-carousel/mens-hats-cat-carousel-1.jpg?impolicy=myresize&rw=125",
+          "category": "Hats & Caps"
+      },
+      {
+          "id": "8",
+          "picture": "https://www.harley-davidson.com/content/dam/h-d/images/category-images/2022/category-carousel/mens-gloves-cat-carousel-1.jpg?impolicy=myresize&rw=125",
+          "category": "Gloves"
+      },
+      {
+          "id": "9",
+          "picture": "https://www.harley-davidson.com/content/dam/h-d/images/category-images/2022/category-carousel/mens-eu-performance-cat-carousel-1.jpg?impolicy=myresize&rw=125",
+          "category": "Performance Apparel"
+      },
+      {
+          "id": "10",
+          "picture": "https://www.harley-davidson.com/content/dam/h-d/images/category-images/2022/category-carousel/mens-face-masks-cat-carousel-1.jpg?impolicy=myresize&rw=125",
+          "category": "Face Masks & Gaiters"
+      },
+      {
+          "id": "11",
+          "picture": "https://www.harley-davidson.com/content/dam/h-d/images/category-images/2022/category-carousel/mens-jeans2-cat-carousel-1.jpg?impolicy=myresize&rw=125",
+          "category": "Jeans & Pants"
+      },
+      {
+          "id": "12",
+          "picture": "https://www.harley-davidson.com/content/dam/h-d/images/category-images/2022/category-carousel/mens-rain-gear-cat-carousel-1.jpg?impolicy=myresize&rw=125",
+          "category": "Rain Gear"
+      },
+      {
+          "id": "13",
+          "picture": "https://www.harley-davidson.com/content/dam/h-d/images/category-images/2022/category-carousel/mens-eu-riding-pants-cat-carousel-1.jpg?impolicy=myresize&rw=125",
+          "category": "Riding Pants"
+      }
+  ]
+},
 {
-  "data":[]
+  "Men-Jacket": [
+      {
+          "id": "1",
+          "Product-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2024/97451-24vm/97451-24VM_F.jpg?impolicy=myresize&rw=480",
+          "Title": "Men's At the Crank Bomber Jacket",
+          "Colors-Available": "2 colours available",
+          "color-selector1": "false",
+          "color-selector2": "true",
+          "Active-Colors": "Lapis Blue"
+      },
+      {
+          "id": "2",
+          "Product-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/97405-23vm/97405-23VM_F.jpg?impolicy=myresize&rw=480",
+          "Title": "Men's Forever Harley Camo Jacket"
+      },
+      {
+          "id": "3",
+          "Product-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/january-replenishment/womens/98108-22vr/98108-22VR_F.jpg?impolicy=myresize&rw=480",
+          "Title": "Rheon Labs Armor- Elbow/Knee"
+      },
+      {
+          "id": "4",
+          "Product-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2024/98198-24vm/98198-24VM_F.jpg?impolicy=myresize&rw=480",
+          "Title": "Men's H-D Flex Layering System Fleece Zip Mid Layer"
+      },
+      {
+          "id": "5",
+          "Product-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/january-replenishment/womens/98109-22vr/98109-22VR_F.jpg?impolicy=myresize&rw=480",
+          "Title": "Rheon Labs Armor- Shoulder/Hip"
+      },
+      {
+          "id": "6",
+          "Product-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/98164-23vm/98164-23VM_F.jpg?impolicy=myresize&rw=480",
+          "Title": "Men's Mesa Harley-Davidson ADV Waxed Riding Jacket",
+          "Colors-Available": "2 colours available",
+          "color-selector1": "false",
+          "color-selector2": "true",
+          "Active-Colors": "Dull Gold"
+      },
+      {
+          "id": "7",
+          "Product-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2024/97019-24vm/97019-24VM_F.jpg?impolicy=myresize&rw=480",
+          "Title": "Men's Endonia Leather Jacket"
+      },
+      {
+          "id": "8",
+          "Product-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/july-replenishment/98004-23vt/98004-23VT_F.jpg?impolicy=myresize&rw=480",
+          "Title": "Men's Victory Lane II Leather Jacket - Tall",
+          "Colors-Available": "2 colours available",
+          "color-selector1": "false",
+          "color-selector2": "true",
+          "Active-Colors": "Black"
+      },
+      {
+          "id": "9",
+          "Product-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/96023-24vm/96023-24VM_F.jpg?impolicy=myresize&rw=480",
+          "Title": "Men's #1 Victory Zip-Up Hoodie",
+          "Colors-Available": "2 colours available",
+          "color-selector1": "false",
+          "color-selector2": "true",
+          "Active-Colors": "Medium Grey Heather"
+      },
+      {
+          "id": "10",
+          "Product-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2021/january/mens/98105-21vm/98105-21VM_F.jpg?impolicy=myresize&rw=480",
+          "Title": "Men's Cross Roads II Waterproof Willie G Skull Fleece Jacket"
+      },
+      {
+          "id": "11",
+          "Product-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/98125-23vt/98125-23VT_F.jpg?impolicy=myresize&rw=480",
+          "Title": "Men's H-D Flex Layering System Bomber Riding Jacket Outer Layer - Tall"
+      },
+      {
+          "id": "12",
+          "Product-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/97425-24vm/97425-24VM_F.jpg?impolicy=myresize&rw=480",
+          "Title": "Men's Juneau Parka",
+          "Colors-Available": "2 colours available",
+          "color-selector1": "false",
+          "color-selector2": "true",
+          "Active-Colors": "Black Beauty"
+      },
+      {
+          "id": "13",
+          "Product-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2021/february/98178-21vm/98178-21VM_F.jpg?impolicy=myresize&rw=480",
+          "Title": "Men's Passage Adventure Jacket"
+      },
+      {
+          "id": "14",
+          "Product-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/97403-23vm/97403-23VM_F.jpg?impolicy=myresize&rw=480",
+          "Title": "Men's Forever Harley Canvas Jacket",
+          "Colors-Available": "2 colours available",
+          "color-selector1": "false",
+          "color-selector2": "true",
+          "Active-Colors": "Dachshund"
+      },
+      {
+          "id": "15",
+          "Product-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/98165-23vm/98165-23VM_F.jpg?impolicy=myresize&rw=480",
+          "Title": "Men's Roadside Harley-Davidson ADV Waxed Riding Jacket"
+      },
+      {
+          "id": "16",
+          "Product-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/98135-24vm/98135-24VM_F.jpg?impolicy=myresize&rw=480",
+          "Title": "Men's Piledriver 2.0 Snaptab Textile Riding Jacket"
+      },
+      {
+          "id": "17",
+          "Product-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/january-replenishment/mens/98000-22vm/98000-22VM_F.jpg?impolicy=myresize&rw=480",
+          "Title": "Men's Hwy-100 Waterproof Leather Jacket"
+      },
+      {
+          "id": "18",
+          "Product-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/98163-23vm/98163-23VM_F.jpg?impolicy=myresize&rw=480",
+          "Title": "Men's Mesa Harley-Davidson ADV Waxed Riding Jacket",
+          "Colors-Available": "2 colours available",
+          "color-selector1": "false",
+          "color-selector2": "true",
+          "Active-Colors": "Black Beauty"
+      },
+      {
+          "id": "19",
+          "Product-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2024/97449-24vm/97449-24VM_F.jpg?impolicy=myresize&rw=480",
+          "Title": "Men's Dual Sport Reversible Anorak Jacket"
+      },
+      {
+          "id": "20",
+          "Product-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/january-replenishment/womens/98112-22vr/98112-22VR_F.jpg?impolicy=myresize&rw=480",
+          "Title": "Rheon Labs Armor- Back"
+      },
+      {
+          "id": "21",
+          "Product-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/january-replenishment/mens/98001-22vm/98001-22VM_F.jpg?impolicy=myresize&rw=480",
+          "Title": "Men's Potomac 3-in-1 Leather Jacket"
+      },
+      {
+          "id": "22",
+          "Product-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/january-replenishment/mens/98130-22vm/98130-22VM_F.jpg?impolicy=myresize&rw=480",
+          "Title": "Men's Zephyr Mesh Jacket with  Zip-out Liner",
+          "Colors-Available": "2 colours available",
+          "color-selector1": "false",
+          "color-selector2": "true",
+          "Active-Colors": "Black"
+      },
+      {
+          "id": "23",
+          "Product-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2024/98187-24vm/98187-24VM_F.jpg?impolicy=myresize&rw=480",
+          "Title": "Men's Deflector 2.0  Riding Fleece"
+      },
+      {
+          "id": "24",
+          "Product-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2024/98188-24vt/98188-24VT_F.jpg?impolicy=myresize&rw=480",
+          "Title": "Men's Operative 2.0 Riding Shirt Jacket - Tall"
+      },
+      {
+          "id": "25",
+          "Product-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/97000-24vm/97000-24VM_F.jpg?impolicy=myresize&rw=480",
+          "Title": "Men's Factory Leather Jacket"
+      },
+      {
+          "id": "26",
+          "Product-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2024/98006-24vm/98006-24VM_F.jpg?impolicy=myresize&rw=480",
+          "Title": "Men's Citadel Snap-tab Leather Jacket"
+      },
+      {
+          "id": "27",
+          "Product-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/98127-23vm/98127-23VM_F.jpg?impolicy=myresize&rw=480",
+          "Title": "Men's H-D Flex Layering System  Mid Layer"
+      },
+      {
+          "id": "28",
+          "Product-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/99390-23mx/99390-23MX_F.jpg?impolicy=myresize&rw=480",
+          "Title": "Men's Red Club Jacket",
+          "Colors-Available": "2 colours available",
+          "color-selector1": "false",
+          "color-selector2": "true",
+          "Active-Colors": "Red"
+      },
+      {
+          "id": "29",
+          "Product-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/97408-23vm/97408-23VM_F.jpg?impolicy=myresize&rw=480",
+          "Title": "Men's Wrench Crew Jacket",
+          "Colors-Available": "2 colours available",
+          "color-selector1": "false",
+          "color-selector2": "true",
+          "Active-Colors": "Grape Leaf"
+      },
+      {
+          "id": "30",
+          "Product-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/98015-23vt/98015-23VT_F.jpg?impolicy=myresize&rw=480",
+          "Title": "Men's H-D Flex Layering System Racer Leather Jacket Outer Layer - Tall"
+      },
+      {
+          "id": "31",
+          "Product-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/97420-24vm/97420-24VM_F.jpg?impolicy=myresize&rw=480",
+          "Title": "Men's Garage Jacket",
+          "Colors-Available": "2 colours available",
+          "color-selector1": "false",
+          "color-selector2": "true",
+          "Active-Colors": "Black Beauty"
+      },
+      {
+          "id": "32",
+          "Product-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2021/january/mens/98012-21vm/98012-21VM_F.jpg?impolicy=myresize&rw=480",
+          "Title": "Men's Victory Sweep Leather Jacket"
+      },
+      {
+          "id": "33",
+          "Product-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/97402-24vm/97402-24VM_F.jpg?impolicy=myresize&rw=480",
+          "Title": "Men's California Jacket",
+          "Colors-Available": "2 colours available",
+          "color-selector1": "false",
+          "color-selector2": "true",
+          "Active-Colors": "Tannin"
+      },
+      {
+          "id": "34",
+          "Product-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/97423-24vm/97423-24VM_F.jpg?impolicy=myresize&rw=480",
+          "Title": "Men's Bar & Shield Hooded Puffer",
+          "Colors-Available": "2 colours available",
+          "color-selector1": "false",
+          "color-selector2": "true",
+          "Active-Colors": "Black Beauty"
+      },
+      {
+          "id": "35",
+          "Product-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/97407-23vm/97407-23VM_F.jpg?impolicy=myresize&rw=480",
+          "Title": "Men's Wrench Crew Jacket",
+          "Colors-Available": "2 colours available",
+          "color-selector1": "false",
+          "color-selector2": "true",
+          "Active-Colors": "Black Beauty"
+      },
+      {
+          "id": "36",
+          "Product-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/january-replenishment/womens/98102-22vr/98102-22VR_F.jpg?impolicy=myresize&rw=480",
+          "Title": "D3O Chest Armor"
+      },
+      {
+          "id": "37",
+          "Product-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/january-replenishment/womens/98114-22vr/98114-22VR_F.jpg?impolicy=myresize&rw=480",
+          "Title": "Rheon Labs Armor- Chest Kit"
+      },
+      {
+          "id": "38",
+          "Product-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/97441-23vm/97441-23VM_F.jpg?impolicy=myresize&rw=480",
+          "Title": "Men's Essential Colorblock Anorak",
+          "Colors-Available": "2 colours available",
+          "color-selector1": "false",
+          "color-selector2": "true",
+          "Active-Colors": "Black Beauty"
+      },
+      {
+          "id": "39",
+          "Product-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/batch-2/98235-18vm/98235-18VM_F.jpg?impolicy=myresize&rw=480",
+          "Title": "Men's Killian Riding Jacket"
+      },
+      {
+          "id": "40",
+          "Product-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/98166-23vm/98166-23VM_F.jpg?impolicy=myresize&rw=480",
+          "Title": "Men's Overlook Harley-Davidson ADV Waxed Riding Jacket"
+      },
+      {
+          "id": "41",
+          "Product-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/98122-23vm/98122-23VM_F.jpg?impolicy=myresize&rw=480",
+          "Title": "Men's H-D Flex Layering System Armored Base Layer"
+      },
+      {
+          "id": "42",
+          "Product-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/97008-23vm/97008-23VM_F.jpg?impolicy=myresize&rw=480",
+          "Title": "Men's Gas & Oil Leather Jacket",
+          "Colors-Available": "2 colours available",
+          "color-selector1": "false",
+          "color-selector2": "true",
+          "Active-Colors": "Brown Leather"
+      },
+      {
+          "id": "43",
+          "Product-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/97007-23vm/97007-23VM_F.jpg?impolicy=myresize&rw=480",
+          "Title": "Men's Gas & Oil Leather Jacket",
+          "Colors-Available": "2 colours available",
+          "color-selector1": "false",
+          "color-selector2": "true",
+          "Active-Colors": "Washed Black"
+      },
+      {
+          "id": "44",
+          "Product-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2024/98187-24vt/98187-24VT_F.jpg?impolicy=myresize&rw=480",
+          "Title": "Men's Deflector 2.0  Riding Fleece - Tall"
+      },
+      {
+          "id": "45",
+          "Product-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2024/97113-24vm/97113-24VM_F.jpg?impolicy=myresize&rw=480",
+          "Title": "Men's H-D Flex Layering System Fleece Zip Mid Layer"
+      },
+      {
+          "id": "46",
+          "Product-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/97043-23vm/97043-23VM_F.jpg?impolicy=myresize&rw=480",
+          "Title": "Men's Motorbreath Leather Jacket"
+      },
+      {
+          "id": "47",
+          "Product-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/97006-23vm/97006-23VM_F.jpg?impolicy=myresize&rw=480",
+          "Title": "Men's Mechanic Leather Jacket"
+      },
+      {
+          "id": "48",
+          "Product-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/batch-2/98057-13vm/98057-13VM_F.jpg?impolicy=myresize&rw=480",
+          "Title": "Men’s Victory Lane Leather Jacket"
+      }
+  ]
+},
+{
+  "Men-Helmet": [
+      {
+          "id": "1",
+          "Helmet-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2021/august/helmets/98100-22vx/98100-22VX_F.jpg?impolicy=myresize&rw=480",
+          "title": "Outrush R Modular Bluetooth Helmet",
+          "Helmet-Available": "2 colours available",
+          "color-selector1": "true",
+          "color-selector2": "false",
+          "Helmet_active_color": "Matte Black"
+      },
+      {
+          "id": "2",
+          "Helmet-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/january-replenishment/helmets/98154-22vx/98154-22VX_F.jpg?impolicy=myresize&rw=480",
+          "title": "Gargoyle X07 3-in-1 Helmet"
+      },
+      {
+          "id": "3",
+          "Helmet-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/98160-24vx/98160-24VX_F.jpg?impolicy=myresize&rw=480",
+          "title": "Division X15 Sunshield Full Face Helmet"
+      },
+      {
+          "id": "4",
+          "Helmet-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2021/august/helmets/98101-22vx/98101-22VX_F.jpg?impolicy=myresize&rw=480",
+          "title": "Outrush R Modular Bluetooth Helmet",
+          "Helmet-Available": "2 colours available",
+          "color-selector1": "true",
+          "color-selector2": "false",
+          "Helmet_active_color": "Matte Silver"
+      },
+      {
+          "id": "5",
+          "Helmet-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2024/97121-24vx/97121-24VX_F.jpg?impolicy=myresize&rw=480",
+          "title": "Outrush-R N03 Bluetooth Modular Helmet"
+      },
+      {
+          "id": "6",
+          "Helmet-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/98118-24vx/98118-24VX_F.jpg?impolicy=myresize&rw=480",
+          "title": "Pilot II 2-in-1 Willie G Skull Helmet",
+          "Helmet-Available": "2 colours available",
+          "color-selector1": "true",
+          "color-selector2": "false",
+          "Helmet_active_color": "Matte Dark Grey"
+      },
+      {
+          "id": "7",
+          "Helmet-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2021/january/helmets/98159-21vx/98159-21VX_F.jpg?impolicy=myresize&rw=480",
+          "title": "Capstone Sun Shield II H31 Modular Helmet"
+      },
+      {
+          "id": "8",
+          "Helmet-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/batch-2/98390-16vm/98390-16VM_F.jpg?impolicy=myresize&rw=480",
+          "title": "Lucid Ultra-Light Sun Shield J03 Half Helmet",
+          "Helmet-Available": "2 colours available",
+          "color-selector1": "true",
+          "color-selector2": "false",
+          "Helmet_active_color": "Matte Black"
+      },
+      {
+          "id": "9",
+          "Helmet-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/batch-2/98193-17vx/98193-17VX_F.jpg?impolicy=myresize&rw=480",
+          "title": "Pilot 3-in-1 X04 Helmet"
+      },
+      {
+          "id": "10",
+          "Helmet-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/batch-2/98335-15vm/98335-15VM_F.jpg?impolicy=myresize&rw=480",
+          "title": "Overdrive Low Profile Half Helmet"
+      },
+      {
+          "id": "11",
+          "Helmet-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/98158-24vx/98158-24VX_F.jpg?impolicy=myresize&rw=480",
+          "title": "H-D X14 SUN SHIELD 3/4 HELMET"
+      },
+      {
+          "id": "12",
+          "Helmet-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/parts/january-2024/76001372/76001372_TT.jpg?impolicy=myresize&rw=480",
+          "title": "Harley-Davidson Packtalk Edge - Dual Pack"
+      },
+      {
+          "id": "13",
+          "Helmet-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/98009-23vx/98009-23VX_F.jpg?impolicy=myresize&rw=480",
+          "title": "Fury N04 Bluetooth 3/4 Helmet",
+          "Helmet-Available": "2 colours available",
+          "color-selector1": "true",
+          "color-selector2": "false",
+          "Helmet_active_color": "Matte Black"
+      },
+      {
+          "id": "14",
+          "Helmet-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/january-replenishment/helmets/98159-22vx/98159-22VX_F.jpg?impolicy=myresize&rw=480",
+          "title": "Maywood II Sun Shield H33 3/4 Helmet",
+          "Helmet-Available": "3 colours available",
+          "color-selector1": "true",
+          "color-selector2": "false",
+          "Helmet_active_color": "Matte Black"
+      },
+      {
+          "id": "15",
+          "Helmet-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/98013-23vx/98013-23VX_F.jpg?impolicy=myresize&rw=480",
+          "title": "Capstone Sun Shield II H31 Modular Helmet",
+          "Helmet-Available": "4 colours available",
+          "color-selector1": "true",
+          "color-selector2": "false",
+          "Helmet_active_color": "Gloss Reef Blue"
+      },
+      {
+          "id": "16",
+          "Helmet-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2024/97126-24vx/97126-24VX_F.jpg?impolicy=myresize&rw=480",
+          "title": "Busby Ultra-Light Sun Shield J03 1/2 Helmet",
+          "Helmet-Available": "3 colours available",
+          "color-selector1": "true",
+          "color-selector2": "false",
+          "Helmet_active_color": "Matte Cloud Dancer"
+      },
+      {
+          "id": "17",
+          "Helmet-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/98116-24vx/98116-24VX_F.jpg?impolicy=myresize&rw=480",
+          "title": "H-D Evo X17 Sunshield Modular Helmet"
+      },
+      {
+          "id": "18",
+          "Helmet-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/january-replenishment/helmets/98153-22vx/98153-22VX_F.jpg?impolicy=myresize&rw=480",
+          "title": "Busby Ultra-Light Sun Shield J03 1/2 Helmet",
+          "Helmet-Available": "3 colours available",
+          "color-selector1": "true",
+          "color-selector2": "false",
+          "Helmet_active_color": "Matte Black"
+      },
+      {
+          "id": "19",
+          "Helmet-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/january-replenishment/helmets/98151-22vx/98151-22VX_F.jpg?impolicy=myresize&rw=480",
+          "title": "Lucid Ultra-Light Sun Shield J03 1/2 Helmet",
+          "Helmet-Available": "2 colours available",
+          "color-selector1": "true",
+          "color-selector2": "false",
+          "Helmet_active_color": "Matte Black Silver"
+      },
+      {
+          "id": "20",
+          "Helmet-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/98121-23vx/98121-23VX_F.jpg?impolicy=myresize&rw=480",
+          "title": "Busby Ultra-Light Sun Shield J03 1/2 Helmet",
+          "Helmet-Available": "3 colours available",
+          "color-selector1": "true",
+          "color-selector2": "false",
+          "Helmet_active_color": "White Sand Pearl Gloss"
+      },
+      {
+          "id": "21",
+          "Helmet-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/january-replenishment/helmets/98150-22vx/98150-22VX_F.jpg?impolicy=myresize&rw=480",
+          "title": "Ventura Sun Shield X06 Half Helmet"
+      },
+      {
+          "id": "22",
+          "Helmet-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2021/january/helmets/98158-21vx/98158-21VX_F.jpg?impolicy=myresize&rw=480",
+          "title": "Capstone Sun Shield II H31 Modular Helmet"
+      },
+      {
+          "id": "23",
+          "Helmet-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2021/january/helmets/98122-21vx/98122-21VX_F.jpg?impolicy=myresize&rw=480",
+          "title": "Capstone Sun Shield II H31 Modular Helmet",
+          "Helmet-Available": "4 colours available",
+          "color-selector1": "true",
+          "color-selector2": "false",
+          "Helmet_active_color": "Billiard Red"
+      },
+      {
+          "id": "24",
+          "Helmet-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/january-replenishment/helmets/98158-22vx/98158-22VX_F.jpg?impolicy=myresize&rw=480",
+          "title": "Maywood II Sun Shield H33 3/4 Helmet",
+          "Helmet-Available": "3 colours available",
+          "color-selector1": "true",
+          "color-selector2": "false",
+          "Helmet_active_color": "Gloss Black/Matte Black"
+      },
+      {
+          "id": "25",
+          "Helmet-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/parts/batch-4/76000768/76000768_TT.jpg?impolicy=myresize&rw=480",
+          "title": "Wireless Headset Interface Module"
+      },
+      {
+          "id": "26",
+          "Helmet-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/parts/january-2024/76001366/76001366_ALT01.jpg?impolicy=myresize&rw=480",
+          "title": "Harley-Davidson Freecom 4x"
+      },
+      {
+          "id": "27",
+          "Helmet-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2021/january/helmets/98130-21vx/98130-21VX_ALT01.jpg?impolicy=myresize&rw=480",
+          "title": "Men's H-D Brawler Carbon Fiber X09 Full Face with Sun Shield Helmet"
+      },
+      {
+          "id": "28",
+          "Helmet-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2024/97125-24vx/97125-24VX_F.jpg?impolicy=myresize&rw=480",
+          "title": "Busby Ultra-Light Sun Shield J03 1/2 Helmet",
+          "Helmet-Available": "3 colours available",
+          "color-selector1": "true",
+          "color-selector2": "false",
+          "Helmet_active_color": "Matte Black"
+      },
+      {
+          "id": "29",
+          "Helmet-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/parts/batch-2/77117-10/77117-10_TT.jpg?impolicy=myresize&rw=480",
+          "title": "Boom! Audio Full Helmet Premium Music and Communications Headset"
+      },
+      {
+          "id": "30",
+          "Helmet-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/january-replenishment/helmets/98156-22vx/98156-22VX_F.jpg?impolicy=myresize&rw=480",
+          "title": "Apex Sun Shield X14 3/4 Helmet"
+      },
+      {
+          "id": "31",
+          "Helmet-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2021/february/98134-21vx/98134-21VX_F.jpg?impolicy=myresize&rw=480",
+          "title": "Passage Adventure J10 Modular Helmet"
+      },
+      {
+          "id": "32",
+          "Helmet-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/batch-2/98240-18vx/98240-18VX_F.jpg?impolicy=myresize&rw=480",
+          "title": "Curbside Sun Shield X06 Half Helmet"
+      },
+      {
+          "id": "33",
+          "Helmet-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/january-replenishment/helmets/98160-22vx/98160-22VX_F.jpg?impolicy=myresize&rw=480",
+          "title": "Maywood II Sun Shield H33 3/4 Helmet",
+          "Helmet-Available": "3 colours available",
+          "color-selector1": "true",
+          "color-selector2": "false",
+          "Helmet_active_color": "Matte Black Silver"
+      },
+      {
+          "id": "34",
+          "Helmet-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/parts/january-2024/76001367/76001367_ALT01.jpg?impolicy=myresize&rw=480",
+          "title": "Harley-Davidson Packtalk Edge"
+      },
+      {
+          "id": "35",
+          "Helmet-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2024/97122-24vx/97122-24VX_F.jpg?impolicy=myresize&rw=480",
+          "title": "Capstone Sun Shield II H31 Modular Helmet"
+      },
+      {
+          "id": "36",
+          "Helmet-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2021/january/helmets/98121-21vx/98121-21VX_F.jpg?impolicy=myresize&rw=480",
+          "title": "Capstone Sun Shield II H31 Modular Helmet",
+          "Helmet-Available": "4 colours available",
+          "color-selector1": "true",
+          "color-selector2": "false",
+          "Helmet_active_color": "Gauntlet Grey"
+      },
+      {
+          "id": "37",
+          "Helmet-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/batch-2/98210-16vm/98210-16VM_F.jpg?impolicy=myresize&rw=480",
+          "title": "Aura Ultra-Light J02 Half Helmet"
+      },
+      {
+          "id": "38",
+          "Helmet-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2024/97147-24vx/97147-24VX_F.jpg?impolicy=myresize&rw=480",
+          "title": "Capstone Sun Shield II H31 Modular Helmet"
+      },
+      {
+          "id": "39",
+          "Helmet-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/parts/batch-4/76000838/76000838_TT.jpg?impolicy=myresize&rw=480",
+          "title": "Boom! Audio 30K Bluetooth Helmet Single Headset"
+      },
+      {
+          "id": "40",
+          "Helmet-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2024/97124-24vx/97124-24VX_F.jpg?impolicy=myresize&rw=480",
+          "title": "Division X15 Sunshield Full Face Helmet",
+          "Helmet-Available": "2 colours available",
+          "color-selector1": "true",
+          "color-selector2": "false",
+          "Helmet_active_color": "Gloss - Cloud Dancer"
+      },
+      {
+          "id": "41",
+          "Helmet-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/98122-24vr/98122-24VR_F.jpg?impolicy=myresize&rw=480",
+          "title": "X15 Shell Replacement Pinlock Prepared Face Shield Mirrored",
+          "Helmet-Available": "4 colours available",
+          "color-selector1": "true",
+          "color-selector2": "false",
+          "Helmet_active_color": "Blue Mirrored"
+      },
+      {
+          "id": "42",
+          "Helmet-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/july-replenishment/98120-23vx/98120-23VX_F.jpg?impolicy=myresize&rw=480",
+          "title": "Classic #1 X14 Sun Shield 3/4 Helmet"
+      },
+      {
+          "id": "43",
+          "Helmet-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/98117-24vx/98117-24VX_F.jpg?impolicy=myresize&rw=480",
+          "title": "Division X15 Sunshield Full Face Helmet"
+      },
+      {
+          "id": "44",
+          "Helmet-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/parts/batch-2/76572-09/76572-09_TT.jpg?impolicy=myresize&rw=480",
+          "title": "Boom! Audio Half Helmet Music and Communications Headset"
+      },
+      {
+          "id": "45",
+          "title": "H-D Evo X17 Sunshield Modular Helmet"
+      },
+      {
+          "id": "46",
+          "title": "H-D X14 SUN SHIELD 3/4 HELMET"
+      },
+      {
+          "id": "47",
+          "title": "Harley-Davidson Freecom 4x – Dual Pack"
+      },
+      {
+          "id": "48",
+          "title": "J06 Shell Replacement Sun Shield",
+          "Helmet-Available": "2 colours available",
+          "color-selector1": "true",
+          "color-selector2": "false",
+          "Helmet_active_color": "Clear"
+      }
+  ]
+},
+{
+  "Men-Jeans": [
+      {
+          "id": "1",
+          "Jeans-Images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/july-replenishment/99048-23vm/99048-23VM_F.jpg?impolicy=myresize&rw=480",
+          "Jeans-Title": "Men's Harley-Davidson Relaxed Jean"
+      },
+      {
+          "id": "2",
+          "Jeans-Images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/july-replenishment/99035-23vm/99035-23VM_F.jpg?impolicy=myresize&rw=480",
+          "Jeans-Title": "Men's Harley-Davidson Bootcut Jean",
+          "Jeans-Color": "2 colours available",
+          "color-selector1": "true",
+          "color-selector2": "false",
+          "Jeans-active-color": "Dark Indigo"
+      },
+      {
+          "id": "3",
+          "Jeans-Images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/july-replenishment/99030-23vm/99030-23VM_F.jpg?impolicy=myresize&rw=480",
+          "Jeans-Title": "Men's Harley-Davidson Original Straight Jean",
+          "Jeans-Color": "3 colours available",
+          "color-selector1": "true",
+          "color-selector2": "false",
+          "Jeans-active-color": "Medium Indigo Stone Wash"
+      },
+      {
+          "id": "4",
+          "Jeans-Images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2024/99197-24vm/99197-24VM_F.jpg?impolicy=myresize&rw=480",
+          "Jeans-Title": "Men's Bar & Shield Fleece Shorts",
+          "Jeans-Color": "2 colours available",
+          "color-selector1": "true",
+          "color-selector2": "false",
+          "Jeans-active-color": "Harley Black"
+      },
+      {
+          "id": "5",
+          "Jeans-Images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2024/99198-24vm/99198-24VM_F.jpg?impolicy=myresize&rw=480",
+          "Jeans-Title": "Men's Bar & Shield Fleece Shorts",
+          "Jeans-Color": "2 colours available",
+          "color-selector1": "true",
+          "color-selector2": "false",
+          "Jeans-active-color": "Medium Grey Heather"
+      },
+      {
+          "id": "6",
+          "Jeans-Images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2024/99195-24vm/99195-24VM_F.jpg?impolicy=myresize&rw=480",
+          "Jeans-Title": "Men's Harley-Davidson Sweatpants",
+          "Jeans-Color": "2 colours available",
+          "color-selector1": "true",
+          "color-selector2": "false",
+          "Jeans-active-color": "Harley Black"
+      },
+      {
+          "id": "7",
+          "Jeans-Images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/july-replenishment/96491-22vm/96491-22VM_F.jpg?impolicy=myresize&rw=480",
+          "Jeans-Title": "Men's Harley-Davidson Original Straight Jean",
+          "Jeans-Color": "3 colours available",
+          "color-selector1": "true",
+          "color-selector2": "false",
+          "Jeans-active-color": "Black"
+      },
+      {
+          "id": "8",
+          "Jeans-Images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/july-replenishment/99031-23vm/99031-23VM_F.jpg?impolicy=myresize&rw=480",
+          "Jeans-Title": "Men's Harley-Davidson Original Straight Jean",
+          "Jeans-Color": "3 colours available",
+          "color-selector1": "true",
+          "color-selector2": "false",
+          "Jeans-active-color": "Dark Indigo Stone Wash"
+      },
+      {
+          "id": "9",
+          "Jeans-Images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/96007-24vm/96007-24VM_F.jpg?impolicy=myresize&rw=480",
+          "Jeans-Title": "Men's Milwaukee Pant",
+          "Jeans-Color": "2 colours available",
+          "color-selector1": "true",
+          "color-selector2": "false",
+          "Jeans-active-color": "Blackened Pearl"
+      },
+      {
+          "id": "10",
+          "Jeans-Images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/july-replenishment/99034-23vm/99034-23VM_F.jpg?impolicy=myresize&rw=480",
+          "Jeans-Title": "Men's Harley-Davidson Tapered Jean",
+          "Jeans-Color": "2 colours available",
+          "color-selector1": "true",
+          "color-selector2": "false",
+          "Jeans-active-color": "Dark Indigo"
+      },
+      {
+          "id": "11",
+          "Jeans-Images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/96004-24vm/96004-24VM_F.jpg?impolicy=myresize&rw=480",
+          "Jeans-Title": "Men's The Trooper Cargo Pant",
+          "Jeans-Color": "2 colours available",
+          "color-selector1": "true",
+          "color-selector2": "false",
+          "Jeans-active-color": "Black Beauty"
+      },
+      {
+          "id": "12",
+          "Jeans-Images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/96006-24vm/96006-24VM_F.jpg?impolicy=myresize&rw=480",
+          "Jeans-Title": "Men's Milwaukee Pant",
+          "Jeans-Color": "2 colours available",
+          "color-selector1": "true",
+          "color-selector2": "false",
+          "Jeans-active-color": "Black Beauty"
+      },
+      {
+          "id": "13",
+          "Jeans-Title": "Men's Harley-Davidson Bootcut Jean",
+          "Jeans-Color": "2 colours available",
+          "color-selector1": "true",
+          "color-selector2": "false",
+          "Jeans-active-color": "Denim Washed Black"
+      },
+      {
+          "id": "14",
+          "Jeans-Title": "Men's Harley-Davidson Straight Jean",
+          "Jeans-Color": "3 colours available",
+          "color-selector1": "true",
+          "color-selector2": "false",
+          "Jeans-active-color": "Medium Wash Denim"
+      },
+      {
+          "id": "15",
+          "Jeans-Title": "Men's Harley-Davidson Sweatpants",
+          "Jeans-Color": "2 colours available",
+          "color-selector1": "true",
+          "color-selector2": "false",
+          "Jeans-active-color": "Medium Grey Heather"
+      },
+      {
+          "id": "16",
+          "Jeans-Title": "Men's Harley-Davidson Tapered Jean",
+          "Jeans-Color": "2 colours available",
+          "color-selector1": "true",
+          "color-selector2": "false",
+          "Jeans-active-color": "Washed Black Denim"
+      },
+      {
+          "id": "17",
+          "Jeans-Title": "Men's Harley-Davidson Straight Jean",
+          "Jeans-Color": "3 colours available",
+          "color-selector1": "true",
+          "color-selector2": "false",
+          "Jeans-active-color": "Dark Indigo"
+      },
+      {
+          "id": "18",
+          "Jeans-Title": "Men's Harley-Davidson Straight Jean",
+          "Jeans-Color": "3 colours available",
+          "color-selector1": "true",
+          "color-selector2": "false",
+          "Jeans-active-color": "Black"
+      },
+      {
+          "id": "19",
+          "Jeans-Title": "Men's The Trooper Cargo Pant",
+          "Jeans-Color": "2 colours available",
+          "color-selector1": "true",
+          "color-selector2": "false",
+          "Jeans-active-color": "Camouflage"
+      },
+      {
+          "id": "20",
+          "Jeans-Title": "Men's Original Traditional Fit Jeans - Blue Denim"
+      },
+      {
+          "id": "21",
+          "Jeans-Title": "Men's Milwaukee Pant",
+          "Jeans-Color": "2 colours available",
+          "color-selector1": "true",
+          "color-selector2": "false",
+          "Jeans-active-color": "Black Beauty"
+      },
+      {
+          "id": "22",
+          "Jeans-Title": "Men's FXRG Waterproof Overpant"
+      },
+      {
+          "id": "23",
+          "Jeans-Title": "Men's Bootcut Fit Performance Modern Jeans"
+      },
+      {
+          "id": "24",
+          "Jeans-Title": "Men's Mechanic Pant",
+          "Jeans-Color": "2 colours available",
+          "color-selector1": "true",
+          "color-selector2": "false",
+          "Jeans-active-color": "Black Beauty"
+      },
+      {
+          "id": "25",
+          "Jeans-Title": "Men's Mechanic Pant",
+          "Jeans-Color": "2 colours available",
+          "color-selector1": "true",
+          "color-selector2": "false",
+          "Jeans-active-color": "Grape Leaf"
+      },
+      {
+          "id": "26",
+          "Jeans-Title": "Men's Straight Leg Fit Whipstitch Modern Jeans"
+      },
+      {
+          "id": "27",
+          "Jeans-Title": "Men's Original Bootcut Jeans - Blue Denim"
+      },
+      {
+          "id": "28",
+          "Jeans-Title": "Men's Milwaukee Cargo Short",
+          "Jeans-Color": "2 colours available",
+          "color-selector1": "true",
+          "color-selector2": "false",
+          "Jeans-active-color": "Black Beauty"
+      },
+      {
+          "id": "29",
+          "Jeans-Title": "Men's Original Relaxed Fit Jeans"
+      },
+      {
+          "id": "30",
+          "Jeans-Title": "Men's Milwaukee Pant",
+          "Jeans-Color": "2 colours available",
+          "color-selector1": "true",
+          "color-selector2": "false",
+          "Jeans-active-color": "Chestnut"
+      },
+      {
+          "id": "31",
+          "Jeans-Title": "Men's FXRG Rain Pant"
+      },
+      {
+          "id": "32",
+          "Jeans-Title": "Harley-Davidson x Jason Momoa Ka lole wāwae – waina"
+      },
+      {
+          "id": "33",
+          "Jeans-Title": "Men's Milwaukee Cargo Short",
+          "Jeans-Color": "2 colours available",
+          "color-selector1": "true",
+          "color-selector2": "false",
+          "Jeans-active-color": "Grape Leaf"
+      },
+      {
+          "id": "34",
+          "Jeans-Title": "Men's Carve Denim Riding Pants"
+      },
+      {
+          "id": "35",
+          "Jeans-Title": "Harley-Davidson x Jason Momoa Ka lole wāwae – Wainiha"
+      },
+      {
+          "id": "36",
+          "Jeans-Title": "Harley-Davidson x Jason Momoa Ka lole wāwae – lola"
+      },
+      {
+          "id": "37",
+          "Jeans-Title": "Men's Harley-Davidson Sweatpant",
+          "Jeans-Color": "2 colours available",
+          "color-selector1": "true",
+          "color-selector2": "false",
+          "Jeans-active-color": "Medium Grey Heather (B25)"
+      },
+      {
+          "id": "38",
+          "Jeans-Title": "Men's Bar & Shield Shorts",
+          "Jeans-Color": "2 colours available",
+          "color-selector1": "true",
+          "color-selector2": "false",
+          "Jeans-active-color": "Heather Grey"
+      },
+      {
+          "id": "39",
+          "Jeans-Title": "Men's Harley-Davidson Sweatpant",
+          "Jeans-Color": "2 colours available",
+          "color-selector1": "true",
+          "color-selector2": "false",
+          "Jeans-active-color": "Black Beauty"
+      }
+  ]
+},
+{
+  "Women-Jacket": [
+      {
+          "id": "1",
+          "W-Jacket-Images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/batch-2/98408-19vw/98408-19VW_F.jpg?impolicy=myresize&rw=480",
+          "jacket-Title": "Women's Miss Enthusiast Soft Shell Jacket"
+      },
+      {
+          "id": "2",
+          "W-Jacket-Images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/97431-24vw/97431-24VW_F.jpg?impolicy=myresize&rw=480",
+          "jacket-Title": "Women's Miss Enthusiast 3-in-1 Jacket"
+      },
+      {
+          "id": "3",
+          "W-Jacket-Images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/july-replenishment/98403-23vw/98403-23VW_F.jpg?impolicy=myresize&rw=480",
+          "jacket-Title": "Women's Iconic Sleeve Stripe Bomber Jacket"
+      },
+      {
+          "id": "4",
+          "W-Jacket-Images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/july-replenishment/99041-23vw/99041-23VW_F.jpg?impolicy=myresize&rw=480",
+          "jacket-Title": "Women's Essential Bar & Shield Denim Jacket",
+          "Jacket-color-available": "2 colours available",
+          "color-selector1": "false",
+          "color-selector2": "true",
+          "Jacket-active-colors": "Black Denim"
+      },
+      {
+          "id": "5",
+          "W-Jacket-Images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/98152-24vw/98152-24VW_F.jpg?impolicy=myresize&rw=480",
+          "jacket-Title": "Women's H-D Flex Layering System Lightweight Mid Layer",
+          "Jacket-color-available": "2 colours available",
+          "color-selector1": "false",
+          "color-selector2": "true",
+          "Jacket-active-colors": "Cloud Dancer & Black Beauty"
+      },
+      {
+          "id": "6",
+          "W-Jacket-Images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2024/97466-24vw/97466-24VW_F.jpg?impolicy=myresize&rw=480",
+          "jacket-Title": "Women's Sunset Miss Enthusiast 3-in-1 Jacket"
+      },
+      {
+          "id": "7",
+          "W-Jacket-Images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/98401-24vw/98401-24VW_F.jpg?impolicy=myresize&rw=480",
+          "jacket-Title": "Women's Willie G  Skull 3-in-1 Jacket"
+      },
+      {
+          "id": "8",
+          "W-Jacket-Images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2024/97467-24vw/97467-24VW_F.jpg?impolicy=myresize&rw=480",
+          "jacket-Title": "Women's Pink Label 3-in-1 Denim Jacket"
+      },
+      {
+          "id": "9",
+          "W-Jacket-Images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/96275-24vw/96275-24VW_F.jpg?impolicy=myresize&rw=480",
+          "jacket-Title": "Women's Onwards Shirt Jacket",
+          "Jacket-color-available": "3 colours available",
+          "color-selector1": "false",
+          "color-selector2": "true",
+          "Jacket-active-colors": "Black Beauty"
+      },
+      {
+          "id": "10",
+          "W-Jacket-Images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2024/96618-24vw/96618-24VW_F.jpg?impolicy=myresize&rw=480",
+          "jacket-Title": "Women's Studded Out Embellished Denim Jacket"
+      },
+      {
+          "id": "11",
+          "W-Jacket-Images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/batch-2/98519-12vw/98519-12VW_F.jpg?impolicy=myresize&rw=480",
+          "jacket-Title": "Women's Miss Enthusiast 3-in-1 Casual Jacket"
+      },
+      {
+          "id": "12",
+          "W-Jacket-Images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/99057-23vw/99057-23VW_F.jpg?impolicy=myresize&rw=480",
+          "jacket-Title": "Women's Silver Wing Stretch Denim Jacket",
+          "Jacket-color-available": "2 colours available",
+          "color-selector1": "false",
+          "color-selector2": "true",
+          "Jacket-active-colors": "Black Denim"
+      },
+      {
+          "id": "13",
+          "W-Jacket-Images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/july-replenishment/99040-23vw/99040-23VW_F.jpg?impolicy=myresize&rw=480",
+          "jacket-Title": "Women's Essential Bar & Shield Denim Jacket",
+          "Jacket-color-available": "2 colours available",
+          "color-selector1": "false",
+          "color-selector2": "true",
+          "Jacket-active-colors": "Medium Indigo"
+      },
+      {
+          "id": "14",
+          "W-Jacket-Images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/98404-23vw/98404-23VW_F.jpg?impolicy=myresize&rw=480",
+          "jacket-Title": "Women's Miss Enthusiast 3-in-1 Soft Shell Jacket"
+      },
+      {
+          "id": "15",
+          "W-Jacket-Images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/97419-24vw/97419-24VW_F.jpg?impolicy=myresize&rw=480",
+          "jacket-Title": "Women's Pink Label Bomber Jacket"
+      },
+      {
+          "id": "16",
+          "W-Jacket-Images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/98151-24vw/98151-24VW_F.jpg?impolicy=myresize&rw=480",
+          "jacket-Title": "Women's H-D Flex Layering System Lightweight Mid Layer",
+          "Jacket-color-available": "2 colours available",
+          "color-selector1": "false",
+          "color-selector2": "true",
+          "Jacket-active-colors": "Black Beauty & True Blue"
+      },
+      {
+          "id": "17",
+          "W-Jacket-Images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/96241-24vw/96241-24VW_F.jpg?impolicy=myresize&rw=480",
+          "jacket-Title": "Women's Bar & Shield Zip Front Hoodie",
+          "Jacket-color-available": "2 colours available",
+          "color-selector1": "false",
+          "color-selector2": "true",
+          "Jacket-active-colors": "Colorblocked - Black Beauty"
+      },
+      {
+          "id": "18",
+          "W-Jacket-Images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/98146-23vw/98146-23VW_F.jpg?impolicy=myresize&rw=480",
+          "jacket-Title": "Women's H-D Flex Layering System Windproof Mid Layer"
+      },
+      {
+          "id": "19",
+          "W-Jacket-Images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/96265-24vw/96265-24VW_F.jpg?impolicy=myresize&rw=480",
+          "jacket-Title": "Women's Onwards Shirt Jacket",
+          "Jacket-color-available": "3 colours available",
+          "color-selector1": "false",
+          "color-selector2": "true",
+          "Jacket-active-colors": "YD Plaid - Black Beauty"
+      },
+      {
+          "id": "20",
+          "W-Jacket-Images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/july-replenishment/98401-23vw/98401-23VW_F.jpg?impolicy=myresize&rw=480",
+          "jacket-Title": "Women's Milwaukee Quilted Jacket"
+      },
+      {
+          "id": "21",
+          "W-Jacket-Images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/96279-24vw/96279-24VW_F.jpg?impolicy=myresize&rw=480",
+          "jacket-Title": "Women's Essential Shirt Jacket with Removable Hood"
+      },
+      {
+          "id": "22",
+          "W-Jacket-Images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/99056-23vw/99056-23VW_F.jpg?impolicy=myresize&rw=480",
+          "jacket-Title": "Women's Silver Wing Stretch Denim Jacket",
+          "Jacket-color-available": "2 colours available",
+          "color-selector1": "false",
+          "color-selector2": "true",
+          "Jacket-active-colors": "Light Indigo"
+      },
+      {
+          "id": "23",
+          "W-Jacket-Images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2024/97457-24vw/97457-24VW_F.jpg?impolicy=myresize&rw=480",
+          "jacket-Title": "Women's Bar & Shield Packable Anorack"
+      },
+      {
+          "id": "24",
+          "W-Jacket-Images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/museum/2021/jan/99505-21mw/99505-21MW_F.jpg?impolicy=myresize&rw=480",
+          "jacket-Title": "Women's Applique Full Zip Hoodie"
+      },
+      {
+          "id": "25",
+          "W-Jacket-Images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/97413-24vw/97413-24VW_F.jpg?impolicy=myresize&rw=480",
+          "jacket-Title": "Women's Wild Side Reversible Jacket"
+      },
+      {
+          "id": "26",
+          "W-Jacket-Images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/99049-23vw/99049-23VW_F.jpg?impolicy=myresize&rw=480",
+          "jacket-Title": "Women's Special Bar & Shield Zip Front Hoodie",
+          "Jacket-color-available": "2 colours available",
+          "color-selector1": "false",
+          "color-selector2": "true",
+          "Jacket-active-colors": "Black Beauty"
+      },
+      {
+          "id": "27",
+          "W-Jacket-Images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/97416-24vw/97416-24VW_F.jpg?impolicy=myresize&rw=480",
+          "jacket-Title": "Women's #1 Racing Jacket with Reflectivity"
+      },
+      {
+          "id": "28",
+          "W-Jacket-Images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/96242-24vw/96242-24VW_F.jpg?impolicy=myresize&rw=480",
+          "jacket-Title": "Women's Bar & Shield Zip Front Hoodie",
+          "Jacket-color-available": "2 colours available",
+          "color-selector1": "false",
+          "color-selector2": "true",
+          "Jacket-active-colors": "Colorblocked - Cloud Dancer"
+      },
+      {
+          "id": "29",
+          "W-Jacket-Images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/99050-23vw/99050-23VW_F.jpg?impolicy=myresize&rw=480",
+          "jacket-Title": "Women's Special Bar & Shield Zip Front Hoodie",
+          "Jacket-color-available": "2 colours available",
+          "color-selector1": "false",
+          "color-selector2": "true",
+          "Jacket-active-colors": "Colorblocked"
+      },
+      {
+          "id": "30",
+          "W-Jacket-Images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/97418-24vw/97418-24VW_F.jpg?impolicy=myresize&rw=480",
+          "jacket-Title": "Women's California 3-in-1 Jacket",
+          "Jacket-color-available": "2 colours available",
+          "color-selector1": "false",
+          "color-selector2": "true",
+          "Jacket-active-colors": "Tannin"
+      },
+      {
+          "id": "31",
+          "W-Jacket-Images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/97415-24vw/97415-24VW_F.jpg?impolicy=myresize&rw=480",
+          "jacket-Title": "Women's Edgy Shop Jacket"
+      },
+      {
+          "id": "32",
+          "W-Jacket-Images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/97417-24vw/97417-24VW_F.jpg?impolicy=myresize&rw=480",
+          "jacket-Title": "Women's California 3-in-1 Jacket",
+          "Jacket-color-available": "2 colours available",
+          "color-selector1": "false",
+          "color-selector2": "true",
+          "Jacket-active-colors": "Black Beauty"
+      },
+      {
+          "id": "33",
+          "W-Jacket-Images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/january-replenishment/womens/99094-22vw/99094-22VW_F.jpg?impolicy=myresize&rw=480",
+          "jacket-Title": "Women's Rally Stripe Zip Front Hoodie"
+      },
+      {
+          "id": "34",
+          "W-Jacket-Images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/98147-23vw/98147-23VW_F.jpg?impolicy=myresize&rw=480",
+          "jacket-Title": "Women's H-D Flex Layering System Lightweight Mid Layer"
+      },
+      {
+          "id": "35",
+          "W-Jacket-Images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/july-replenishment/98402-23vw/98402-23VW_F.jpg?impolicy=myresize&rw=480",
+          "jacket-Title": "Women's Forever Harley Mesh Jacket"
+      },
+      {
+          "id": "36",
+          "W-Jacket-Images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/97416-23vw/97416-23VW_F.jpg?impolicy=myresize&rw=480",
+          "jacket-Title": "Women's Mechanic Canvas Jacket",
+          "Jacket-color-available": "2 colours available",
+          "color-selector1": "false",
+          "color-selector2": "true",
+          "Jacket-active-colors": "Oatmeal"
+      },
+      {
+          "id": "37",
+          "W-Jacket-Images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2024/97459-24vw/97459-24VW_F.jpg?impolicy=myresize&rw=480",
+          "jacket-Title": "Women's Rocket Queen Jacket"
+      },
+      {
+          "id": "38",
+          "W-Jacket-Images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/96266-24vw/96266-24VW_F.jpg?impolicy=myresize&rw=480",
+          "jacket-Title": "Women's Onwards Shirt Jacket",
+          "Jacket-color-available": "3 colours available",
+          "color-selector1": "false",
+          "color-selector2": "true",
+          "Jacket-active-colors": "YD Plaid - Chili Pepper"
+      },
+      {
+          "id": "39",
+          "W-Jacket-Images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2024/97465-24vw/97465-24VW_F.jpg?impolicy=myresize&rw=480",
+          "jacket-Title": "Women's Sedona Orange Satin Bomber Jacket"
+      },
+      {
+          "id": "40",
+          "W-Jacket-Images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/96104-24vw/96104-24VW_F.jpg?impolicy=myresize&rw=480",
+          "jacket-Title": "Women's Shadow Zip Fleece"
+      },
+      {
+          "id": "41",
+          "W-Jacket-Images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/97417-23vw/97417-23VW_F.jpg?impolicy=myresize&rw=480",
+          "jacket-Title": "Women's Forever Harley Eagle Coaches Jacket"
+      },
+      {
+          "id": "42",
+          "W-Jacket-Images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/97415-23vw/97415-23VW_F.jpg?impolicy=myresize&rw=480",
+          "jacket-Title": "Women's Mechanic Canvas Jacket",
+          "Jacket-color-available": "2 colours available",
+          "color-selector1": "false",
+          "color-selector2": "true",
+          "Jacket-active-colors": "Grape Leaf"
+      },
+      {
+          "id": "43",
+          "W-Jacket-Images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/97413-23vw/97413-23VW_F.jpg?impolicy=myresize&rw=480",
+          "jacket-Title": "Women's Transcendent Corduroy Jacket",
+          "Jacket-color-available": "2 colours available",
+          "color-selector1": "false",
+          "color-selector2": "true",
+          "Jacket-active-colors": "Silver Sage"
+      },
+      {
+          "id": "44",
+          "W-Jacket-Images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/97533-23vw/97533-23VW_F.jpg?impolicy=myresize&rw=480",
+          "jacket-Title": "Women's Miss Enthusiast Softshell Jacket"
+      },
+      {
+          "id": "45",
+          "W-Jacket-Images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/96288-24vw/96288-24VW_F.jpg?impolicy=myresize&rw=480",
+          "jacket-Title": "Women's Powerslide Oversized Denim Jacket"
+      },
+      {
+          "id": "46",
+          "W-Jacket-Images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/97537-23vw/97537-23VW_F.jpg?impolicy=myresize&rw=480",
+          "jacket-Title": "Women's Kickstart 3-in-1 Black Denim Jacket",
+          "Jacket-color-available": "2 colours available",
+          "color-selector1": "false",
+          "color-selector2": "true",
+          "Jacket-active-colors": "Black Beauty"
+      },
+      {
+          "id": "47",
+          "W-Jacket-Images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/96670-23vw/96670-23VW_F.jpg?impolicy=myresize&rw=480",
+          "jacket-Title": "Women's Hill Climber Crew Zip Front Fleece Jacket",
+          "Jacket-color-available": "2 colours available",
+          "color-selector1": "false",
+          "color-selector2": "true",
+          "Jacket-active-colors": "Black Beauty"
+      },
+      {
+          "id": "48",
+          "W-Jacket-Images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/batch-3/97429-21vw/97429-21VW_F.jpg?impolicy=myresize&rw=480",
+          "jacket-Title": "Women's Puffer Vest"
+      }
+  ]
+},
+{
+  "Women-Rain_gurad": [
+      {
+          "id": "1",
+          "Rain-gaurd-title": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2021/january/womens/98154-21vw/98154-21VW_F.jpg?impolicy=myresize&rw=480",
+          "Rain-TItle": "Women's Reflective Waterproof Rain Suit"
+      },
+      {
+          "id": "2",
+          "Rain-gaurd-title": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/july-replenishment/98116-23vw/98116-23VW_B.jpg?impolicy=myresize&rw=480",
+          "Rain-TItle": "Women's Full Speed II Waterproof Rain Jacket"
+      },
+      {
+          "id": "3",
+          "Rain-gaurd-title": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/july-replenishment/98117-23vw/98117-23VW_F.jpg?impolicy=myresize&rw=480",
+          "Rain-TItle": "Women's Full Speed II Waterproof Pants"
+      },
+      {
+          "id": "4",
+          "Rain-gaurd-title": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/licensed-product/spring-2024/wolverine/98621-25vw/98621-25VW_F.jpg?impolicy=myresize&rw=480",
+          "Rain-TItle": "Women's Belhaven Waterproof Riding Boot"
+      },
+      {
+          "id": "5",
+          "Rain-gaurd-title": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/licensed-product/2023/spring/wolverine/98608-24vw/98608-24VW_F.jpg?impolicy=myresize&rw=480",
+          "Rain-TItle": "Women's Arbury Waterproof Riding Sneaker"
+      },
+      {
+          "id": "6",
+          "Rain-gaurd-title": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/licensed-product/2022/spring/wolverine/98628-23vw/98628-23VW_F.jpg?impolicy=myresize&rw=480",
+          "Rain-TItle": "Women's Denway 4\" Waterproof Riding Boot"
+      },
+      {
+          "id": "7",
+          "Rain-gaurd-title": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/licensed-product/2023/spring/wolverine/98607-24vw/98607-24VW_F.jpg?impolicy=myresize&rw=480",
+          "Rain-TItle": "Women's Arbury Waterproof Riding Sneaker"
+      },
+      {
+          "id": "8",
+          "Rain-gaurd-title": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/licensed-product/2021/fall/wolverine/98761-22vw/98761-22VW_F.jpg?impolicy=myresize&rw=480",
+          "Rain-TItle": "Women's Leather Pearson 7\"Waterproof  Riding Boots"
+      },
+      {
+          "id": "9",
+          "Rain-gaurd-title": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/january-replenishment/womens/98183-22vw/98183-22VW_F.jpg?impolicy=myresize&rw=480",
+          "Rain-TItle": "Women's Hazard Waterproof Textile Riding Jacket"
+      },
+      {
+          "id": "10",
+          "Rain-gaurd-title": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/licensed-product/2022/spring/wolverine/98618-23vw/98618-23VW_F.jpg?impolicy=myresize&rw=480",
+          "Rain-TItle": "Women's Mackey Waterproof Riding Sneaker"
+      },
+      {
+          "id": "11",
+          "Rain-gaurd-title": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/licensed-product/2021/winter/wolverine/99324-22vw/99324-22VW_F.jpg?impolicy=myresize&rw=480",
+          "Rain-TItle": "Women's Leather Nolana 9\" Lace Waterproof Riding Boots"
+      },
+      {
+          "id": "12",
+          "Rain-gaurd-title": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/licensed-product/spring-2024/wolverine/98612-25vw/98612-25VW_F.jpg?impolicy=myresize&rw=480",
+          "Rain-TItle": "Women's Korsen Tall Casual Waterproof Boot"
+      },
+      {
+          "id": "13",
+          "Rain-TItle": "155L Waterproof Duffel"
+      },
+      {
+          "id": "14",
+          "Rain-TItle": "Women's Waterproof Ovation Leather Gloves"
+      },
+      {
+          "id": "15",
+          "Rain-TItle": "Women's Hwy-100 Waterproof Leather Riding Jacket"
+      },
+      {
+          "id": "16",
+          "Rain-TItle": "Waterproof 21\" SM (60L) Wheeling Duffel"
+      },
+      {
+          "id": "17",
+          "Rain-TItle": "Women's Apex Mixed Media Waterproof Gloves"
+      },
+      {
+          "id": "18",
+          "Rain-TItle": "Women's Passage Adventure Waterproof Pant"
+      },
+      {
+          "id": "19",
+          "Rain-TItle": "Women's Lynwood Pull On Waterproof Riding Boot"
+      },
+      {
+          "id": "20",
+          "Rain-TItle": "Women’s Hi-Vis Rain Suit"
+      },
+      {
+          "id": "21",
+          "Rain-TItle": "Women's Grit Adventure Pant"
+      },
+      {
+          "id": "22",
+          "Rain-TItle": "Women's Roadway II Waterproof Fleece Jacket"
+      },
+      {
+          "id": "23",
+          "Rain-TItle": "Women's Cross Roads II Waterproof Fleece Jacket"
+      },
+      {
+          "id": "24",
+          "Rain-TItle": "Waterproof Backpack"
+      },
+      {
+          "id": "25",
+          "Rain-TItle": "Women's Waterproof Passage Adventure Gauntlet Gloves"
+      },
+      {
+          "id": "26",
+          "Rain-TItle": "Women's Vanocker Waterproof Overpant"
+      },
+      {
+          "id": "27",
+          "Rain-TItle": "Women's FXRG Rain Jacket"
+      },
+      {
+          "id": "28",
+          "Rain-TItle": "Women's FXRG Waterproof Overpant"
+      },
+      {
+          "id": "29",
+          "Rain-TItle": "Women's FXRG Replacement Waterproof Liner"
+      },
+      {
+          "id": "30",
+          "Rain-TItle": "Women's Vanocker Waterproof Riding Jacket"
+      },
+      {
+          "id": "31",
+          "Rain-TItle": "Rain & Stain Repellent"
+      },
+      {
+          "id": "32",
+          "Rain-TItle": "Women's FXRG Waterproof Overpant - Tall"
+      },
+      {
+          "id": "33",
+          "Rain-TItle": "Women's Lynwood Lace Up Waterproof Riding Boot"
+      },
+      {
+          "id": "34",
+          "Rain-TItle": "Women's Leather Nolana 6\" Lace Waterproof Riding Boots"
+      },
+      {
+          "id": "35",
+          "Rain-TItle": "Women's Joella Waterproof Riding Boot"
+      },
+      {
+          "id": "36",
+          "Rain-TItle": "Women's Heated BTC 12V Waterproof Leather Gauntlet Gloves"
+      }
+  ]
 }
+  
+]
