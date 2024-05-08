@@ -1,8 +1,9 @@
 
 
-export const Home = () => {
+export const Navbar = () => {
   return (
     <div>
+        
     </div>
   )
 }
