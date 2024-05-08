@@ -1,4 +1,4 @@
-[{
+{
   "Men-Product": [
       {
           "id": "1",
@@ -65,9 +65,8 @@
           "picture": "https://www.harley-davidson.com/content/dam/h-d/images/category-images/2022/category-carousel/mens-eu-riding-pants-cat-carousel-1.jpg?impolicy=myresize&rw=125",
           "category": "Riding Pants"
       }
-  ]
-},
-{
+  ],
+
   "Men-Jacket": [
       {
           "id": "1",
@@ -377,9 +376,8 @@
           "Product-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/batch-2/98057-13vm/98057-13VM_F.jpg?impolicy=myresize&rw=480",
           "Title": "Men’s Victory Lane Leather Jacket"
       }
-  ]
-},
-{
+  ],
+
   "Men-Helmet": [
       {
           "id": "1",
@@ -693,9 +691,8 @@
           "color-selector2": "false",
           "Helmet_active_color": "Clear"
       }
-  ]
-},
-{
+  ],
+
   "Men-Jeans": [
       {
           "id": "1",
@@ -973,9 +970,8 @@
           "color-selector2": "false",
           "Jeans-active-color": "Black Beauty"
       }
-  ]
-},
-{
+  ],
+
   "Women-Jacket": [
       {
           "id": "1",
@@ -1297,9 +1293,8 @@
           "W-Jacket-Images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/batch-3/97429-21vw/97429-21VW_F.jpg?impolicy=myresize&rw=480",
           "jacket-Title": "Women's Puffer Vest"
       }
-  ]
-},
-{
+  ],
+
   "Women-Rain_gurad": [
       {
           "id": "1",
@@ -1460,4 +1455,3 @@
   ]
 }
   
-]
