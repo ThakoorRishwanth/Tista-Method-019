@@ -1453,6 +1453,52 @@
           "Rain-TItle": "Women's Heated BTC 12V Waterproof Leather Gauntlet Gloves"
       }
   ],
- "data": []
+  "Bike":[
+    {
+        "Title": "STREET GLIDE™",
+        "Title_URL": "https://www.harley-davidson.com/in/en/motorcycles/street-glide.html",
+        "Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/bikes/motorcycle/2024/2024-street-glide/2024-street-glide-m12/2024-street-glide-m12-motorcycle.jpg?impolicy=myresize&rw=500",
+        "Price": "Starting at INR. 38,79,000",
+        "Price1": "INR. 38,79,000",
+        "Label": "6 colours available",
+        "colorselectoritem_container": "Blue Burst",
+        "colorselectoritem_container2": "White Onyx Pearl",
+        "colorselectoritem_container3": "Alpine Green",
+        "colorselectoritem_container4": "Whiskey Fire",
+        "colorselectoritem_container5": "Billiard Gray",
+        "colorselectoritem_container6": "Vivid Black",
+        "activecolortext": "Whiskey Fire"
+    },
+    {
+        "Title": "FAT BOY™ 114",
+        "Title_URL": "https://www.harley-davidson.com/in/en/motorcycles/fat-boy.html",
+        "Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/bikes/motorcycle/2024/2024-fat-boy-114/2024-fat-boy-114-m04/2024-fat-boy-114-m04-motorcycle.jpg?impolicy=myresize&rw=500",
+        "Price": "Starting at INR. 25,69,000",
+        "Price1": "INR. 25,69,000",
+        "Label": "4 colours available",
+        "colorselectoritem_container": "Vivid Black",
+        "colorselectoritem_container2": "Sharkskin Blue",
+        "colorselectoritem_container3": "Billiard Gray",
+        "colorselectoritem_container4": "Red Rock",
+        "colorselectoritem_container5": "",
+        "colorselectoritem_container6": "",
+        "activecolortext": "Vivid Black"
+    },
+    {
+        "Title": "NIGHTSTER™ SPECIAL",
+        "Title_URL": "https://www.harley-davidson.com/in/en/motorcycles/nightster-special.html",
+        "Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/bikes/motorcycle/2024/2024-nightster-special/2024-nightster-special-016b/2024-nightster-special-016b-motorcycle.jpg?impolicy=myresize&rw=500",
+        "Price": "Starting at INR. 14,09,000",
+        "Price1": "INR. 14,09,000",
+        "Label": "4 colours available",
+        "colorselectoritem_container": "Black Denim",
+        "colorselectoritem_container2": "Red Rock",
+        "colorselectoritem_container3": "Baja Orange",
+        "colorselectoritem_container4": "Billiard Gray",
+        "colorselectoritem_container5": "",
+        "colorselectoritem_container6": "",
+        "activecolortext": "Black Denim"
+    }
+]
 }
   
