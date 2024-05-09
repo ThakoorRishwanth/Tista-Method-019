@@ -1,13 +1,15 @@
 
 import './App.css'
-import { Navbar } from './components/Header/Navbar'
+import { Body } from './components/Body/Body'
+// import { Navbar } from './components/Header/Navbar'
 
 function App() {
   
 
   return (
     <>
-   <Navbar/>
+   {/* <Navbar/> */}
+   <Body/>
     </>
   )
 }
