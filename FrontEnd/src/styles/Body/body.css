@@ -135,3 +135,142 @@
         }
     }
 }
+
+#ca1{
+    margin-top: 240%;
+    height: 25px;
+}
+
+#ca2{
+    margin-top: 240%;
+    height: 25px;
+}
+.b1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    
+    h5{
+        margin-bottom: 30px;
+        margin-top: 30px;
+        font-size: 18px;
+    }
+    p{
+        margin-bottom: 5px;
+        margin-top: 0;
+        font-size: 18px;
+    }
+    a{
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: bold;
+        color: black;
+        font-family: "Teko", sans-serif;
+    }
+
+    a:hover{
+        color: #fa6600;
+    }
+}
+
+.card1{
+    background-color:#eeeceb;
+    padding: 20px;
+    
+    h1{
+        padding-top: 10px;
+        font-family:  "Teko", sans-serif;
+        font-weight: bold;
+       text-align: center;
+    }
+
+}
+.card2{
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    /* max-width: 100%;
+    max-height: 100%; */
+    gap: 20px;
+}
+
+.card-img{
+    width: 45%;
+    max-width: 400px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    img{
+       width: 100%;
+       height: auto;
+    }
+    h5{
+        margin-top: 10px;
+        font-family: "Teko", sans-serif;
+        font-size: 25px;
+        font-weight: bold;
+    }
+    p{
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 17px;
+        /* margin-bottom: 10px; */
+    }
+   
+
+    button{
+        border: none;
+        background-color: #eee;
+        cursor: pointer;
+    }
+    a{
+        text-decoration: none;
+        font-size: 18px;
+        font-weight: bold;
+        color: black;
+    }
+}
+
+.dd1{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+}
+.para{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 50%;
+    
+
+    h1{
+        margin-left: 100px;
+        margin-bottom: 10px;
+    }
+    p{
+        margin-left: 100px;
+        padding-right: 60px;
+        font-size: 17px;
+        font-weight: 500;
+    }
+    h5{
+        
+        margin-left: 100px;
+    }
+
+    a{
+        text-decoration: none;
+        font-weight: 600;
+        color: black;
+        font-family: "Teko", sans-serif;
+    }
+}
+.img1{
+    
+    margin-right: 100px;
+    max-width: 50%;
+    img{
+        max-width: 100%;
+        height: auto;
+    }
+}

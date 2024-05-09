@@ -25,8 +25,8 @@ export const Navbar = () => {
             
             <ul><Link to="">PARTS</Link>
                 <div className='u2'>
-                <li><Link to="./Navbar.tsx">New Arrivals</Link></li>
-                <li><Link to="./Navbar.tsx">Handlebars & Controls</Link></li>
+                <li><Link to="">New Arrivals</Link></li>
+                <li><Link to="">Handlebars & Controls</Link></li>
                 <li><Link to="">Seats & Backrests</Link></li>
                 <li><Link to="">Audio & Electronics</Link></li>
                 <li><Link to="">Instruments & Gauges</Link></li>
