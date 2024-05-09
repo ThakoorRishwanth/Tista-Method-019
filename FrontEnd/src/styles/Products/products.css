@@ -1,0 +1,29 @@
+.m1{
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    h1{
+        padding-top: 25px;
+        margin-bottom: 0;
+        padding-left: 50px;
+        font-size: 35px;
+        font-weight: 900;
+        font-family:sans-serif;
+        color: white;
+    }
+}
+
+.m2{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    
+}
+
+.fc1{
+    width: 100%;
+}
