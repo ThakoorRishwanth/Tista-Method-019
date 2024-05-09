@@ -1,0 +1,137 @@
+.c1{
+    img{
+        height: 100vh;
+        position: relative;
+    }
+
+    .text{
+        position: absolute;
+        z-index: 10;
+        color: white;
+        top: 200px;
+        padding-left: 30px;
+        h1{
+            font-weight: bold;
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+        p{
+            margin-top: 15px;
+        }
+        button{
+            border: 1px solid;
+            height: 40px;
+            font-weight: bold;
+            border-radius: 5px;
+            background-color: white;
+            padding-left: 10px;
+        }
+        i{
+            margin-left: 20px;
+        }
+    }
+}
+
+.c2{
+    img{
+        height: 100vh;
+        position: relative;
+    }
+    
+    .text2{
+        position: absolute;
+        z-index: 10;
+        color: white;
+        top: 200px;
+        padding-left: 30px;
+        h1{
+            font-weight: bold;
+            margin-top: 0px;
+            margin-bottom: 10px;
+        }
+        p{
+            margin-top: 15px;
+        }
+        button{
+            border: 1px solid;
+            height: 40px;
+            font-weight: bold;
+            border-radius: 5px;
+            padding-left: 10px;
+            background-color: white;
+        }
+        i{
+            margin-left: 20px;
+        }
+    }
+}
+
+.c3{
+    img{
+        height: 100vh;
+        position: relative;
+    }
+    
+    .text3{
+        position: absolute;
+        z-index: 10;
+        color: white;
+        top: 200px;
+        padding-left: 30px;
+        h1{
+            font-weight: bold;
+            margin-top: 0px;
+            margin-bottom: 10px;
+        }
+        p{
+            margin-top: 15px;
+        }
+        button{
+            border: 1px solid;
+            height: 40px;
+            font-weight: bold;
+            border-radius: 5px;
+            background-color: white;
+            padding-left: 10px;
+        }
+        i{
+            margin-left: 20px;
+        }
+    }
+}
+
+.c4{
+    img{
+        height: 100vh;
+        position: relative;
+    }
+    
+    .text4{
+        position: absolute;
+        z-index: 10;
+        color: white;
+        top: 200px;
+        padding-left: 30px;
+        h1{
+            font-weight: bold;
+            margin-top: 0px;
+            margin-bottom: 5px;
+        }
+        h5{
+            margin-bottom: 10px;
+        }
+        
+        button{
+            border: 1px solid;
+            height: 40px;
+            font-weight: bold;
+            border-radius: 5px;
+            background-color: white;
+            margin-top: 15px;
+            padding-left: 10px;
+        }
+        i{
+            margin-left: 20px;
+        }
+    }
+}
