@@ -1,6 +1,7 @@
 
 import './App.css'
-import { Body } from './components/Body/Body'
+import { Products } from './components/Products/Products'
+// import { Body } from './components/Body/Body'
 // import { Navbar } from './components/Header/Navbar'
 
 function App() {
@@ -9,7 +10,9 @@ function App() {
   return (
     <>
    {/* <Navbar/> */}
-   <Body/>
+   {/* <Body/> */}
+   <Products/>
+
     </>
   )
 }

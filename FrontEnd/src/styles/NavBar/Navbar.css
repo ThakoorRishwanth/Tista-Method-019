@@ -170,16 +170,20 @@
         padding-right: 50px;
         position: relative;
 
-        .i1{
-           /* position: fixed; */
-           left: 76%;
-           margin-left: 5px;
-        }
-
+      
         input{
             height: 30px;
             margin-right: 5px;
             /* position: relative; */
+        }
+        .search{
+            width: 200px;
+            border: 1px solid;
+            background-color: white;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
         }
        
 
