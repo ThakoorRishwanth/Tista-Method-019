@@ -1,5 +1,6 @@
 import { Navbar } from "../Header/Navbar"
 import '../../styles/Body/body.css'
+import { Link } from "react-router-dom"
 
 
 export const Body = () => {
@@ -16,7 +17,7 @@ export const Body = () => {
         <p>Including the all-new Road Glide<sup>TM</sup>and Street Glide<sup>TM</sup>.</p>
         <button>BOOK A TEST RIDE TODAY <i className="fa-solid fa-arrow-right arrow"></i></button>
         </div>
-      <img src="https://www.harley-davidson.com/content/dam/h-d/images/promo-images/2024/short-hero/test-ride-hp-shd.jpg?impolicy=myresize&rw=1280" className="d-block w-100" alt="..."/>
+      <img src="../../../image/img1.jpg" className="d-block w-100" alt="..."/>
     </div>
     <div className="carousel-item c2">
     <div className="text2">
@@ -24,7 +25,7 @@ export const Body = () => {
       <h1>CRUISER MOTORCYCLES</h1>
         <button>SEE THE BIKES <i className="fa-solid fa-arrow-right arrow"></i></button>
         </div>
-      <img src="https://www.harley-davidson.com/content/dam/h-d/images/promo-images/2024/short-hero/cruiser-category-hp-shd.jpg?impolicy=myresize&rw=1600" className="d-block w-100" alt="..."/>
+      <img src="../../../image/img2.jpg" className="d-block w-100" alt="..."/>
     </div>
     <div className="carousel-item c3">
     <div className="text3">
@@ -47,16 +48,72 @@ export const Body = () => {
     </div>
   </div>
   <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
-    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span className="visually-hidden ca1">Previous</span>
+    <span className="carousel-control-prev-icon" id="ca1" aria-hidden="true"></span>
+    <span className="visually-hidden">Previous</span>
   </button>
   <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
-    <span className="carousel-control-next-icon" aria-hidden="true"></span>
-    <span className="visually-hidden ca2">Next</span>
+    <span className="carousel-control-next-icon" id="ca2" aria-hidden="true"></span>
+    <span className="visually-hidden">Next</span>
   </button>
 </div>
     </div>
     </div>
+    <div className="b1">
+      <h5><Link to="">HARLEY-DAVIDSON X</Link></h5>
+      <p>|</p>
+      <h5><Link to="">GRAND AMERICAN TOURING</Link></h5>
+      <p>|</p>
+      <h5><Link to="">CRUISER</Link></h5>
+      <p>|</p>
+      <h5><Link to="">ADVENTURE TOURING</Link></h5>
+      <p>|</p>
+      <h5><Link to="">SPORT</Link></h5>
+    </div>
+
+    <div className="card1">
+      <h1>Explore the 2024 motorcycle lineup</h1>
+      <br/>
+      <div className="card2">
+
+      <div className="card-img">
+        <img src="https://www.harley-davidson.com/content/dam/h-d/images/promo-images/2024/hero-cards/3-up/bo-hc3.jpg?impolicy=myresize&rw=500" alt="img"/>
+        <h5>BREAKOUT</h5>
+        <p>Dripping with chrome and packing Milwaukee-Eight<sup>TM</sup> 117-Twin muscle, the 2024 Breakout<sup>TM</sup>turns every night into bike night</p>
+       <br/>
+        <button><Link to="">SEE THE BIKE <i className="fa-solid fa-arrow-right arrow"></i></Link></button>
+      </div>
+
+      <div className="card-img">
+        <img src="https://www.harley-davidson.com/content/dam/h-d/images/promo-images/2024/hero-cards/3-up/sg-hc3.jpg?impolicy=myresize&rw=500" alt="img"/>
+        <h5>STREET GLIDE<sup>TM</sup></h5>
+        <p>Revolutionary tech and an athletic stance redefine the all-new 2024 Street Glide<sup>TM</sup>.</p>
+        <br/>
+        <br/>
+        <button><Link to="">SEE THE BIKE <i className="fa-solid fa-arrow-right arrow"></i></Link></button>
+      </div>
+
+      <div className="card-img">
+        <img src="https://www.harley-davidson.com/content/dam/h-d/images/promo-images/2024/hero-cards/3-up/sportster-s-hc3.jpg?impolicy=myresize&rw=500" alt="img"/>
+        <h5>SPORTSTER<sup>TM</sup>S</h5>
+        <p>Building on a legacy in 1957, the sophisticatedly brutish 2024 Sportster S is Wickedly quick, impressively nimble, and way too much fun.<sup>TM</sup>.</p>
+        <br/>
+        <button><Link to="">SEE THE BIKE <i className="fa-solid fa-arrow-right arrow"></i></Link></button>
+      </div>
+      
+    </div>
+      </div>
+
+      <div className="dd1">
+        <div className="para">
+          <h1><Link to="">LEARN TO RIDE</Link></h1>
+          <p>Whether it's first time throwing a leg over a bike, or you just want to brush up on your skills, H-D offers courses that will have you commanding a motorcycle with confidence in no time</p>
+          <h5><Link to="">EXPLORE MORE </Link><i className="fa-solid fa-arrow-right arrow"></i></h5>
+        </div>
+        <div className="img1">
+          <img src="https://www.harley-davidson.com/content/dam/h-d/images/promo-images/2024/media-card/learn-hp-mc.jpg?impolicy=myresize&rw=800" alt="logo"/>
+        </div>
+
+      </div>
         </>
   )
 }
