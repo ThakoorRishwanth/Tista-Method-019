@@ -1499,6 +1499,311 @@
         "colorselectoritem_container6": "",
         "activecolortext": "Black Denim"
     }
-]
-}
+],
+
+    "motorcycles": [
+      {
+        "id": 1,
+        "name": "Street 750",
+        "type": "Cruiser",
+        "engine_displacement": "749 cc",
+        "price": "$7,599",
+        "color": "Black",
+        "image_url": "https://tse2.mm.bing.net/th?id=OIP.Yts56ZJIPdI7ONEXfwCgmQHaE8&pid=Api&P=0&h=180",
+        "description": "The Street 750 is a stylish and agile cruiser motorcycle with a powerful engine.",
+        "features": [
+          "Liquid-cooled Revolution X™ V-Twin engine",
+          "6-speed transmission",
+          "Low seat height"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Iron 883",
+        "type": "Sportster",
+        "engine_displacement": "883 cc",
+        "price": "$9,499",
+        "color": "Blue",
+        "image_url": "https://tse3.mm.bing.net/th?id=OIP.3K5IDDsirRHIHEy9wFyFigHaE8&pid=Api&P=0&h=180",
+        "description": "The Iron 883 is an iconic Sportster motorcycle with a raw and aggressive style.",
+        "features": [
+          "Air-cooled Evolution™ engine",
+          "Adjustable suspension",
+          "Slammed drag-style handlebar"
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Road Glide",
+        "type": "Touring",
+        "engine_displacement": "1868 cc",
+        "price": "$21,699",
+        "color": "Red",
+        "image_url": "https://tse1.mm.bing.net/th?id=OIP.u8lytKA-GDo-iZGaYfCIVAHaFb&pid=Api&P=0&h=180",
+        "description": "The Road Glide is a premium touring motorcycle designed for long-distance cruising.",
+        "features": [
+          "Milwaukee-Eight® 114 engine",
+          "BOOM!™ Box GTS infotainment system",
+          "Dual Daymaker® LED headlamps"
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Fat Bob 114",
+        "type": "Cruiser",
+        "engine_displacement": "1868 cc",
+        "price": "$18,349",
+        "color": "Gray",
+        "image_url": "https://tse2.mm.bing.net/th?id=OIP.TD9C0ICCrvDl6rQJax6PbAHaEc&pid=Api&P=0&h=180",
+        "description": "The Fat Bob 114 is a muscular cruiser with a powerful Milwaukee-Eight 114 engine.",
+        "features": [
+          "High-performance suspension",
+          "Dual disc front brakes",
+          "LED lighting"
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Sportster Iron 1200",
+        "type": "Sportster",
+        "engine_displacement": "1202 cc",
+        "price": "$9,999",
+        "color": "Orange",
+        "image_url": "https://tse3.mm.bing.net/th?id=OIP.R1GZlj_v64cbr8UH_FeFDwHaE8&pid=Api&P=0&h=180",
+        "description": "The Sportster Iron 1200 combines retro style with modern performance.",
+        "features": [
+          "Air-cooled Evolution engine",
+          "Mini-ape handlebars",
+          "Classic fuel tank graphics"
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Street Rod",
+        "type": "Street",
+        "engine_displacement": "749 cc",
+        "price": "$8,699",
+        "color": "Green",
+        "image_url": "https://tse4.mm.bing.net/th?id=OIP.oD4Ffkhtv1iqRypfM6RnegHaE8&pid=Api&P=0&h=180",
+        "description": "The Street Rod offers adrenaline-pumping performance in a compact package.",
+        "features": [
+          "High-output Revolution X V-Twin engine",
+          "Aggressive styling",
+          "Short wheelbase for nimble handling"
+        ]
+      },
+      {
+        "id": 7,
+        "name": "Softail Standard",
+        "type": "Softail",
+        "engine_displacement": "1746 cc",
+        "price": "$13,599",
+        "color": "Black",
+        "image_url": "https://tse3.mm.bing.net/th?id=OIP.0CymrU0WQBGbO-csA8PYPwHaE8&pid=Api&P=0&h=180",
+        "description": "The Softail Standard is a classic cruiser with modern performance and styling.",
+        "features": [
+          "Milwaukee-Eight 107 engine",
+          "Softail frame",
+          "Classic styling with modern details"
+        ]
+      },
+      {
+        "id": 8,
+        "name": "Electra Glide Standard",
+        "type": "Touring",
+        "engine_displacement": "1746 cc",
+        "price": "$18,999",
+        "color": "Red",
+        "image_url": "https://tse4.mm.bing.net/th?id=OIP.B3XFNqcl9PnCavUpp3eoHwHaF7&pid=Api&P=0&h=180",
+        "description": "The Electra Glide Standard is a no-nonsense touring motorcycle built for comfort and convenience.",
+        "features": [
+          "Milwaukee-Eight 107 engine",
+          "Batwing fairing",
+          "Tour-Pak® luggage carrier"
+        ]
+      },
+      {
+        "id": 9,
+        "name": "Fat Boy 114",
+        "type": "Cruiser",
+        "engine_displacement": "1868 cc",
+        "price": "$20,999",
+        "color": "Silver",
+        "image_url": "https://tse2.mm.bing.net/th?id=OIP.TD9C0ICCrvDl6rQJax6PbAHaEc&pid=Api&P=0&h=180",
+        "description": "The Fat Boy 114 is a legendary cruiser with modern performance and iconic style.",
+        "features": [
+          "Milwaukee-Eight 114 engine",
+          "Signature LED lighting",
+          "Steamroller stance"
+        ]
+      },
+      {
+        "id": 10,
+        "name": "Tri Glide Ultra",
+        "type": "Trike",
+        "engine_displacement": "1868 cc",
+        "price": "$36,999",
+        "color": "Blue",
+        "image_url": "https://tse3.mm.bing.net/th?id=OIP.nMZva_v8m_-arUuVZjsShAAAAA&pid=Api&P=0&h=180",
+        "description": "The Tri Glide Ultra is a premium touring trike with advanced features and comfort.",
+        "features": [
+          "Milwaukee-Eight 114 engine",
+          "Twin-Cooled™ cylinder heads",
+          "Infotainment system"
+        ]
+      },
+      {
+        "id": 11,
+        "name": "Forty-Eight Special",
+        "type": "Sportster",
+        "engine_displacement": "1202 cc",
+        "price": "$11,299",
+        "color": "Yellow",
+        "image_url": "https://tse4.mm.bing.net/th?id=OIP.dpzjX6ra47Tr32CLOcnMYgHaE8&pid=Api&P=0&h=180",
+        "description": "The Forty-Eight Special is a modern take on a classic Sportster design.",
+        "features": [
+          "1200 cc Evolution engine",
+          "Custom Tallboy handlebars",
+          "Throwback tank graphics"
+        ]
+      },
+      {
+        "id": 12,
+        "name": "Road King Special",
+        "type": "Touring",
+        "engine_displacement": "1868 cc",
+        "price": "$23,999",
+        "color": "Black",
+        "image_url": "https://tse4.mm.bing.net/th?id=OIP.dXXnojnK48WJOrS_V6clQQHaE8&pid=Api&P=0&h=180",
+        "description": "The Road King Special is a stripped-down touring motorcycle with attitude.",
+        "features": [
+          "Milwaukee-Eight 114 engine",
+          "Blacked-out styling",
+          "Saddlebags"
+        ]
+      },
+      {
+        "id": 13,
+        "name": "Heritage Classic 114",
+        "type": "Softail",
+        "engine_displacement": "1868 cc",
+        "price": "$19,499",
+        "color": "Red",
+        "image_url": "https://tse4.mm.bing.net/th?id=OIP.PpnZ_tPdvIUzQh_siyDeHgHaFj&pid=Api&P=0&h=180",
+        "description": "The Heritage Classic 114 combines vintage style with modern performance.",
+        "features": [
+          "Milwaukee-Eight 114 engine",
+          "Detachable windshield",
+          "Studded leather saddlebags"
+        ]
+      },
+      {
+        "id": 14,
+        "name": "Low Rider S",
+        "type": "Softail",
+        "engine_displacement": "1868 cc",
+        "price": "$17,999",
+        "color": "Gray",
+        "image_url": "https://tse2.mm.bing.net/th?id=OIP.hR4nt61IvTPZchbohEN3JgHaE8&pid=Api&P=0&h=180",
+        "description": "The Low Rider S is a performance cruiser with aggressive styling and power.",
+        "features": [
+          "Milwaukee-Eight 114 engine",
+          "Dual front disc brakes",
+          "Mid-mount controls"
+        ]
+      },
+      {
+        "id": 15,
+        "name": "CVO Street Glide",
+        "type": "Touring",
+        "engine_displacement": "1923 cc",
+        "price": "$40,999",
+        "color": "Blue",
+        "image_url": "https://tse4.mm.bing.net/th?id=OIP.SZw1sqC5SWOXxOTg5m8bZAAAAA&pid=Api&P=0&h=180",
+        "description": "The CVO Street Glide is a custom touring motorcycle with premium features and style.",
+        "features": [
+          "Milwaukee-Eight 117 engine",
+          "Custom paint and finishes",
+          "Wireless headset interface"
+        ]
+      },
+      {
+        "id": 16,
+        "name": "Softail Slim",
+        "type": "Softail",
+        "engine_displacement": "1746 cc",
+        "price": "$15,999",
+        "color": "Black",
+        "image_url": "https://tse2.mm.bing.net/th?id=OIP.IaK2LR_Gh1jcBLR_MSEH2AHaFj&pid=Api&P=0&h=180",
+        "description": "The Softail Slim is a classic cruiser with retro styling and modern performance.",
+        "features": [
+          "Milwaukee-Eight 107 engine",
+          "Low-slung solo seat",
+          "Hidden suspension"
+        ]
+      },
+      {
+        "id": 17,
+        "name": "LiveWire",
+        "type": "Electric",
+        "engine_displacement": "N/A",
+        "price": "$29,799",
+        "color": "Yellow",
+        "image_url": "https://tse3.mm.bing.net/th?id=OIP.1FOiRabIIoGIHUJJDTTsbwHaEZ&pid=Api&P=0&h=180",
+        "description": "The LiveWire is Harley-Davidson's first electric motorcycle, combining instant torque with thrilling performance.",
+        "features": [
+          "H-D Revelation™ powertrain",
+          "Fast charging",
+          "High-performance suspension"
+        ]
+      },
+      {
+        "id": 18,
+        "name": "Freewheeler",
+        "type": "Trike",
+        "engine_displacement": "1868 cc",
+        "price": "$27,999",
+        "color": "Red",
+        "image_url": "https://tse3.mm.bing.net/th?id=OIP.7_kuwQ-sNoOgwJk36uZxmQHaFb&pid=Api&P=0&h=180",
+        "description": "The Freewheeler is a stylish and comfortable trike for long-distance touring.",
+        "features": [
+          "Milwaukee-Eight 114 engine",
+          "Dual disc front brakes",
+          "Tour-Pak® luggage carrier"
+        ]
+      },
+      {
+        "id": 19,
+        "name": "Softail Deluxe",
+        "type": "Softail",
+        "engine_displacement": "1746 cc",
+        "price": "$18,999",
+        "color": "Purple",
+        "image_url": "https://tse1.mm.bing.net/th?id=OIP.XgnC_1FDXY8h2mc7DbbFrAHaFj&pid=Api&P=0&h=180",
+        "description": "The Softail Deluxe is a classic cruiser with vintage style and modern amenities.",
+        "features": [
+          "Milwaukee-Eight 107 engine",
+          "Classic styling with whitewall tires",
+          "Detachable windshield"
+        ]
+      },
+      {
+        "id": 20,
+        "name": "Ultra Limited",
+        "type": "Touring",
+        "engine_displacement": "1868 cc",
+        "price": "$28,049",
+        "color": "Green",
+        "image_url": "https://tse3.mm.bing.net/th?id=OIP.PrkwnPa13Nv3a8uBxjBnZwHaE7&pid=Api&P=0&h=180",
+        "description": "The Ultra Limited is a premium touring motorcycle with all the features for long-distance comfort and convenience.",
+        "features": [
+          "Milwaukee-Eight 114 engine",
+          "BOOM! Box infotainment system",
+          "Tour-Pak® luggage carrier"
+        ]
+      }
+    ]
+  }
+  
+
   
