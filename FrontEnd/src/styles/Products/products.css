@@ -27,3 +27,55 @@
 .fc1{
     width: 100%;
 }
+
+.cont{
+    border: 1px solid;
+    text-align: center;
+    h1{
+        margin-top: 20px;
+        margin-bottom: 10px;
+        font-family: "Teko",sans-serif;
+    }
+}
+
+.load{
+    border: 1px soild;
+    display: flex;
+
+}
+
+.l1{
+    border: 1px solid;
+    height: auto;
+    width: 15%;
+    img{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+}
+
+.cor{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cor2{
+    width: 10%;
+    img{
+        height: auto;
+    }
+    p{
+        font-size: 20px;
+        font-family: "Teko",sans-serif;
+        font-weight: 600;
+        a{
+            color: black;
+            text-decoration: none;
+
+        }
+    }
+}
+
+    
