@@ -1,6 +1,7 @@
 
 import './App.css'
-import { Products } from './components/Products/Products'
+import { Cards } from './components/ProductCard/Cards'
+// import { Products } from './components/Products/Products'
 // import { Body } from './components/Body/Body'
 // import { Navbar } from './components/Header/Navbar'
 
@@ -11,8 +12,8 @@ function App() {
     <>
    {/* <Navbar/> */}
    {/* <Body/> */}
-   <Products/>
-
+   {/* <Products/> */}
+<Cards/>
     </>
   )
 }

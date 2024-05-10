@@ -11,6 +11,7 @@ import { fetch_failure, fetch_request, fetch_success } from '../../redux/actionT
 import axios from 'axios'
 import { RootState } from '../../redux/store';
 import { Link } from 'react-router-dom';
+import { Cards } from '../ProductCard/Cards';
 
 
 
@@ -43,24 +44,15 @@ export const Products = () => {
 /*
 ----->the Fetch Data for all products Ending
 */
-const FetchCard = async(url:string)=>{
-  dispatch({type: fetch_request});
-  try{
-    let res = await axios.get(url);
-    dispatch({type: fetch_success, payload:res.data})
-  }
-  catch(err){
-    dispatch({type: fetch_failure})
-  }
-}
+
 
     
 
     useEffect(()=>{
       fetchPro(`${baseurl}/Men-Product`)
-      FetchCard(`${baseurl}/Men-Women-Jacket`)
     },[])
 
+    
 
 
     const handleChange = (event: SelectChangeEvent) => {
@@ -147,14 +139,7 @@ const FetchCard = async(url:string)=>{
       
             </div>
 
-            <div>
-              {state.map((el:any)=>(
-                <div key={el.id}>
-                  
-
-                </div>
-              ))}
-            </div>
+            {/* <Cards/> */}
     </>
   )
 }
