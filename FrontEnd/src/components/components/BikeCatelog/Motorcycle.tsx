@@ -1,3 +1,4 @@
+import { Spinner } from '@chakra-ui/react';
 import React, { useEffect, useState } from 'react';
 
 interface BikeData {
@@ -11,7 +12,6 @@ interface BikeData {
     description: string;
     features: string[];
 }
-
 interface typeData {
     types: string[];
 }
@@ -39,11 +39,45 @@ function MotorCycle() {
     const [isPriceDropdownOpen, setPriceDropdownOpen] = useState<boolean>(false);
     const [isEngineCCDropdownOpen, setEngineCCDropdownOpen] = useState<boolean>(false);
     const [imagehover, setImageHover] = useState<boolean>(false);
+    const [imagehover2, setImageHover2] = useState<boolean>(false);
+    const [imagehover3, setImageHover3] = useState<boolean>(false);
+    const [imagehover4, setImageHover4] = useState<boolean>(false);
+    const [imagehover5, setImageHover5] = useState<boolean>(false);
     const [datas, setData] = useState<BikeData[]>([]);
     const [biketypes, setType] = useState<typeData>({ types: [] });
     const [bikeInfo, setBikeInfo] = useState<bikeInfo[]>([]);
-    const [colors, setColors] = useState<string>('')
+    const [colors, setColors] = useState<string>('');
+    const [colors2, setColors2] = useState<string>('');
+    const [colors3, setColors3] = useState<string>('')
+    const [colors4, setColors4] = useState<string>('')
+    const [colors5, setColors5] = useState<string>('')
+    const [isLoading, setLoading] = useState<boolean>(false);
+    const [isfilterdata,setFilterData]=useState<boolean>(false);
+    const [filterdata,setFilterData]=useState<bikeInfo[]>([])
+    const imageurl1: string[] = ['https://cdp.azureedge.net/products/USA/HD/2023/MC/TOUR/ROAD_GLIDESUP1-SUP/50/REEF_BLUE/2000000001.jpg',
+        "https://cdn.powergo.ca/media/catalog/2024/4/a752993f2bc147ba820e8af34977e4ee_1024x768_webp/2024-harley-davidson-road-glide-white-onyx-pearl-chrome-finish-0.webp",
+        "https://cdp.azureedge.net/products/USA/HD/2022/MC/TOUR/ROAD_GLIDE_LIMITED/50/MINERAL_GREEN_METALLIC_CHROME_OPTION/2000000001.jpg",
+        "https://cdp.azureedge.net/products/USA/HD/2022/MC/CVO/CVO_ROAD_GLIDE/50/WICKED_ORANGE_PEARL/2000000002.jpg"
+    ];
 
+    const imageurl2: string[] = ['https://www.harley-davidson.com/content/dam/h-d/images/product-images/bikes/motorcycle/2024/2024-street-glide/2024-street-glide-m13/360/2024-street-glide-m13-motorcycle-01.jpg?impolicy=myresize&rw=1600',
+        'https://www.harley-davidson.com/content/dam/h-d/images/product-images/bikes/motorcycle/2024/2024-street-glide/2024-street-glide-m07/360/2024-street-glide-m07-motorcycle-01.jpg?impolicy=myresize&rw=1600',
+        'https://www.harley-davidson.com/content/dam/h-d/images/product-images/bikes/motorcycle/2024/2024-street-glide/2024-street-glide-m14/360/2024-street-glide-m14-motorcycle-01.jpg?impolicy=myresize&rw=1600',
+        'https://www.harley-davidson.com/content/dam/h-d/images/product-images/bikes/motorcycle/2024/2024-street-glide/2024-street-glide-m12/360/2024-street-glide-m12-motorcycle-01.jpg?impolicy=myresize&rw=1600'
+    ]
+    const imageurl3: string[] = ['https://www.harley-davidson.com/content/dam/h-d/images/product-images/bikes/motorcycle/2024/2024-fat-bob-114/2024-fat-bob-114-m04b/360/2024-fat-bob-114-m04b-motorcycle-01.jpg?impolicy=myresize&rw=1600',
+        'https://www.harley-davidson.com/content/dam/h-d/images/product-images/bikes/motorcycle/2024/2024-fat-bob-114/2024-fat-bob-114-m02b/360/2024-fat-bob-114-m02b-motorcycle-01.jpg?impolicy=myresize&rw=1600'
+    ]
+    const imageurl4: string[] = ['https://www.harley-davidson.com/content/dam/h-d/images/product-images/bikes/motorcycle/2024/2024-heritage-classic-114/2024-heritage-classic-114-m04/360/2024-heritage-classic-114-m04-motorcycle-01.jpg?impolicy=myresize&rw=1600',
+        'https://www.harley-davidson.com/content/dam/h-d/images/product-images/bikes/motorcycle/2024/2024-heritage-classic-114/2024-heritage-classic-114-m02/360/2024-heritage-classic-114-m02-motorcycle-01.jpg?impolicy=myresize&rw=1600',
+
+
+    ]
+    const imageurl5: string[] = ['https://www.harley-davidson.com/content/dam/h-d/images/product-images/bikes/motorcycle/2024/2024-breakout-117/2024-breakout-117-m04/360/2024-breakout-117-m04-motorcycle-01.jpg?impolicy=myresize&rw=1600',
+        'https://www.harley-davidson.com/content/dam/h-d/images/product-images/bikes/motorcycle/2024/2024-breakout-117/2024-breakout-117-m02/360/2024-breakout-117-m02-motorcycle-01.jpg?impolicy=myresize&rw=1600'
+
+
+    ]
     const img1: string = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwcwT3zy-XTEYSnKNltrpIoGmaLRCLg3QZHw&usqp=CAU";
     const img2: string = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxaz-JbqYbsUy9Vc7fCv9OIekAufHh4MVFAQ&usqp=CAU"
     const img3: string = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVHgkondoSCmDLzKFOY8-8OGXi1rL2mpQyrQ&usqp=CAU"
@@ -77,7 +111,7 @@ function MotorCycle() {
         fetchBikeData();
     }, []);
 
-
+    console.log(datas);
     const handleColorDropdownToggle = () => {
         setColorDropdownOpen(prevState => !prevState);
         setTypeDropdownOpen(false);
@@ -110,12 +144,28 @@ function MotorCycle() {
         setBrandDropdownOpen(false);
         setPriceDropdownOpen(false);
     };
-    function filterdata(min: number, max: number) {
-        const filteredData = datas.filter(item => {
-            const displacement = parseInt(item.engine_displacement);
-            return displacement >= min && displacement <= max;
-        });
-        setData(filteredData);
+
+    function filterdata(min: number, max: number, type: string) {
+        setLoading(true);
+        if (type === "price") {
+            const filteredData = datas.filter(item => {
+                const displacement = parseInt(item.engine_displacement);
+                return displacement >= min && displacement <= max;
+            });
+            setData(filteredData);
+        }
+        else {
+            const filteredData = datas.filter(item => {
+                const displacement = parseInt(item.engine_displacement);
+                return displacement >= min && displacement <= max;
+            });
+            setData(filteredData);
+        }
+
+        setTimeout(() => {
+            setLoading(false)
+        }, 1000)
+
 
     }
     return (
@@ -182,10 +232,9 @@ function MotorCycle() {
                         <button style={{ width: '130px', backgroundColor: 'white', display: 'flex', alignItems: 'center' }} onClick={handlePriceDropdownToggle}>Price Range<span style={{ marginLeft: '3px' }} className="material-symbols-outlined">expand_more</span></button>
                         {isPriceDropdownOpen &&
                             <section id='price-range-drop'>
-                                <p>$20000-$25000</p>
-                                <p>$25000-$30000</p>
-                                <p>$35000-$40000</p>
-                                <p>$45000-500000</p>
+                                <p onClick={() => { filterdata(5000, 10000, "price") }}>$5000-$10000</p>
+                                <p>$10000-$15000</p>
+                                <p>$20000-250000</p>
                             </section>
                         }
                     </div>
@@ -204,29 +253,171 @@ function MotorCycle() {
                         }
                     </div>
                 </section>
+                <div className={isLoading ? "Loading loading-spinner-container" : "notLoading"}>
+                    {isLoading &&
+                      <div className='loading-spinner'></div>
+                        
+                    }
+                </div>
+
+
             </div>
             <div>
-                <img src="https://www.harley-davidson.com/content/dam/h-d/images/product-images/bikes/motorcycle/2023/2023-h-d-x-440/story/x440-header-thd.jpg?impolicy=myresize&rw=1800" alt="img-2" style={{width:'100%'}}/>
+
             </div>
-            <div style={{ height: '500px', backgroundColor: '#EEECEB' ,marginTop:'0px', position:'relative', width:'100%'}}>
-                <section  style={{position:'absolute', top:'50px', left:'50px', width:'400px', }} className={imagehover?"imagehover":"notimagehover"} onMouseEnter={()=>setImageHover(true)} onMouseLeave={()=>{setImageHover(false)}}>
+            <div style={{ position: 'relative' }}>
+                <img src="https://www.harley-davidson.com/content/dam/h-d/images/product-images/bikes/motorcycle/2023/2023-h-d-x-440/story/x440-header-thd.jpg?impolicy=myresize&rw=1800" alt="img-2" style={{ width: '100%' }} />
+                <div style={{ position: 'absolute', top: '350px', left: '100px', color: 'white' }}>
+                    <h1>Harley-Davidson X™ </h1>
+                    <p>Lightweight and agile, built to<br /> conquer the urban grid.</p>
+                </div>
+            </div>
+            <div style={{ height: '500px', backgroundColor: '#EEECEB', marginTop: '0px', position: 'relative', width: '100%' }}>
+                <section style={{ position: 'absolute', top: '50px', left: '50px', width: '400px', }} className={imagehover ? "imagehover" : "notimagehover"} onMouseEnter={() => setImageHover(true)} onMouseLeave={() => { setImageHover(false) }}>
                     {bikeInfo.length > 0 &&
                         <>
-                            <img src={colors === "img1" ? img1 : colors === "img2" ? img2 : colors === "img3" ? img3 : img4} alt="bikeimage" style={{width:'100%'}} />
-                            <h2 style={{textAlign:'center'}}>{bikeInfo[0].Title}</h2>
-                            <p style={{textAlign:'center'}}>{bikeInfo[0].Price}</p>
+                            <img src={colors === "img1" ? img1 : colors === "img2" ? img2 : colors === "img3" ? img3 : img4} alt="bikeimage" style={{ width: '100%' }} />
+                            <h2 style={{ textAlign: 'center' }}>{bikeInfo[0].Title}</h2>
+                            <p style={{ textAlign: 'center' }}>{bikeInfo[0].Price}</p>
                             <section >
-                                <p style={{textAlign:'center'}}>4 colors Available</p>
+                                <p style={{ textAlign: 'center' }}>4 colors Available</p>
                             </section>
-                            <section className='diff-color' style={{ display: 'flex', gap: '4px', justifyContent:'center'}}>
+                            <section className='diff-color' style={{ display: 'flex', gap: '4px', justifyContent: 'center' }}>
                                 <div onMouseEnter={() => setColors("img1")}></div>
                                 <div onMouseEnter={() => setColors("img2")}></div>
                                 <div onMouseEnter={() => setColors("img3")}></div>
                                 <div onMouseEnter={() => setColors("img4")}></div>
                             </section>
-                            <p style={{textAlign:'center'}}>Active color:{colors === "img1" ? "Blue Burst" : colors === "img2" ? "White Onyx Pearl" : colors === "img3" ? "Alpine Green" : "Whiskey Fire"}</p>
+                            <p style={{ textAlign: 'center' }}>Active color:{colors === "img1" ? "Blue Burst" : colors === "img2" ? "White Onyx Pearl" : colors === "img3" ? "Alpine Green" : "Whiskey Fire"}</p>
                         </>
                     }
+                </section>
+            </div>
+            <section style={{ position: 'relative' }}>
+                <img style={{ width: '100%' }} src="https://www.harley-davidson.com/content/dam/h-d/images/category-images/2024/tall-hero/touring-thd.jpg?impolicy=myresize&rw=1800" alt="heroine-3" />
+                <div style={{ position: 'absolute', top: '440px', left: '100px', color: 'white' }}>
+                    <h1>Grand American Touring</h1>
+                    <p>The category we've created from the ground up.<br /> Go the distance, in style. Discover the wide-open<br /> world and freedom for the soul on bikes only<br /> Harley-Davidson could build.</p>
+                </div>
+            </section>
+            <div style={{ height: '500px', backgroundColor: '#EEECEB', marginTop: '0px', position: 'relative', width: '100%', display: 'flex', gap: '20px' }}>
+                <section style={{ position: 'absolute', top: '50px', left: '550px', width: '400px', height: '400px' }} className={imagehover ? "imagehover" : "notimagehover"} onMouseEnter={() => setImageHover(true)} onMouseLeave={() => { setImageHover(false) }}>
+                    {bikeInfo.length > 0 &&
+                        <>
+                            <img src={colors === "img1" ? imageurl2[0] : colors === "img2" ? imageurl2[1] : colors === "img3" ? imageurl2[2] : imageurl2[3]} alt="bikeimage" style={{ width: '100%', height: "50%" }} />
+                            <h2 style={{ textAlign: 'center' }}>{bikeInfo[2].Title}</h2>
+                            <p style={{ textAlign: 'center' }}>{bikeInfo[2].Price}</p>
+                            <section >
+                                <p style={{ textAlign: 'center' }}>4 colors Available</p>
+                            </section>
+                            <section className='diff-color' style={{ display: 'flex', gap: '4px', justifyContent: 'center' }}>
+                                <div onMouseEnter={() => setColors("img1")}></div>
+                                <div onMouseEnter={() => setColors("img2")}></div>
+                                <div onMouseEnter={() => setColors("img3")}></div>
+                                <div onMouseEnter={() => setColors("img4")}></div>
+                            </section>
+                            <p style={{ textAlign: 'center' }}>Active color:{colors === "img1" ? "Blue Burst" : colors === "img2" ? "White Onyx Pearl" : colors === "img3" ? "Alpine Green" : "Whiskey Fire"}</p>
+                        </>
+                    }
+                </section>
+                <section style={{ position: 'absolute', top: '50px', left: '50px', width: '400px', height: '400px' }} className={imagehover2 ? "imagehover2" : "notimagehover2"} onMouseEnter={() => setImageHover2(true)} onMouseLeave={() => { setImageHover2(false) }}>
+                    {bikeInfo.length > 0 &&
+                        <>
+                            <img src={colors2 === "img11" ? imageurl1[0] : colors2 === "img22" ? imageurl1[1] : colors2 === "img33" ? imageurl1[2] : imageurl1[3]} alt="bikeimage" style={{ width: '100%', height: "50%" }} />
+                            <h2 style={{ textAlign: 'center' }}>{bikeInfo[1].Title}</h2>
+                            <p style={{ textAlign: 'center' }}>{bikeInfo[1].Price}</p>
+                            <section >
+                                <p style={{ textAlign: 'center' }}>4 colors Available</p>
+                            </section>
+                            <section className='diff-color' style={{ display: 'flex', gap: '4px', justifyContent: 'center' }}>
+                                <div onMouseEnter={() => setColors2("img11")}></div>
+                                <div onMouseEnter={() => setColors2("img22")}></div>
+                                <div onMouseEnter={() => setColors2("img33")}></div>
+                                <div onMouseEnter={() => setColors2("img44")}></div>
+                            </section>
+                            <p style={{ textAlign: 'center' }}>Active color:{colors2 === "img1" ? "Blue Burst" : colors2 === "img2" ? "White Onyx Pearl" : colors2 === "img3" ? "Alpine Green" : "Whiskey Fire"}</p>
+                        </>
+                    }
+                </section>
+            </div>
+            <div style={{ position: 'relative' }}>
+                <img style={{ width: '100%' }} src="https://www.harley-davidson.com/content/dam/h-d/images/category-images/2024/tall-hero/cruiser-thd.jpg?impolicy=myresize&rw=1800" alt="heroine-4" />
+                <div style={{ position: 'absolute', top: '440px', left: '100px', color: 'white' }}>
+                    <h1>Cruiser</h1>
+                    <p>Authentic heritage meets modern technology for<br /> power, style, and the unadulterated riding<br /> experience – around town or along country roads.</p>
+                </div>
+            </div>
+            <div style={{ height: '500px', backgroundColor: '#EEECEB', marginTop: '0px', position: 'relative', width: '100%', display: 'flex', gap: '20px' }}>
+                <section style={{ position: 'absolute', top: '50px', left: '50px', width: '400px', height: '400px' }} className={imagehover3 ? "imagehover3" : "notimagehover3"} onMouseEnter={() => setImageHover3(true)} onMouseLeave={() => { setImageHover3(false) }}>
+                    {bikeInfo.length > 0 &&
+                        <>
+                            <img src={colors3 === "img5" ? imageurl3[0] : imageurl3[1]} alt="bikeimage" style={{ width: '100%', height: "50%" }} />
+                            <h2 style={{ textAlign: 'center' }}>FAT BOB™ 114</h2>
+                            <p style={{ textAlign: 'center' }}>Starting at INR. 21,49,000</p>
+                            <section >
+                                <p style={{ textAlign: 'center' }}>2 colors Available</p>
+                            </section>
+                            <section className='diff-color2' style={{ display: 'flex', gap: '4px', justifyContent: 'center' }}>
+                                <div onMouseEnter={() => setColors3("img5")}></div>
+                                <div onMouseEnter={() => setColors3("img6")}></div>
+                            </section>
+                            <p style={{ textAlign: 'center' }}>Active color:{colors3 === "img5" ? "Black" : "White Onyx Pearl"}</p>
+                        </>
+                    }
+                </section>
+                <section style={{ position: 'absolute', top: '50px', left: '520px', width: '400px', height: '400px' }} className={imagehover4 ? "imagehover4" : "notimagehover4"} onMouseEnter={() => setImageHover4(true)} onMouseLeave={() => { setImageHover4(false) }}>
+                    {bikeInfo.length > 0 &&
+                        <>
+                            <img src={colors4 === "img7" ? imageurl4[0] : imageurl4[1]} alt="bikeimage" style={{ width: '100%', height: "50%" }} />
+                            <h2 style={{ textAlign: 'center' }}>HERITAGE CLASSIC</h2>
+                            <p style={{ textAlign: 'center' }}>Starting at INR. 27,19,000</p>
+                            <section >
+                                <p style={{ textAlign: 'center' }}>2 colors Available</p>
+                            </section>
+                            <section className='diff-color2' style={{ display: 'flex', gap: '4px', justifyContent: 'center' }}>
+                                <div onMouseEnter={() => setColors4("img7")}></div>
+                                <div onMouseEnter={() => setColors4("img8")}></div>
+                            </section>
+                            <p style={{ textAlign: 'center' }}>Active color:{colors4 === "img7" ? "Black" : "White Onyx Pearl"}</p>
+                        </>
+                    }
+                </section>
+                <section style={{ position: 'absolute', top: '50px', left: '1000px', width: '400px', height: '400px' }} className={imagehover5 ? "imagehover5" : "notimagehover5"} onMouseEnter={() => setImageHover5(true)} onMouseLeave={() => { setImageHover5(false) }}>
+                    {bikeInfo.length > 0 &&
+                        <>
+                            <img src={colors5 === "img9" ? imageurl5[0] : imageurl5[1]} alt="bikeimage" style={{ width: '100%', height: "50%" }} />
+                            <h2 style={{ textAlign: 'center' }}>FAT BOB™ 114</h2>
+                            <p style={{ textAlign: 'center' }}>Starting at INR. 30,99,000</p>
+                            <section >
+                                <p style={{ textAlign: 'center' }}>2 colors Available</p>
+                            </section>
+                            <section className='diff-color2' style={{ display: 'flex', gap: '4px', justifyContent: 'center' }}>
+                                <div onMouseEnter={() => setColors5("img9")}></div>
+                                <div onMouseEnter={() => setColors5("img10")}></div>
+                            </section>
+                            <p style={{ textAlign: 'center' }}>Active color:{colors5 === "img9" ? "Black" : "White Onyx Pearl"}</p>
+                        </>
+                    }
+                </section>
+            </div>
+            <div id='bottomPage'>
+                <section>
+                    <div>
+                        <h1>Go soul searching</h1>
+                    </div>
+                    <div> <p>From stripped-down bobbers to full-fairing touring, we can help find the right bike for you.</p></div>
+                    <div> <button>HELP ME CHOOSE</button></div>
+
+
+
+                </section>
+                <section>
+                    <h1>Explore all 2023 Motorcycles</h1>
+                    <p>Celebrate a legacy of power, style, and 120 years of innovation.</p>
+                    <div className="button-container" onMouseEnter={() => setSpanHovered(true)} onMouseLeave={() => setSpanHovered(false)}>
+                        <button>SEE THE BIKES</button>
+                        <span className={spanHovered ? 'arrow-right hovered' : 'arrow-right'}>&rarr;</span>
+                    </div>
                 </section>
             </div>
         </div>
