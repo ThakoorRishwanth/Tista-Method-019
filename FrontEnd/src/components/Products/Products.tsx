@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { Navbar } from '../Header/Navbar'
 import '../../styles/Products/products.css'
 import Box from '@mui/material/Box';
@@ -6,9 +6,42 @@ import InputLabel from '@mui/material/InputLabel';
 import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
 import Select, { SelectChangeEvent } from '@mui/material/Select';
+import { useDispatch, useSelector } from 'react-redux';
+import { fetch_failure, fetch_request, fetch_success } from '../../redux/actionTypes';
+import axios from 'axios'
+import { RootState } from '../../redux/store';
+import { Link } from 'react-router-dom';
 
 export const Products = () => {
-    const [filter, setFilter] = React.useState('');
+    const [filter, setFilter] = React.useState('')
+    const dispatch = useDispatch();
+    const state = useSelector((store:RootState)=>store.pro.data)
+
+    const fetchPro = async ()=>{
+      dispatch({type: fetch_request});
+      try{
+        let res = await axios.get("https://tista-method-019-1.onrender.com/Men-Product");
+        dispatch({type: fetch_success, payload:res.data})
+      }
+      catch(err){
+        dispatch({type: fetch_failure})
+      }
+    }
+    const fetchFilter = async ()=>{
+      dispatch({type: fetch_request});
+      try{
+        let res = await axios.get("https://tista-method-019-1.onrender.com/Men-");
+        dispatch({type: fetch_success, payload:res.data})
+      }
+      catch(err){
+        dispatch({type: fetch_failure})
+      }
+    }
+    
+
+    useEffect(()=>{
+      fetchPro()
+    },[])
 
     const handleChange = (event: SelectChangeEvent) => {
       setFilter(event.target.value as string);
@@ -19,6 +52,47 @@ export const Products = () => {
       <div
       className='m1'>
             <h1>Men's Motorcycle Jeans</h1>
+      </div>
+      <div className="cont">
+        <h1>ALL CATEGORIES</h1>
+        {/* <button onClick={handleShow}>Load</button> */}
+        <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
+  <div className="carousel-inner">
+    {state.map((el:any, index:any) => (
+      <div className={`carousel-item ${index === 0 ? 'active' : ''}`} key={el.id}>
+        {/* Apply custom CSS class to the container div */}
+        <div className="cor">
+          {state.slice(index, index + 7).map((item:any, subIndex:any) => (
+            <div key={item.id} className='cor2'>
+              <img src={item.picture} className="d-block w-100" alt={`Slide ${index}-${subIndex}`} />
+              <p><Link to="">{el.category}</Link></p>
+            </div>
+          ))}
+        </div>
+      </div>
+    ))}
+  </div>
+  {/* Carousel control buttons */}
+  <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span className="visually-hidden">Previous</span>
+  </button>
+  <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span className="carousel-control-next-icon" aria-hidden="true"></span>
+    <span className="visually-hidden">Next</span>
+  </button>
+</div>
+        <div className='load'>
+          {/* {
+             state.map((el:any)=>(
+              <div key={el.id} className='l1'>
+                <img src={el.picture} alt="pic"/>
+                <p><Link to="">{el.category}</Link></p>
+              </div>
+            ))
+          
+          } */}
+        </div>
       </div>
       <div className='m2'>
       <Box sx={{minWidth:220}} style={{border:"1px solid", borderRadius:"5px"}}>
