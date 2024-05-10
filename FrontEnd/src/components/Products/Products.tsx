@@ -12,40 +12,62 @@ import axios from 'axios'
 import { RootState } from '../../redux/store';
 import { Link } from 'react-router-dom';
 
+
+
+const baseurl = "https://tista-method-019-1.onrender.com"
+
+
+
 export const Products = () => {
     const [filter, setFilter] = React.useState('')
     const dispatch = useDispatch();
     const state = useSelector((store:RootState)=>store.pro.data)
 
-    const fetchPro = async ()=>{
+
+
+/*
+----->the Fetch Data for all products Starting
+*/
+    const fetchPro = async (url:string)=>{
       dispatch({type: fetch_request});
       try{
-        let res = await axios.get("https://tista-method-019-1.onrender.com/Men-Product");
+        let res = await axios.get(url);
         dispatch({type: fetch_success, payload:res.data})
       }
       catch(err){
         dispatch({type: fetch_failure})
       }
     }
-    const fetchFilter = async ()=>{
-      dispatch({type: fetch_request});
-      try{
-        let res = await axios.get("https://tista-method-019-1.onrender.com/Men-");
-        dispatch({type: fetch_success, payload:res.data})
-      }
-      catch(err){
-        dispatch({type: fetch_failure})
-      }
-    }
+
+
+/*
+----->the Fetch Data for all products Ending
+*/
+const FetchCard = async(url:string)=>{
+  dispatch({type: fetch_request});
+  try{
+    let res = await axios.get(url);
+    dispatch({type: fetch_success, payload:res.data})
+  }
+  catch(err){
+    dispatch({type: fetch_failure})
+  }
+}
+
     
 
     useEffect(()=>{
-      fetchPro()
+      fetchPro(`${baseurl}/Men-Product`)
+      FetchCard(`${baseurl}/Men-Women-Jacket`)
     },[])
+
+
 
     const handleChange = (event: SelectChangeEvent) => {
       setFilter(event.target.value as string);
     };
+
+
   return (
       <>
       <Navbar/>
@@ -65,13 +87,16 @@ export const Products = () => {
           {state.slice(index, index + 7).map((item:any, subIndex:any) => (
             <div key={item.id} className='cor2'>
               <img src={item.picture} className="d-block w-100" alt={`Slide ${index}-${subIndex}`} />
-              <p><Link to="">{el.category}</Link></p>
+              <p><Link to="">{item.category}</Link></p>
             </div>
           ))}
         </div>
       </div>
     ))}
   </div>
+
+
+
   {/* Carousel control buttons */}
   <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
     <span className="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -82,17 +107,9 @@ export const Products = () => {
     <span className="visually-hidden">Next</span>
   </button>
 </div>
-        <div className='load'>
-          {/* {
-             state.map((el:any)=>(
-              <div key={el.id} className='l1'>
-                <img src={el.picture} alt="pic"/>
-                <p><Link to="">{el.category}</Link></p>
-              </div>
-            ))
-          
-          } */}
-        </div>
+
+
+       
       </div>
       <div className='m2'>
       <Box sx={{minWidth:220}} style={{border:"1px solid", borderRadius:"5px"}}>
@@ -128,6 +145,15 @@ export const Products = () => {
         </Select>
       </FormControl>
       
+            </div>
+
+            <div>
+              {state.map((el:any)=>(
+                <div key={el.id}>
+                  
+
+                </div>
+              ))}
             </div>
     </>
   )
