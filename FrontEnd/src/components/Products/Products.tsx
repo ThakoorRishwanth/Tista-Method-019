@@ -63,7 +63,7 @@ export const Products = () => {
       <>
       <div
       className='m1'>
-            <h1>Men's Motorcycle Jackets</h1>
+            <h1>Harley-Store</h1>
       </div>
       <div className="cont">
         <h1>ALL CATEGORIES</h1>

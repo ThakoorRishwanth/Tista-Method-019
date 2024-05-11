@@ -7,6 +7,7 @@ export const AllRoutes = () => {
       <Link to="/">Home</Link>
       <Link to="/men">Men</Link>
       <Link to="/women">Women</Link>
+      <Link to="/helmet">Helmet</Link>
       <Link to="/signup">Signup</Link>
     </div>
   )

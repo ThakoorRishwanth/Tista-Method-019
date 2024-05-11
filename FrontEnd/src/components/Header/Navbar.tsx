@@ -101,9 +101,9 @@ export const Navbar = () => {
             <ul><Link to="/men">MENS</Link>
                 <div className='u3'>
                     <li><Link to="/mens">New Arrivals</Link></li>
-                    <li><Link to="">Helmets</Link></li>
+                    <li><Link to="/helmet">Helmets</Link></li>
                     <li><Link to="">Jeans, Pants & Shorts</Link></li>
-                    <li><Link to="">Casual Jackets</Link></li>
+                    <li><Link to="/men">Casual Jackets</Link></li>
                     <li><Link to="">Shop All Mens</Link></li>
                 </div>
             </ul>
@@ -111,9 +111,10 @@ export const Navbar = () => {
             <ul><Link to="/women">WOMENS</Link> 
                 <div className='u4'>
                     <li><Link to="">New Arrivals</Link></li>
-                    <li><Link to="">Casual Jackets</Link></li>
+                    <li><Link to="/women">Casual Jackets</Link></li>
                     <li><Link to="">Rain Gear</Link></li>
                     <li><Link to="">Shirts & T-Shirts</Link></li>
+                    <li><Link to="/helmet">Helmets</Link></li>
                     <li><Link to="">Shop All Womens</Link></li>
                 </div>
             </ul>

@@ -10,6 +10,10 @@ export const Fetch_Request = "Fetch_Request"
 export const Fetch_Success = "Fetch_Success"
 export const Fetch_Failure = "Fetch_Failure"
 
+export const Fetch_req = "Fetch_req"
+export const Fetch_succ = "Fetch_succ"
+export const Fetch_Fail = "Fetch_Fail"
+
 export interface FetchRequestAction {
     type: typeof fetch_request;
   }
@@ -54,3 +58,18 @@ export interface Fetch_FailureACTION{
 }
 
 export type ACTION = Fetch_RequestACTION | Fetch_SuccessACTION | Fetch_FailureACTION
+
+export interface Fetch_reqACTION{
+  type : typeof Fetch_req
+}
+
+export interface Fetch_succACTION{
+  type: typeof Fetch_succ
+  payload : any[]
+}
+
+export interface Fetch_FailACTION{
+  type: typeof Fetch_Fail
+}
+
+export type Actions = Fetch_reqACTION | Fetch_succACTION | Fetch_FailACTION

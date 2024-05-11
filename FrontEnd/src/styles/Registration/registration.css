@@ -1,0 +1,23 @@
+.registration1{
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: black;
+    gap: 20PX;
+
+    h1{
+        font-size: 30px;
+        font-family: "Teko",sans-serif;
+        margin-bottom: 0px;
+        font-weight: 400;
+    }
+}
+
+.registration2{
+    height: 100vh;
+    background-image: url(../../../image/bgimg.jpg);
+    background-position: center;
+    background-size: cover;
+}

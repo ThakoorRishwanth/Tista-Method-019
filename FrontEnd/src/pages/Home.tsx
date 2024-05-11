@@ -1,10 +1,10 @@
-import { Body } from "../components/Body/Body"
+// import { Body } from "../components/Body/Body"
 
 
-export const Home = () => {
-  return (
-    <>
-    <Body/>
-    </>
-  )
-}
+// export const Home = () => {
+//   return (
+//     <>
+//     <Body/>
+//     </>
+//   )
+// }

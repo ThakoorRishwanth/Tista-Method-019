@@ -10,6 +10,8 @@ import { Signup } from './components/LoginSignup/Signup'
 import { Navbar } from './components/Header/Navbar'
 import { Men } from './components/Add Cards/Men'
 import { Footer } from './components/Footer/Footer'
+import { Helmet } from './components/Helmet/Helmet'
+import { Registration } from './components/Registration/Registration'
 
 function App() {
   
@@ -26,6 +28,8 @@ function App() {
       <Route path='/' element={<Body/>}></Route>
       <Route path='/men' element={<Men/>}></Route>
       <Route path='/women' element={<Women/>}></Route>
+      <Route path='/helmet' element={<Helmet/>}></Route>
+      <Route path="/user" element={<Registration/>}></Route>
       <Route path='/signup' element={<Signup/>}></Route>
     </Routes>
     <Footer/>
