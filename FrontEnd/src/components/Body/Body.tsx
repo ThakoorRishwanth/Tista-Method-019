@@ -15,7 +15,7 @@ export const Body = () => {
         <div className="text"><h1>TEST RIDE THE 2024</h1>
         <h1>MOTORCYCLE LINEUP</h1>
         <p>Including the all-new Road Glide<sup>TM</sup>and Street Glide<sup>TM</sup>.</p>
-        <button>BOOK A TEST RIDE TODAY <i className="fa-solid fa-arrow-right arrow"></i></button>
+        <button><Link to="/user">BOOK A TEST RIDE TODAY </Link><i className="fa-solid fa-arrow-right arrow"></i></button>
         </div>
       <img src="../../../image/img1.jpg" className="d-block w-100" alt="..."/>
     </div>
@@ -23,7 +23,7 @@ export const Body = () => {
     <div className="text2">
       <h5>MEET OUR 2024</h5>
       <h1>CRUISER MOTORCYCLES</h1>
-        <button>SEE THE BIKES <i className="fa-solid fa-arrow-right arrow"></i></button>
+        <button><Link to="">SEE THE BIKES </Link><i className="fa-solid fa-arrow-right arrow"></i></button>
         </div>
       <img src="../../../image/img2.jpg" className="d-block w-100" alt="..."/>
     </div>
@@ -32,7 +32,7 @@ export const Body = () => {
       <h5>A NEW ERA OF</h5>
       <h1>GRAND AMERICAN</h1>
       <h1>TOURING</h1>
-        <button>SEE THE BIKES <i className="fa-solid fa-arrow-right arrow"></i></button>
+        <button><Link to="">SEE THE BIKES </Link><i className="fa-solid fa-arrow-right arrow"></i></button>
         </div>
       <img src="../../../image/img3.jpg" className="d-block w-100" alt="..."/>
     </div>

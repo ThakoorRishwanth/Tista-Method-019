@@ -12,6 +12,10 @@
         font-family:sans-serif;
         color: white;
     }
+    h1:hover{
+        cursor: pointer;
+        color:orangered
+    }
 }
 
 .cont{
