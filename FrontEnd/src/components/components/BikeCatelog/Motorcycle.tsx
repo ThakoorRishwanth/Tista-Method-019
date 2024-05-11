@@ -1,5 +1,8 @@
 import { Spinner } from '@chakra-ui/react';
-import React, { useEffect, useState } from 'react';
+import React, { useContext, useEffect, useRef, useState } from 'react';
+import { useParams } from 'react-router-dom';
+import Bikes from './Bikes';
+import { BikeDetailsContext } from './Context';
 
 interface BikeData {
     id: number;
@@ -11,6 +14,14 @@ interface BikeData {
     image_url: string;
     description: string;
     features: string[];
+}
+interface initial {
+    title: string;
+    activeurl: string;
+    price: string;
+    activecolor: string;
+    colors: string[];
+    urls: string[];
 }
 interface typeData {
     types: string[];
@@ -30,12 +41,12 @@ interface bikeInfo {
     colorselectoritem_container6: "string",
     activecolortext: "string"
 }
-
+const obj:initial={};
 function MotorCycle() {
+    const { user_id } = useParams();
     const [spanHovered, setSpanHovered] = useState<boolean>(false);
     const [isColorDropdownOpen, setColorDropdownOpen] = useState<boolean>(false);
     const [isTypeDropdownOpen, setTypeDropdownOpen] = useState<boolean>(false);
-    const [isBrandDropdownOpen, setBrandDropdownOpen] = useState<boolean>(false);
     const [isPriceDropdownOpen, setPriceDropdownOpen] = useState<boolean>(false);
     const [isEngineCCDropdownOpen, setEngineCCDropdownOpen] = useState<boolean>(false);
     const [imagehover, setImageHover] = useState<boolean>(false);
@@ -52,8 +63,21 @@ function MotorCycle() {
     const [colors4, setColors4] = useState<string>('')
     const [colors5, setColors5] = useState<string>('')
     const [isLoading, setLoading] = useState<boolean>(false);
-    const [isfilterdata,setFilterData]=useState<boolean>(false);
-    const [filterdata,setFilterData]=useState<bikeInfo[]>([])
+    const [value, setValue] = useState<string>("");
+    const [value2, setValue2] = useState<string>("");
+    const [value3, setValue3] = useState<string>("");
+    const [value4, setValue4] = useState<string>("");
+    const [filterdata, setFilterDatas] = useState<BikeData[]>([])
+    const [btnclick1, setbtnClick1] = useState<boolean>(false);
+    const [btnclick2, setbtnClick2] = useState<boolean>(false);
+    const [btnclick3, setbtnClick3] = useState<boolean>(false);
+    const [btnclick4, setbtnClick4] = useState<boolean>(false);
+    const [prevFilterData, setPrevFilterData] = useState<BikeData[]>([]);
+    const [query1, setQuery1] = useState("");
+    const [query2, setQuery2] = useState("");
+    const [query3, setQuery3] = useState("");
+    const [query4, setQuery4] = useState("");
+    let{ bikeDetails, setBikeDetails}=useContext(BikeDetailsContext);
     const imageurl1: string[] = ['https://cdp.azureedge.net/products/USA/HD/2023/MC/TOUR/ROAD_GLIDESUP1-SUP/50/REEF_BLUE/2000000001.jpg',
         "https://cdn.powergo.ca/media/catalog/2024/4/a752993f2bc147ba820e8af34977e4ee_1024x768_webp/2024-harley-davidson-road-glide-white-onyx-pearl-chrome-finish-0.webp",
         "https://cdp.azureedge.net/products/USA/HD/2022/MC/TOUR/ROAD_GLIDE_LIMITED/50/MINERAL_GREEN_METALLIC_CHROME_OPTION/2000000001.jpg",
@@ -82,14 +106,18 @@ function MotorCycle() {
     const img2: string = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxaz-JbqYbsUy9Vc7fCv9OIekAufHh4MVFAQ&usqp=CAU"
     const img3: string = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVHgkondoSCmDLzKFOY8-8OGXi1rL2mpQyrQ&usqp=CAU"
     const img4: string = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQeGKDxFU-JDKZOf8i9M-L6OT3XA2Yfh9KRA&usqp=CAU&reload=on"
-
+    console.log(user_id);
     async function fetchData() {
+        setLoading(true);
+       
         try {
-            const res = await fetch("https://tista-method-019-1.onrender.com/motorcycles");
+            const res = await fetch(`https://tista-method-019-1.onrender.com/motorcycles?${query1}&&${query2}&&${query3}`);
             const data = await res.json();
             setData(data);
+            setFilterDatas(data);
             const uniqueTypes = Array.from(new Set(data.map(ele => ele.type)));
             setType({ types: uniqueTypes });
+            setLoading(false)
         } catch (err) {
             console.log(err);
         }
@@ -107,15 +135,14 @@ function MotorCycle() {
     }
 
     useEffect(() => {
-        fetchData();
         fetchBikeData();
-    }, []);
+        fetchData()
+    }, [query1,query2,query3]);
 
     console.log(datas);
     const handleColorDropdownToggle = () => {
         setColorDropdownOpen(prevState => !prevState);
         setTypeDropdownOpen(false);
-        setBrandDropdownOpen(false);
         setPriceDropdownOpen(false);
         setEngineCCDropdownOpen(false);
     };
@@ -123,7 +150,6 @@ function MotorCycle() {
     const handleTypeDropdownToggle = () => {
         setTypeDropdownOpen(prevState => !prevState);
         setColorDropdownOpen(false);
-        setBrandDropdownOpen(false);
         setPriceDropdownOpen(false);
         setEngineCCDropdownOpen(false);
     };
@@ -133,7 +159,6 @@ function MotorCycle() {
         setPriceDropdownOpen(prevState => !prevState);
         setColorDropdownOpen(false);
         setTypeDropdownOpen(false);
-        setBrandDropdownOpen(false);
         setEngineCCDropdownOpen(false);
     };
 
@@ -141,33 +166,13 @@ function MotorCycle() {
         setEngineCCDropdownOpen(prevState => !prevState);
         setColorDropdownOpen(false);
         setTypeDropdownOpen(false);
-        setBrandDropdownOpen(false);
         setPriceDropdownOpen(false);
     };
 
-    function filterdata(min: number, max: number, type: string) {
-        setLoading(true);
-        if (type === "price") {
-            const filteredData = datas.filter(item => {
-                const displacement = parseInt(item.engine_displacement);
-                return displacement >= min && displacement <= max;
-            });
-            setData(filteredData);
-        }
-        else {
-            const filteredData = datas.filter(item => {
-                const displacement = parseInt(item.engine_displacement);
-                return displacement >= min && displacement <= max;
-            });
-            setData(filteredData);
-        }
-
-        setTimeout(() => {
-            setLoading(false)
-        }, 1000)
 
 
-    }
+
+
     return (
         <div>
             <section id='moto-home'>
@@ -201,16 +206,40 @@ function MotorCycle() {
                         {isColorDropdownOpen &&
                             <section id='color-drop'>
                                 <div>
-                                    <p>Black</p>
-                                    <p>Grey</p>
-                                    <p>Orange</p>
-                                    <p>Blue</p>
+                                    <p onClick={() => {
+                                        console.log("Clicked Black"); // Log statement to check if the click event is firing
+                                        setValue2('Black');
+                                        setbtnClick2(true);
+                                        setQuery2("color=Black");
+                                       
+                                    }}>Black</p>
+                                    <p onClick={() => {
+                                        console.log("Clicked Grey"); // Log statement to check if the click event is firing
+                                        setValue2('Grey');
+                                        setbtnClick2(true);
+                                        setQuery2("color=Grey");
+                                       
+                                    }}>Grey</p>
+                                    <p onClick={() => {
+                                        console.log("Clicked Orange"); // Log statement to check if the click event is firing
+                                        setValue2('Orange');
+                                        setbtnClick2(true);
+                                        setQuery2("color=Orange");
+                                    }}>Orange</p>
+                                    <p onClick={() => {
+                                        console.log("Clicked Blue"); // Log statement to check if the click event is firing
+                                        setValue2('Blue');
+                                        setbtnClick2(true);
+                                        setQuery2("color=Blue");
+                                    }}>Blue</p>
+
+
                                 </div>
                                 <div>
-                                    <p>Green</p>
-                                    <p>Red</p>
-                                    <p>Yellow</p>
-                                    <p>Silver</p>
+                                    <p onClick={() => {setValue2('Green');setbtnClick2(true);setQuery2("color=Green"); }}>Green</p>
+                                    <p onClick={() => {setValue2('Green');setbtnClick2(true);setQuery2("color=Red"); }}>Red</p>
+                                    <p onClick={() => {setValue2('Green');setbtnClick2(true);setQuery2("color=Yellow"); }}>Yellow</p>
+                                    <p onClick={() => {setValue2('Green');setbtnClick2(true);setQuery2("color=Silver"); }}>Silver</p>
                                 </div>
                             </section>
                         }
@@ -229,12 +258,12 @@ function MotorCycle() {
                         }
                     </div>
                     <div style={{ display: 'flex', flexDirection: 'column' }} className='pricefilter'>
-                        <button style={{ width: '130px', backgroundColor: 'white', display: 'flex', alignItems: 'center' }} onClick={handlePriceDropdownToggle}>Price Range<span style={{ marginLeft: '3px' }} className="material-symbols-outlined">expand_more</span></button>
+                        <button style={{ width: '130px', backgroundColor: 'white', display: 'flex', alignItems: 'center' }} onClick={handlePriceDropdownToggle} >Price Range<span style={{ marginLeft: '3px' }} className="material-symbols-outlined">expand_more</span></button>
                         {isPriceDropdownOpen &&
                             <section id='price-range-drop'>
-                                <p onClick={() => { filterdata(5000, 10000, "price") }}>$5000-$10000</p>
-                                <p>$10000-$15000</p>
-                                <p>$20000-250000</p>
+                                <p onClick={() => { setValue('Rs500000-$1000000'); setbtnClick1(true); setQuery1("price_gte=500000&price_lte=1000000") }}>Rs500000-Rs1000000</p>
+                                <p onClick={() => { setValue('Rs1000000-$1500000'); setbtnClick1(true); setQuery1("price_gte=1000000&price_lte=1500000") }}>Rs1000000-Rs1500000</p>
+                                <p onClick={() => { setValue('Rs1500000-$2000000'); setbtnClick1(true); setQuery1("price_gte=1500000&price_lte=20000000") }}>Rs1500000-Rs2000000</p>
                             </section>
                         }
                     </div>
@@ -242,12 +271,12 @@ function MotorCycle() {
                         <button style={{ width: '130px', backgroundColor: 'white', display: 'flex', alignItems: 'center' }} onClick={handleEngineCCDropdownToggle}>Engine CC<span style={{ marginLeft: '3px' }} className="material-symbols-outlined">expand_more</span></button>
                         {isEngineCCDropdownOpen &&
                             <section id='engine-cc-drop'>
-                                <input type="radio" name='name' onChange={() => filterdata(500, 1000)} />
-                                <label htmlFor="cc">500cc-1000cc</label><br></br>
-                                <input type="radio" name='name' onChange={() => filterdata(500, 1000)} />
-                                <label htmlFor="cc1">1000cc-1500cc</label><br></br>
-                                <input type="radio" name='name' onChange={() => filterdata(500, 1000)} />
-                                <label htmlFor="cc2">1500cc-2000cc</label>
+                                <input type="radio" name='name' onClick={()=>{setValue3("7cc-500cc");setQuery3("engine_displacement_gte=7&engine_displacement_lte=500");setbtnClick3(true)}} />
+                                <label htmlFor="cc">7cc-500cc</label><br></br>
+                                <input type="radio" name='name' onClick={()=>{setValue3("500cc-1000cc");setQuery3("engine_displacement_gte=501&engine_displacement_lte=1000");setbtnClick3(true)}}  />
+                                <label htmlFor="cc1">500cc-1000cc</label><br></br>
+                                <input type="radio" name='name' onClick={()=>{setValue3("1000cc-2000cc");setQuery3("engine_displacement_gte=1000&engine_displacement_lte=2000");setbtnClick3(true)}}  />
+                                <label htmlFor="cc2">1000cc-2000cc</label>
 
                             </section>
                         }
@@ -255,16 +284,36 @@ function MotorCycle() {
                 </section>
                 <div className={isLoading ? "Loading loading-spinner-container" : "notLoading"}>
                     {isLoading &&
-                      <div className='loading-spinner'></div>
-                        
+                        <div className='loading-spinner'></div>
+
                     }
                 </div>
-
-
             </div>
-            <div>
+            <>
+                {datas.length > 0 && datas.length < 20 &&
+                    <div style={{ width: '100%', height: '70px', backgroundColor: '#EEECEB', display: 'flex', gap: '10px', alignItems: 'center' }}>
+                        {btnclick1 ? (
+                            <div className={btnclick1 ? "filterdata" : ''}>
+                                <span className={btnclick1 ? "btn1cliked material-symbols-outlined" : ""} onClick={() => { setbtnClick1(false);setQuery1("")}}>close</span>
+                                <p>{value}{'('}{datas.length}{')'}</p>
+                            </div>
+                        ) : null}
+                        {btnclick2 ? (
+                            <div className={btnclick2 ? "filterdata2" : ''}>
+                                <span className={btnclick2 ? "btn1cliked2 material-symbols-outlined" : ""} onClick={() => { setbtnClick2(false); setQuery2("")}}>close</span>
+                                <p>{value2}{'('}{datas.length}{')'}</p>
+                            </div>
+                        ) : null}
+                        {btnclick3 ? (
+                            <div className={btnclick3 ? "filterdata3" : ''}>
+                                <span className={btnclick3 ? "btn1cliked3 material-symbols-outlined" : ""} onClick={() => { setbtnClick3(false); setQuery3("")}}>close</span>
+                                <p>{value3}{'('}{datas.length}{')'}</p>
+                            </div>
+                        ) : null}
+                    </div>
 
-            </div>
+                }
+            </>
             <div style={{ position: 'relative' }}>
                 <img src="https://www.harley-davidson.com/content/dam/h-d/images/product-images/bikes/motorcycle/2023/2023-h-d-x-440/story/x440-header-thd.jpg?impolicy=myresize&rw=1800" alt="img-2" style={{ width: '100%' }} />
                 <div style={{ position: 'absolute', top: '350px', left: '100px', color: 'white' }}>
@@ -283,7 +332,7 @@ function MotorCycle() {
                                 <p style={{ textAlign: 'center' }}>4 colors Available</p>
                             </section>
                             <section className='diff-color' style={{ display: 'flex', gap: '4px', justifyContent: 'center' }}>
-                                <div onMouseEnter={() => setColors("img1")}></div>
+                                <div onMouseEnter={() => setColors("img1")} ></div>
                                 <div onMouseEnter={() => setColors("img2")}></div>
                                 <div onMouseEnter={() => setColors("img3")}></div>
                                 <div onMouseEnter={() => setColors("img4")}></div>
@@ -311,7 +360,9 @@ function MotorCycle() {
                                 <p style={{ textAlign: 'center' }}>4 colors Available</p>
                             </section>
                             <section className='diff-color' style={{ display: 'flex', gap: '4px', justifyContent: 'center' }}>
-                                <div onMouseEnter={() => setColors("img1")}></div>
+                                <div onMouseEnter={() => setColors("img1")}
+                                  
+                                ></div>
                                 <div onMouseEnter={() => setColors("img2")}></div>
                                 <div onMouseEnter={() => setColors("img3")}></div>
                                 <div onMouseEnter={() => setColors("img4")}></div>
@@ -330,7 +381,21 @@ function MotorCycle() {
                                 <p style={{ textAlign: 'center' }}>4 colors Available</p>
                             </section>
                             <section className='diff-color' style={{ display: 'flex', gap: '4px', justifyContent: 'center' }}>
-                                <div onMouseEnter={() => setColors2("img11")}></div>
+                                <div onMouseEnter={() => setColors2("img11")} onClick={()=>{
+                                    setBikeDetails({
+                                        title: bikeInfo[1].Title,
+                                        activeurl: imageurl1[0],
+                                        price: bikeInfo[1].Price,
+                                        color: 'blue',
+                                        colors: ['blue', 'white', 'green', 'orange'],
+                                        urls: [
+                                          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwcwT3zy-XTEYSnKNltrpIoGmaLRCLg3QZHw&usqp=CAU',
+                                          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxaz-JbqYbsUy9Vc7fCv9OIekAufHh4MVFAQ&usqp=CAU',
+                                          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVHgkondoSCmDLzKFOY8-8OGXi1rL2mpQyrQ&usqp=CAU',
+                                          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQeGKDxFU-JDKZOf8i9M-L6OT3XA2Yfh9KRA&usqp=CAU&reload=on'
+                                        ]
+                                      })
+                                }}></div>
                                 <div onMouseEnter={() => setColors2("img22")}></div>
                                 <div onMouseEnter={() => setColors2("img33")}></div>
                                 <div onMouseEnter={() => setColors2("img44")}></div>
