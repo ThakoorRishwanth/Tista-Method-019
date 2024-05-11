@@ -15,14 +15,14 @@ import { Cards } from '../ProductCard/Cards';
 
 
 
-const baseurl = "https://tista-method-019-1.onrender.com"
 
 
 
 export const Products = () => {
-    const [filter, setFilter] = React.useState('')
-    const dispatch = useDispatch();
-    const state = useSelector((store:RootState)=>store.pro.data)
+  const [filter, setFilter] = React.useState('')
+  const dispatch = useDispatch();
+  const state = useSelector((store:RootState)=>store.pro.data)
+  const baseurl = "https://tista-method-019-1.onrender.com"
 
 
 
@@ -49,10 +49,9 @@ export const Products = () => {
     
 
     useEffect(()=>{
-      fetchPro(`${baseurl}/Men-Product`)
     },[])
-
     
+    fetchPro(`${baseurl}/Men-Product`)
 
 
     const handleChange = (event: SelectChangeEvent) => {
@@ -139,7 +138,7 @@ export const Products = () => {
       
             </div>
 
-            {/* <Cards/> */}
+            <Cards/>
     </>
   )
 }
