@@ -72,9 +72,9 @@
             "id": "1",
             "Product_image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2024/97451-24vm/97451-24VM_F.jpg?impolicy=myresize&rw=480",
             "Title": "Men's At the Crank Bomber Jacket",
-            "Colors-Available": "2 colours available",
-            "color-selector1": "FALSE",
-            "color-selector2": "TRUE",
+            "Colors_Available": "2 colours available",
+            "color_selector1": "FALSE",
+            "color_selector2": "TRUE",
             "Active-Colors": "Lapis Blue",
             "category": "Men"
         },
@@ -106,9 +106,9 @@
             "id": "6",
             "Product_image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/98164-23vm/98164-23VM_F.jpg?impolicy=myresize&rw=480",
             "Title": "Men's Mesa Harley-Davidson ADV Waxed Riding Jacket",
-            "Colors-Available": "2 colours available",
-            "color-selector1": "FALSE",
-            "color-selector2": "TRUE",
+            "Colors_Available": "2 colours available",
+            "color_selector1": "FALSE",
+            "color_selector2": "TRUE",
             "Active-Colors": "Dull Gold",
             "category": "Men"
         },
@@ -122,9 +122,9 @@
             "id": "8",
             "Product_image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/july-replenishment/98004-23vt/98004-23VT_F.jpg?impolicy=myresize&rw=480",
             "Title": "Men's Victory Lane II Leather Jacket - Tall",
-            "Colors-Available": "2 colours available",
-            "color-selector1": "FALSE",
-            "color-selector2": "TRUE",
+            "Colors_Available": "2 colours available",
+            "color_selector1": "FALSE",
+            "color_selector2": "TRUE",
             "Active-Colors": "Black",
             "category": "Men"
         },
@@ -132,9 +132,9 @@
             "id": "9",
             "Product_image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/96023-24vm/96023-24VM_F.jpg?impolicy=myresize&rw=480",
             "Title": "Men's #1 Victory Zip-Up Hoodie",
-            "Colors-Available": "2 colours available",
-            "color-selector1": "FALSE",
-            "color-selector2": "TRUE",
+            "Colors_Available": "2 colours available",
+            "color_selector1": "FALSE",
+            "color_selector2": "TRUE",
             "Active-Colors": "Medium Grey Heather",
             "category": "Men"
         },
@@ -154,9 +154,9 @@
             "id": "12",
             "Product_image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/97425-24vm/97425-24VM_F.jpg?impolicy=myresize&rw=480",
             "Title": "Men's Juneau Parka",
-            "Colors-Available": "2 colours available",
-            "color-selector1": "FALSE",
-            "color-selector2": "TRUE",
+            "Colors_Available": "2 colours available",
+            "color_selector1": "FALSE",
+            "color_selector2": "TRUE",
             "Active-Colors": "Black Beauty",
             "category": "Men"
         },
@@ -170,9 +170,9 @@
             "id": "14",
             "Product_image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/97403-23vm/97403-23VM_F.jpg?impolicy=myresize&rw=480",
             "Title": "Men's Forever Harley Canvas Jacket",
-            "Colors-Available": "2 colours available",
-            "color-selector1": "FALSE",
-            "color-selector2": "TRUE",
+            "Colors_Available": "2 colours available",
+            "color_selector1": "FALSE",
+            "color_selector2": "TRUE",
             "Active-Colors": "Dachshund",
             "category": "Men"
         },
@@ -198,9 +198,9 @@
             "id": "18",
             "Product_image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/98163-23vm/98163-23VM_F.jpg?impolicy=myresize&rw=480",
             "Title": "Men's Mesa Harley-Davidson ADV Waxed Riding Jacket",
-            "Colors-Available": "2 colours available",
-            "color-selector1": "FALSE",
-            "color-selector2": "TRUE",
+            "Colors_Available": "2 colours available",
+            "color_selector1": "FALSE",
+            "color_selector2": "TRUE",
             "Active-Colors": "Black Beauty",
             "category": "Men"
         },
@@ -226,9 +226,9 @@
             "id": "22",
             "Product_image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/january-replenishment/mens/98130-22vm/98130-22VM_F.jpg?impolicy=myresize&rw=480",
             "Title": "Men's Zephyr Mesh Jacket with  Zip-out Liner",
-            "Colors-Available": "2 colours available",
-            "color-selector1": "FALSE",
-            "color-selector2": "TRUE",
+            "Colors_Available": "2 colours available",
+            "color_selector1": "FALSE",
+            "color_selector2": "TRUE",
             "Active-Colors": "Black",
             "category": "Men"
         },
@@ -266,9 +266,9 @@
             "id": "28",
             "Product_image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/99390-23mx/99390-23MX_F.jpg?impolicy=myresize&rw=480",
             "Title": "Men's Red Club Jacket",
-            "Colors-Available": "2 colours available",
-            "color-selector1": "FALSE",
-            "color-selector2": "TRUE",
+            "Colors_Available": "2 colours available",
+            "color_selector1": "FALSE",
+            "color_selector2": "TRUE",
             "Active-Colors": "Red",
             "category": "Men"
         },
@@ -276,9 +276,9 @@
             "id": "29",
             "Product_image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/97408-23vm/97408-23VM_F.jpg?impolicy=myresize&rw=480",
             "Title": "Men's Wrench Crew Jacket",
-            "Colors-Available": "2 colours available",
-            "color-selector1": "FALSE",
-            "color-selector2": "TRUE",
+            "Colors_Available": "2 colours available",
+            "color_selector1": "FALSE",
+            "color_selector2": "TRUE",
             "Active-Colors": "Grape Leaf",
             "category": "Men"
         },
@@ -292,9 +292,9 @@
             "id": "31",
             "Product_image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/97420-24vm/97420-24VM_F.jpg?impolicy=myresize&rw=480",
             "Title": "Men's Garage Jacket",
-            "Colors-Available": "2 colours available",
-            "color-selector1": "FALSE",
-            "color-selector2": "TRUE",
+            "Colors_Available": "2 colours available",
+            "color_selector1": "FALSE",
+            "color_selector2": "TRUE",
             "Active-Colors": "Black Beauty",
             "category": "Men"
         },
@@ -308,9 +308,9 @@
             "id": "33",
             "Product_image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/97402-24vm/97402-24VM_F.jpg?impolicy=myresize&rw=480",
             "Title": "Men's California Jacket",
-            "Colors-Available": "2 colours available",
-            "color-selector1": "FALSE",
-            "color-selector2": "TRUE",
+            "Colors_Available": "2 colours available",
+            "color_selector1": "FALSE",
+            "color_selector2": "TRUE",
             "Active-Colors": "Tannin",
             "category": "Men"
         },
@@ -318,9 +318,9 @@
             "id": "34",
             "Product_image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/97423-24vm/97423-24VM_F.jpg?impolicy=myresize&rw=480",
             "Title": "Men's Bar & Shield Hooded Puffer",
-            "Colors-Available": "2 colours available",
-            "color-selector1": "FALSE",
-            "color-selector2": "TRUE",
+            "Colors_Available": "2 colours available",
+            "color_selector1": "FALSE",
+            "color_selector2": "TRUE",
             "Active-Colors": "Black Beauty",
             "category": "Men"
         },
@@ -328,9 +328,9 @@
             "id": "35",
             "Product_image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/97407-23vm/97407-23VM_F.jpg?impolicy=myresize&rw=480",
             "Title": "Men's Wrench Crew Jacket",
-            "Colors-Available": "2 colours available",
-            "color-selector1": "FALSE",
-            "color-selector2": "TRUE",
+            "Colors_Available": "2 colours available",
+            "color_selector1": "FALSE",
+            "color_selector2": "TRUE",
             "Active-Colors": "Black Beauty",
             "category": "Men"
         },
@@ -350,9 +350,9 @@
             "id": "38",
             "Product_image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/97441-23vm/97441-23VM_F.jpg?impolicy=myresize&rw=480",
             "Title": "Men's Essential Colorblock Anorak",
-            "Colors-Available": "2 colours available",
-            "color-selector1": "FALSE",
-            "color-selector2": "TRUE",
+            "Colors_Available": "2 colours available",
+            "color_selector1": "FALSE",
+            "color_selector2": "TRUE",
             "Active-Colors": "Black Beauty",
             "category": "Men"
         },
@@ -378,9 +378,9 @@
             "id": "42",
             "Product_image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/97008-23vm/97008-23VM_F.jpg?impolicy=myresize&rw=480",
             "Title": "Men's Gas & Oil Leather Jacket",
-            "Colors-Available": "2 colours available",
-            "color-selector1": "FALSE",
-            "color-selector2": "TRUE",
+            "Colors_Available": "2 colours available",
+            "color_selector1": "FALSE",
+            "color_selector2": "TRUE",
             "Active-Colors": "Brown Leather",
             "category": "Men"
         },
@@ -388,9 +388,9 @@
             "id": "43",
             "Product_image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/97007-23vm/97007-23VM_F.jpg?impolicy=myresize&rw=480",
             "Title": "Men's Gas & Oil Leather Jacket",
-            "Colors-Available": "2 colours available",
-            "color-selector1": "FALSE",
-            "color-selector2": "TRUE",
+            "Colors_Available": "2 colours available",
+            "color_selector1": "FALSE",
+            "color_selector2": "TRUE",
             "Active-Colors": "Washed Black",
             "category": "Men"
         },
@@ -426,370 +426,370 @@
         },
         {
             "id": "49",
-            "W_images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/batch-2/98408-19vw/98408-19VW_F.jpg?impolicy=myresize&rw=480",
-            "jacket-Title": "Women's Miss Enthusiast Soft Shell Jacket",
+            "Product_image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/batch-2/98408-19vw/98408-19VW_F.jpg?impolicy=myresize&rw=480",
+            "Title": "Women's Miss Enthusiast Soft Shell Jacket",
             "category": "Women"
         },
         {
             "id": "50",
-            "W_images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/97431-24vw/97431-24VW_F.jpg?impolicy=myresize&rw=480",
-            "jacket-Title": "Women's Miss Enthusiast 3-in-1 Jacket",
+            "Product_image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/97431-24vw/97431-24VW_F.jpg?impolicy=myresize&rw=480",
+            "Title": "Women's Miss Enthusiast 3-in-1 Jacket",
             "category": "Women"
         },
         {
             "id": "51",
-            "W_images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/july-replenishment/98403-23vw/98403-23VW_F.jpg?impolicy=myresize&rw=480",
-            "jacket-Title": "Women's Iconic Sleeve Stripe Bomber Jacket",
+            "Product_image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/july-replenishment/98403-23vw/98403-23VW_F.jpg?impolicy=myresize&rw=480",
+            "Title": "Women's Iconic Sleeve Stripe Bomber Jacket",
             "category": "Women"
         },
         {
             "id": "52",
-            "W_images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/july-replenishment/99041-23vw/99041-23VW_F.jpg?impolicy=myresize&rw=480",
-            "jacket-Title": "Women's Essential Bar & Shield Denim Jacket",
-            "Jacket-color-available": "2 colours available",
-            "color-selector1": "FALSE",
-            "color-selector2": "TRUE",
-            "Jacket-active-colors": "Black Denim",
+            "Product_image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/july-replenishment/99041-23vw/99041-23VW_F.jpg?impolicy=myresize&rw=480",
+            "Title": "Women's Essential Bar & Shield Denim Jacket",
+            "Colors_Available": "2 colours available",
+            "color_selector1": "FALSE",
+            "color_selector2": "TRUE",
+            "Active-Colors": "Black Denim",
             "category": "Women"
         },
         {
             "id": "53",
-            "W_images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/98152-24vw/98152-24VW_F.jpg?impolicy=myresize&rw=480",
-            "jacket-Title": "Women's H-D Flex Layering System Lightweight Mid Layer",
-            "Jacket-color-available": "2 colours available",
-            "color-selector1": "FALSE",
-            "color-selector2": "TRUE",
-            "Jacket-active-colors": "Cloud Dancer & Black Beauty",
+            "Product_image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/98152-24vw/98152-24VW_F.jpg?impolicy=myresize&rw=480",
+            "Title": "Women's H-D Flex Layering System Lightweight Mid Layer",
+            "Colors_Available": "2 colours available",
+            "color_selector1": "FALSE",
+            "color_selector2": "TRUE",
+            "Active-Colors": "Cloud Dancer & Black Beauty",
             "category": "Women"
         },
         {
             "id": "54",
-            "W_images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2024/97466-24vw/97466-24VW_F.jpg?impolicy=myresize&rw=480",
-            "jacket-Title": "Women's Sunset Miss Enthusiast 3-in-1 Jacket",
+            "Product_image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2024/97466-24vw/97466-24VW_F.jpg?impolicy=myresize&rw=480",
+            "Title": "Women's Sunset Miss Enthusiast 3-in-1 Jacket",
             "category": "Women"
         },
         {
             "id": "55",
-            "W_images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/98401-24vw/98401-24VW_F.jpg?impolicy=myresize&rw=480",
-            "jacket-Title": "Women's Willie G  Skull 3-in-1 Jacket",
+            "Product_image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/98401-24vw/98401-24VW_F.jpg?impolicy=myresize&rw=480",
+            "Title": "Women's Willie G  Skull 3-in-1 Jacket",
             "category": "Women"
         },
         {
             "id": "56",
-            "W_images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2024/97467-24vw/97467-24VW_F.jpg?impolicy=myresize&rw=480",
-            "jacket-Title": "Women's Pink Label 3-in-1 Denim Jacket",
+            "Product_image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2024/97467-24vw/97467-24VW_F.jpg?impolicy=myresize&rw=480",
+            "Title": "Women's Pink Label 3-in-1 Denim Jacket",
             "category": "Women"
         },
         {
             "id": "57",
-            "W_images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/96275-24vw/96275-24VW_F.jpg?impolicy=myresize&rw=480",
-            "jacket-Title": "Women's Onwards Shirt Jacket",
-            "Jacket-color-available": "3 colours available",
-            "color-selector1": "FALSE",
-            "color-selector2": "TRUE",
-            "Jacket-active-colors": "Black Beauty",
+            "Product_image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/96275-24vw/96275-24VW_F.jpg?impolicy=myresize&rw=480",
+            "Title": "Women's Onwards Shirt Jacket",
+            "Colors_Available": "3 colours available",
+            "color_selector1": "FALSE",
+            "color_selector2": "TRUE",
+            "Active-Colors": "Black Beauty",
             "category": "Women"
         },
         {
             "id": "58",
-            "W_images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2024/96618-24vw/96618-24VW_F.jpg?impolicy=myresize&rw=480",
-            "jacket-Title": "Women's Studded Out Embellished Denim Jacket",
+            "Product_image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2024/96618-24vw/96618-24VW_F.jpg?impolicy=myresize&rw=480",
+            "Title": "Women's Studded Out Embellished Denim Jacket",
             "category": "Women"
         },
         {
             "id": "59",
-            "W_images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/batch-2/98519-12vw/98519-12VW_F.jpg?impolicy=myresize&rw=480",
-            "jacket-Title": "Women's Miss Enthusiast 3-in-1 Casual Jacket",
+            "Product_image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/batch-2/98519-12vw/98519-12VW_F.jpg?impolicy=myresize&rw=480",
+            "Title": "Women's Miss Enthusiast 3-in-1 Casual Jacket",
             "category": "Women"
         },
         {
             "id": "60",
-            "W_images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/99057-23vw/99057-23VW_F.jpg?impolicy=myresize&rw=480",
-            "jacket-Title": "Women's Silver Wing Stretch Denim Jacket",
-            "Jacket-color-available": "2 colours available",
-            "color-selector1": "FALSE",
-            "color-selector2": "TRUE",
-            "Jacket-active-colors": "Black Denim",
+            "Product_image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/99057-23vw/99057-23VW_F.jpg?impolicy=myresize&rw=480",
+            "Title": "Women's Silver Wing Stretch Denim Jacket",
+            "Colors_Available": "2 colours available",
+            "color_selector1": "FALSE",
+            "color_selector2": "TRUE",
+            "Active-Colors": "Black Denim",
             "category": "Women"
         },
         {
             "id": "61",
-            "W_images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/july-replenishment/99040-23vw/99040-23VW_F.jpg?impolicy=myresize&rw=480",
-            "jacket-Title": "Women's Essential Bar & Shield Denim Jacket",
-            "Jacket-color-available": "2 colours available",
-            "color-selector1": "FALSE",
-            "color-selector2": "TRUE",
-            "Jacket-active-colors": "Medium Indigo",
+            "Product_image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/july-replenishment/99040-23vw/99040-23VW_F.jpg?impolicy=myresize&rw=480",
+            "Title": "Women's Essential Bar & Shield Denim Jacket",
+            "Colors_Available": "2 colours available",
+            "color_selector1": "FALSE",
+            "color_selector2": "TRUE",
+            "Active-Colors": "Medium Indigo",
             "category": "Women"
         },
         {
             "id": "62",
-            "W_images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/98404-23vw/98404-23VW_F.jpg?impolicy=myresize&rw=480",
-            "jacket-Title": "Women's Miss Enthusiast 3-in-1 Soft Shell Jacket",
+            "Product_image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/98404-23vw/98404-23VW_F.jpg?impolicy=myresize&rw=480",
+            "Title": "Women's Miss Enthusiast 3-in-1 Soft Shell Jacket",
             "category": "Women"
         },
         {
             "id": "63",
-            "W_images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/97419-24vw/97419-24VW_F.jpg?impolicy=myresize&rw=480",
-            "jacket-Title": "Women's Pink Label Bomber Jacket",
+            "Product_image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/97419-24vw/97419-24VW_F.jpg?impolicy=myresize&rw=480",
+            "Title": "Women's Pink Label Bomber Jacket",
             "category": "Women"
         },
         {
             "id": "64",
-            "W_images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/98151-24vw/98151-24VW_F.jpg?impolicy=myresize&rw=480",
-            "jacket-Title": "Women's H-D Flex Layering System Lightweight Mid Layer",
-            "Jacket-color-available": "2 colours available",
-            "color-selector1": "FALSE",
-            "color-selector2": "TRUE",
-            "Jacket-active-colors": "Black Beauty & True Blue",
+            "Product_image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/98151-24vw/98151-24VW_F.jpg?impolicy=myresize&rw=480",
+            "Title": "Women's H-D Flex Layering System Lightweight Mid Layer",
+            "Colors_Available": "2 colours available",
+            "color_selector1": "FALSE",
+            "color_selector2": "TRUE",
+            "Active-Colors": "Black Beauty & True Blue",
             "category": "Women"
         },
         {
             "id": "65",
-            "W_images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/96241-24vw/96241-24VW_F.jpg?impolicy=myresize&rw=480",
-            "jacket-Title": "Women's Bar & Shield Zip Front Hoodie",
-            "Jacket-color-available": "2 colours available",
-            "color-selector1": "FALSE",
-            "color-selector2": "TRUE",
-            "Jacket-active-colors": "Colorblocked - Black Beauty",
+            "Product_image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/96241-24vw/96241-24VW_F.jpg?impolicy=myresize&rw=480",
+            "Title": "Women's Bar & Shield Zip Front Hoodie",
+            "Colors_Available": "2 colours available",
+            "color_selector1": "FALSE",
+            "color_selector2": "TRUE",
+            "Active-Colors": "Colorblocked - Black Beauty",
             "category": "Women"
         },
         {
             "id": "66",
-            "W_images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/98146-23vw/98146-23VW_F.jpg?impolicy=myresize&rw=480",
-            "jacket-Title": "Women's H-D Flex Layering System Windproof Mid Layer",
+            "Product_image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/98146-23vw/98146-23VW_F.jpg?impolicy=myresize&rw=480",
+            "Title": "Women's H-D Flex Layering System Windproof Mid Layer",
             "category": "Women"
         },
         {
             "id": "67",
-            "W_images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/96265-24vw/96265-24VW_F.jpg?impolicy=myresize&rw=480",
-            "jacket-Title": "Women's Onwards Shirt Jacket",
-            "Jacket-color-available": "3 colours available",
-            "color-selector1": "FALSE",
-            "color-selector2": "TRUE",
-            "Jacket-active-colors": "YD Plaid - Black Beauty",
+            "Product_image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/96265-24vw/96265-24VW_F.jpg?impolicy=myresize&rw=480",
+            "Title": "Women's Onwards Shirt Jacket",
+            "Colors_Available": "3 colours available",
+            "color_selector1": "FALSE",
+            "color_selector2": "TRUE",
+            "Active-Colors": "YD Plaid - Black Beauty",
             "category": "Women"
         },
         {
             "id": "68",
-            "W_images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/july-replenishment/98401-23vw/98401-23VW_F.jpg?impolicy=myresize&rw=480",
-            "jacket-Title": "Women's Milwaukee Quilted Jacket",
+            "Product_image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/july-replenishment/98401-23vw/98401-23VW_F.jpg?impolicy=myresize&rw=480",
+            "Title": "Women's Milwaukee Quilted Jacket",
             "category": "Women"
         },
         {
             "id": "69",
-            "W_images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/96279-24vw/96279-24VW_F.jpg?impolicy=myresize&rw=480",
-            "jacket-Title": "Women's Essential Shirt Jacket with Removable Hood",
+            "Product_image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/96279-24vw/96279-24VW_F.jpg?impolicy=myresize&rw=480",
+            "Title": "Women's Essential Shirt Jacket with Removable Hood",
             "category": "Women"
         },
         {
             "id": "70",
-            "W_images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/99056-23vw/99056-23VW_F.jpg?impolicy=myresize&rw=480",
-            "jacket-Title": "Women's Silver Wing Stretch Denim Jacket",
-            "Jacket-color-available": "2 colours available",
-            "color-selector1": "FALSE",
-            "color-selector2": "TRUE",
-            "Jacket-active-colors": "Light Indigo",
+            "Product_image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/99056-23vw/99056-23VW_F.jpg?impolicy=myresize&rw=480",
+            "Title": "Women's Silver Wing Stretch Denim Jacket",
+            "Colors_Available": "2 colours available",
+            "color_selector1": "FALSE",
+            "color_selector2": "TRUE",
+            "Active-Colors": "Light Indigo",
             "category": "Women"
         },
         {
             "id": "71",
-            "W_images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2024/97457-24vw/97457-24VW_F.jpg?impolicy=myresize&rw=480",
-            "jacket-Title": "Women's Bar & Shield Packable Anorack",
+            "Product_image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2024/97457-24vw/97457-24VW_F.jpg?impolicy=myresize&rw=480",
+            "Title": "Women's Bar & Shield Packable Anorack",
             "category": "Women"
         },
         {
             "id": "72",
-            "W_images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/museum/2021/jan/99505-21mw/99505-21MW_F.jpg?impolicy=myresize&rw=480",
-            "jacket-Title": "Women's Applique Full Zip Hoodie",
+            "Product_image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/museum/2021/jan/99505-21mw/99505-21MW_F.jpg?impolicy=myresize&rw=480",
+            "Title": "Women's Applique Full Zip Hoodie",
             "category": "Women"
         },
         {
             "id": "73",
-            "W_images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/97413-24vw/97413-24VW_F.jpg?impolicy=myresize&rw=480",
-            "jacket-Title": "Women's Wild Side Reversible Jacket",
+            "Product_image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/97413-24vw/97413-24VW_F.jpg?impolicy=myresize&rw=480",
+            "Title": "Women's Wild Side Reversible Jacket",
             "category": "Women"
         },
         {
             "id": "74",
-            "W_images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/99049-23vw/99049-23VW_F.jpg?impolicy=myresize&rw=480",
-            "jacket-Title": "Women's Special Bar & Shield Zip Front Hoodie",
-            "Jacket-color-available": "2 colours available",
-            "color-selector1": "FALSE",
-            "color-selector2": "TRUE",
-            "Jacket-active-colors": "Black Beauty",
+            "Product_image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/99049-23vw/99049-23VW_F.jpg?impolicy=myresize&rw=480",
+            "Title": "Women's Special Bar & Shield Zip Front Hoodie",
+            "Colors_Available": "2 colours available",
+            "color_selector1": "FALSE",
+            "color_selector2": "TRUE",
+            "Active-Colors": "Black Beauty",
             "category": "Women"
         },
         {
             "id": "75",
-            "W_images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/97416-24vw/97416-24VW_F.jpg?impolicy=myresize&rw=480",
-            "jacket-Title": "Women's #1 Racing Jacket with Reflectivity",
+            "Product_image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/97416-24vw/97416-24VW_F.jpg?impolicy=myresize&rw=480",
+            "Title": "Women's #1 Racing Jacket with Reflectivity",
             "category": "Women"
         },
         {
             "id": "76",
-            "W_images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/96242-24vw/96242-24VW_F.jpg?impolicy=myresize&rw=480",
-            "jacket-Title": "Women's Bar & Shield Zip Front Hoodie",
-            "Jacket-color-available": "2 colours available",
-            "color-selector1": "FALSE",
-            "color-selector2": "TRUE",
-            "Jacket-active-colors": "Colorblocked - Cloud Dancer",
+            "Product_image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/96242-24vw/96242-24VW_F.jpg?impolicy=myresize&rw=480",
+            "Title": "Women's Bar & Shield Zip Front Hoodie",
+            "Colors_Available": "2 colours available",
+            "color_selector1": "FALSE",
+            "color_selector2": "TRUE",
+            "Active-Colors": "Colorblocked - Cloud Dancer",
             "category": "Women"
         },
         {
             "id": "77",
-            "W_images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/99050-23vw/99050-23VW_F.jpg?impolicy=myresize&rw=480",
-            "jacket-Title": "Women's Special Bar & Shield Zip Front Hoodie",
-            "Jacket-color-available": "2 colours available",
-            "color-selector1": "FALSE",
-            "color-selector2": "TRUE",
-            "Jacket-active-colors": "Colorblocked",
+            "Product_image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/99050-23vw/99050-23VW_F.jpg?impolicy=myresize&rw=480",
+            "Title": "Women's Special Bar & Shield Zip Front Hoodie",
+            "Colors_Available": "2 colours available",
+            "color_selector1": "FALSE",
+            "color_selector2": "TRUE",
+            "Active-Colors": "Colorblocked",
             "category": "Women"
         },
         {
             "id": "78",
-            "W_images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/97418-24vw/97418-24VW_F.jpg?impolicy=myresize&rw=480",
-            "jacket-Title": "Women's California 3-in-1 Jacket",
-            "Jacket-color-available": "2 colours available",
-            "color-selector1": "FALSE",
-            "color-selector2": "TRUE",
-            "Jacket-active-colors": "Tannin",
+            "Product_image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/97418-24vw/97418-24VW_F.jpg?impolicy=myresize&rw=480",
+            "Title": "Women's California 3-in-1 Jacket",
+            "Colors_Available": "2 colours available",
+            "color_selector1": "FALSE",
+            "color_selector2": "TRUE",
+            "Active-Colors": "Tannin",
             "category": "Women"
         },
         {
             "id": "79",
-            "W_images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/97415-24vw/97415-24VW_F.jpg?impolicy=myresize&rw=480",
-            "jacket-Title": "Women's Edgy Shop Jacket",
+            "Product_image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/97415-24vw/97415-24VW_F.jpg?impolicy=myresize&rw=480",
+            "Title": "Women's Edgy Shop Jacket",
             "category": "Women"
         },
         {
             "id": "80",
-            "W_images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/97417-24vw/97417-24VW_F.jpg?impolicy=myresize&rw=480",
-            "jacket-Title": "Women's California 3-in-1 Jacket",
-            "Jacket-color-available": "2 colours available",
-            "color-selector1": "FALSE",
-            "color-selector2": "TRUE",
-            "Jacket-active-colors": "Black Beauty",
+            "Product_image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/97417-24vw/97417-24VW_F.jpg?impolicy=myresize&rw=480",
+            "Title": "Women's California 3-in-1 Jacket",
+            "Colors_Available": "2 colours available",
+            "color_selector1": "FALSE",
+            "color_selector2": "TRUE",
+            "Active-Colors": "Black Beauty",
             "category": "Women"
         },
         {
             "id": "81",
-            "W_images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/january-replenishment/womens/99094-22vw/99094-22VW_F.jpg?impolicy=myresize&rw=480",
-            "jacket-Title": "Women's Rally Stripe Zip Front Hoodie",
+            "Product_image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/january-replenishment/womens/99094-22vw/99094-22VW_F.jpg?impolicy=myresize&rw=480",
+            "Title": "Women's Rally Stripe Zip Front Hoodie",
             "category": "Women"
         },
         {
             "id": "82",
-            "W_images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/98147-23vw/98147-23VW_F.jpg?impolicy=myresize&rw=480",
-            "jacket-Title": "Women's H-D Flex Layering System Lightweight Mid Layer",
+            "Product_image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/98147-23vw/98147-23VW_F.jpg?impolicy=myresize&rw=480",
+            "Title": "Women's H-D Flex Layering System Lightweight Mid Layer",
             "category": "Women"
         },
         {
             "id": "83",
-            "W_images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/july-replenishment/98402-23vw/98402-23VW_F.jpg?impolicy=myresize&rw=480",
-            "jacket-Title": "Women's Forever Harley Mesh Jacket",
+            "Product_image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/july-replenishment/98402-23vw/98402-23VW_F.jpg?impolicy=myresize&rw=480",
+            "Title": "Women's Forever Harley Mesh Jacket",
             "category": "Women"
         },
         {
             "id": "84",
-            "W_images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/97416-23vw/97416-23VW_F.jpg?impolicy=myresize&rw=480",
-            "jacket-Title": "Women's Mechanic Canvas Jacket",
-            "Jacket-color-available": "2 colours available",
-            "color-selector1": "FALSE",
-            "color-selector2": "TRUE",
-            "Jacket-active-colors": "Oatmeal",
+            "Product_image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/97416-23vw/97416-23VW_F.jpg?impolicy=myresize&rw=480",
+            "Title": "Women's Mechanic Canvas Jacket",
+            "Colors_Available": "2 colours available",
+            "color_selector1": "FALSE",
+            "color_selector2": "TRUE",
+            "Active-Colors": "Oatmeal",
             "category": "Women"
         },
         {
             "id": "85",
-            "W_images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2024/97459-24vw/97459-24VW_F.jpg?impolicy=myresize&rw=480",
-            "jacket-Title": "Women's Rocket Queen Jacket",
+            "Product_image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2024/97459-24vw/97459-24VW_F.jpg?impolicy=myresize&rw=480",
+            "Title": "Women's Rocket Queen Jacket",
             "category": "Women"
         },
         {
             "id": "86",
-            "W_images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/96266-24vw/96266-24VW_F.jpg?impolicy=myresize&rw=480",
-            "jacket-Title": "Women's Onwards Shirt Jacket",
-            "Jacket-color-available": "3 colours available",
-            "color-selector1": "FALSE",
-            "color-selector2": "TRUE",
-            "Jacket-active-colors": "YD Plaid - Chili Pepper",
+            "Product_image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/96266-24vw/96266-24VW_F.jpg?impolicy=myresize&rw=480",
+            "Title": "Women's Onwards Shirt Jacket",
+            "Colors_Available": "3 colours available",
+            "color_selector1": "FALSE",
+            "color_selector2": "TRUE",
+            "Active-Colors": "YD Plaid - Chili Pepper",
             "category": "Women"
         },
         {
             "id": "87",
-            "W_images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2024/97465-24vw/97465-24VW_F.jpg?impolicy=myresize&rw=480",
-            "jacket-Title": "Women's Sedona Orange Satin Bomber Jacket",
+            "Product_image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2024/97465-24vw/97465-24VW_F.jpg?impolicy=myresize&rw=480",
+            "Title": "Women's Sedona Orange Satin Bomber Jacket",
             "category": "Women"
         },
         {
             "id": "88",
-            "W_images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/96104-24vw/96104-24VW_F.jpg?impolicy=myresize&rw=480",
-            "jacket-Title": "Women's Shadow Zip Fleece",
+            "Product_image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/96104-24vw/96104-24VW_F.jpg?impolicy=myresize&rw=480",
+            "Title": "Women's Shadow Zip Fleece",
             "category": "Women"
         },
         {
             "id": "89",
-            "W_images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/97417-23vw/97417-23VW_F.jpg?impolicy=myresize&rw=480",
-            "jacket-Title": "Women's Forever Harley Eagle Coaches Jacket",
+            "Product_image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/97417-23vw/97417-23VW_F.jpg?impolicy=myresize&rw=480",
+            "Title": "Women's Forever Harley Eagle Coaches Jacket",
             "category": "Women"
         },
         {
             "id": "90",
-            "W_images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/97415-23vw/97415-23VW_F.jpg?impolicy=myresize&rw=480",
-            "jacket-Title": "Women's Mechanic Canvas Jacket",
-            "Jacket-color-available": "2 colours available",
-            "color-selector1": "FALSE",
-            "color-selector2": "TRUE",
-            "Jacket-active-colors": "Grape Leaf",
+            "Product_image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/97415-23vw/97415-23VW_F.jpg?impolicy=myresize&rw=480",
+            "Title": "Women's Mechanic Canvas Jacket",
+            "Colors_Available": "2 colours available",
+            "color_selector1": "FALSE",
+            "color_selector2": "TRUE",
+            "Active-Colors": "Grape Leaf",
             "category": "Women"
         },
         {
             "id": "91",
-            "W_images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/97413-23vw/97413-23VW_F.jpg?impolicy=myresize&rw=480",
-            "jacket-Title": "Women's Transcendent Corduroy Jacket",
-            "Jacket-color-available": "2 colours available",
-            "color-selector1": "FALSE",
-            "color-selector2": "TRUE",
-            "Jacket-active-colors": "Silver Sage",
+            "Product_image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/97413-23vw/97413-23VW_F.jpg?impolicy=myresize&rw=480",
+            "Title": "Women's Transcendent Corduroy Jacket",
+            "Colors_Available": "2 colours available",
+            "color_selector1": "FALSE",
+            "color_selector2": "TRUE",
+            "Active-Colors": "Silver Sage",
             "category": "Women"
         },
         {
             "id": "92",
-            "W_images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/97533-23vw/97533-23VW_F.jpg?impolicy=myresize&rw=480",
-            "jacket-Title": "Women's Miss Enthusiast Softshell Jacket",
+            "Product_image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/97533-23vw/97533-23VW_F.jpg?impolicy=myresize&rw=480",
+            "Title": "Women's Miss Enthusiast Softshell Jacket",
             "category": "Women"
         },
         {
             "id": "93",
-            "W_images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/96288-24vw/96288-24VW_F.jpg?impolicy=myresize&rw=480",
-            "jacket-Title": "Women's Powerslide Oversized Denim Jacket",
+            "Product_image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/96288-24vw/96288-24VW_F.jpg?impolicy=myresize&rw=480",
+            "Title": "Women's Powerslide Oversized Denim Jacket",
             "category": "Women"
         },
         {
             "id": "94",
-            "W_images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/97537-23vw/97537-23VW_F.jpg?impolicy=myresize&rw=480",
-            "jacket-Title": "Women's Kickstart 3-in-1 Black Denim Jacket",
-            "Jacket-color-available": "2 colours available",
-            "color-selector1": "FALSE",
-            "color-selector2": "TRUE",
-            "Jacket-active-colors": "Black Beauty",
+            "Product_image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/97537-23vw/97537-23VW_F.jpg?impolicy=myresize&rw=480",
+            "Title": "Women's Kickstart 3-in-1 Black Denim Jacket",
+            "Colors_Available": "2 colours available",
+            "color_selector1": "FALSE",
+            "color_selector2": "TRUE",
+            "Active-Colors": "Black Beauty",
             "category": "Women"
         },
         {
             "id": "95",
-            "W_images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/96670-23vw/96670-23VW_F.jpg?impolicy=myresize&rw=480",
-            "jacket-Title": "Women's Hill Climber Crew Zip Front Fleece Jacket",
-            "Jacket-color-available": "2 colours available",
-            "color-selector1": "FALSE",
-            "color-selector2": "TRUE",
-            "Jacket-active-colors": "Black Beauty",
+            "Product_image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/96670-23vw/96670-23VW_F.jpg?impolicy=myresize&rw=480",
+            "Title": "Women's Hill Climber Crew Zip Front Fleece Jacket",
+            "Colors_Available": "2 colours available",
+            "color_selector1": "FALSE",
+            "color_selector2": "TRUE",
+            "Active-Colors": "Black Beauty",
             "category": "Women"
         },
         {
             "id": "96",
-            "W_images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/batch-3/97429-21vw/97429-21VW_F.jpg?impolicy=myresize&rw=480",
-            "jacket-Title": "Women's Puffer Vest",
+            "Product_image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/batch-3/97429-21vw/97429-21VW_F.jpg?impolicy=myresize&rw=480",
+            "Title": "Women's Puffer Vest",
             "category": "Women"
         }
     ],
@@ -800,8 +800,8 @@
           "Helmet-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2021/august/helmets/98100-22vx/98100-22VX_F.jpg?impolicy=myresize&rw=480",
           "title": "Outrush R Modular Bluetooth Helmet",
           "Helmet-Available": "2 colours available",
-          "color-selector1": "true",
-          "color-selector2": "false",
+          "color_selector1": "true",
+          "color_selector2": "false",
           "Helmet_active_color": "Matte Black"
       },
       {
@@ -819,8 +819,8 @@
           "Helmet-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2021/august/helmets/98101-22vx/98101-22VX_F.jpg?impolicy=myresize&rw=480",
           "title": "Outrush R Modular Bluetooth Helmet",
           "Helmet-Available": "2 colours available",
-          "color-selector1": "true",
-          "color-selector2": "false",
+          "color_selector1": "true",
+          "color_selector2": "false",
           "Helmet_active_color": "Matte Silver"
       },
       {
@@ -833,8 +833,8 @@
           "Helmet-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/98118-24vx/98118-24VX_F.jpg?impolicy=myresize&rw=480",
           "title": "Pilot II 2-in-1 Willie G Skull Helmet",
           "Helmet-Available": "2 colours available",
-          "color-selector1": "true",
-          "color-selector2": "false",
+          "color_selector1": "true",
+          "color_selector2": "false",
           "Helmet_active_color": "Matte Dark Grey"
       },
       {
@@ -847,8 +847,8 @@
           "Helmet-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/batch-2/98390-16vm/98390-16VM_F.jpg?impolicy=myresize&rw=480",
           "title": "Lucid Ultra-Light Sun Shield J03 Half Helmet",
           "Helmet-Available": "2 colours available",
-          "color-selector1": "true",
-          "color-selector2": "false",
+          "color_selector1": "true",
+          "color_selector2": "false",
           "Helmet_active_color": "Matte Black"
       },
       {
@@ -876,8 +876,8 @@
           "Helmet-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/98009-23vx/98009-23VX_F.jpg?impolicy=myresize&rw=480",
           "title": "Fury N04 Bluetooth 3/4 Helmet",
           "Helmet-Available": "2 colours available",
-          "color-selector1": "true",
-          "color-selector2": "false",
+          "color_selector1": "true",
+          "color_selector2": "false",
           "Helmet_active_color": "Matte Black"
       },
       {
@@ -885,8 +885,8 @@
           "Helmet-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/january-replenishment/helmets/98159-22vx/98159-22VX_F.jpg?impolicy=myresize&rw=480",
           "title": "Maywood II Sun Shield H33 3/4 Helmet",
           "Helmet-Available": "3 colours available",
-          "color-selector1": "true",
-          "color-selector2": "false",
+          "color_selector1": "true",
+          "color_selector2": "false",
           "Helmet_active_color": "Matte Black"
       },
       {
@@ -894,8 +894,8 @@
           "Helmet-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/98013-23vx/98013-23VX_F.jpg?impolicy=myresize&rw=480",
           "title": "Capstone Sun Shield II H31 Modular Helmet",
           "Helmet-Available": "4 colours available",
-          "color-selector1": "true",
-          "color-selector2": "false",
+          "color_selector1": "true",
+          "color_selector2": "false",
           "Helmet_active_color": "Gloss Reef Blue"
       },
       {
@@ -903,8 +903,8 @@
           "Helmet-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2024/97126-24vx/97126-24VX_F.jpg?impolicy=myresize&rw=480",
           "title": "Busby Ultra-Light Sun Shield J03 1/2 Helmet",
           "Helmet-Available": "3 colours available",
-          "color-selector1": "true",
-          "color-selector2": "false",
+          "color_selector1": "true",
+          "color_selector2": "false",
           "Helmet_active_color": "Matte Cloud Dancer"
       },
       {
@@ -917,8 +917,8 @@
           "Helmet-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/january-replenishment/helmets/98153-22vx/98153-22VX_F.jpg?impolicy=myresize&rw=480",
           "title": "Busby Ultra-Light Sun Shield J03 1/2 Helmet",
           "Helmet-Available": "3 colours available",
-          "color-selector1": "true",
-          "color-selector2": "false",
+          "color_selector1": "true",
+          "color_selector2": "false",
           "Helmet_active_color": "Matte Black"
       },
       {
@@ -926,8 +926,8 @@
           "Helmet-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/january-replenishment/helmets/98151-22vx/98151-22VX_F.jpg?impolicy=myresize&rw=480",
           "title": "Lucid Ultra-Light Sun Shield J03 1/2 Helmet",
           "Helmet-Available": "2 colours available",
-          "color-selector1": "true",
-          "color-selector2": "false",
+          "color_selector1": "true",
+          "color_selector2": "false",
           "Helmet_active_color": "Matte Black Silver"
       },
       {
@@ -935,8 +935,8 @@
           "Helmet-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/98121-23vx/98121-23VX_F.jpg?impolicy=myresize&rw=480",
           "title": "Busby Ultra-Light Sun Shield J03 1/2 Helmet",
           "Helmet-Available": "3 colours available",
-          "color-selector1": "true",
-          "color-selector2": "false",
+          "color_selector1": "true",
+          "color_selector2": "false",
           "Helmet_active_color": "White Sand Pearl Gloss"
       },
       {
@@ -954,8 +954,8 @@
           "Helmet-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2021/january/helmets/98122-21vx/98122-21VX_F.jpg?impolicy=myresize&rw=480",
           "title": "Capstone Sun Shield II H31 Modular Helmet",
           "Helmet-Available": "4 colours available",
-          "color-selector1": "true",
-          "color-selector2": "false",
+          "color_selector1": "true",
+          "color_selector2": "false",
           "Helmet_active_color": "Billiard Red"
       },
       {
@@ -963,8 +963,8 @@
           "Helmet-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/january-replenishment/helmets/98158-22vx/98158-22VX_F.jpg?impolicy=myresize&rw=480",
           "title": "Maywood II Sun Shield H33 3/4 Helmet",
           "Helmet-Available": "3 colours available",
-          "color-selector1": "true",
-          "color-selector2": "false",
+          "color_selector1": "true",
+          "color_selector2": "false",
           "Helmet_active_color": "Gloss Black/Matte Black"
       },
       {
@@ -987,8 +987,8 @@
           "Helmet-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2024/97125-24vx/97125-24VX_F.jpg?impolicy=myresize&rw=480",
           "title": "Busby Ultra-Light Sun Shield J03 1/2 Helmet",
           "Helmet-Available": "3 colours available",
-          "color-selector1": "true",
-          "color-selector2": "false",
+          "color_selector1": "true",
+          "color_selector2": "false",
           "Helmet_active_color": "Matte Black"
       },
       {
@@ -1016,8 +1016,8 @@
           "Helmet-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/january-replenishment/helmets/98160-22vx/98160-22VX_F.jpg?impolicy=myresize&rw=480",
           "title": "Maywood II Sun Shield H33 3/4 Helmet",
           "Helmet-Available": "3 colours available",
-          "color-selector1": "true",
-          "color-selector2": "false",
+          "color_selector1": "true",
+          "color_selector2": "false",
           "Helmet_active_color": "Matte Black Silver"
       },
       {
@@ -1035,8 +1035,8 @@
           "Helmet-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2021/january/helmets/98121-21vx/98121-21VX_F.jpg?impolicy=myresize&rw=480",
           "title": "Capstone Sun Shield II H31 Modular Helmet",
           "Helmet-Available": "4 colours available",
-          "color-selector1": "true",
-          "color-selector2": "false",
+          "color_selector1": "true",
+          "color_selector2": "false",
           "Helmet_active_color": "Gauntlet Grey"
       },
       {
@@ -1059,8 +1059,8 @@
           "Helmet-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2024/97124-24vx/97124-24VX_F.jpg?impolicy=myresize&rw=480",
           "title": "Division X15 Sunshield Full Face Helmet",
           "Helmet-Available": "2 colours available",
-          "color-selector1": "true",
-          "color-selector2": "false",
+          "color_selector1": "true",
+          "color_selector2": "false",
           "Helmet_active_color": "Gloss - Cloud Dancer"
       },
       {
@@ -1068,8 +1068,8 @@
           "Helmet-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/98122-24vr/98122-24VR_F.jpg?impolicy=myresize&rw=480",
           "title": "X15 Shell Replacement Pinlock Prepared Face Shield Mirrored",
           "Helmet-Available": "4 colours available",
-          "color-selector1": "true",
-          "color-selector2": "false",
+          "color_selector1": "true",
+          "color_selector2": "false",
           "Helmet_active_color": "Blue Mirrored"
       },
       {
@@ -1103,8 +1103,8 @@
           "id": "48",
           "title": "J06 Shell Replacement Sun Shield",
           "Helmet-Available": "2 colours available",
-          "color-selector1": "true",
-          "color-selector2": "false",
+          "color_selector1": "true",
+          "color_selector2": "false",
           "Helmet_active_color": "Clear"
       }
   ],
@@ -1120,8 +1120,8 @@
           "Jeans-Images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/july-replenishment/99035-23vm/99035-23VM_F.jpg?impolicy=myresize&rw=480",
           "Jeans-Title": "Men's Harley-Davidson Bootcut Jean",
           "Jeans-Color": "2 colours available",
-          "color-selector1": "true",
-          "color-selector2": "false",
+          "color_selector1": "true",
+          "color_selector2": "false",
           "Jeans-active-color": "Dark Indigo"
       },
       {
@@ -1129,8 +1129,8 @@
           "Jeans-Images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/july-replenishment/99030-23vm/99030-23VM_F.jpg?impolicy=myresize&rw=480",
           "Jeans-Title": "Men's Harley-Davidson Original Straight Jean",
           "Jeans-Color": "3 colours available",
-          "color-selector1": "true",
-          "color-selector2": "false",
+          "color_selector1": "true",
+          "color_selector2": "false",
           "Jeans-active-color": "Medium Indigo Stone Wash"
       },
       {
@@ -1138,8 +1138,8 @@
           "Jeans-Images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2024/99197-24vm/99197-24VM_F.jpg?impolicy=myresize&rw=480",
           "Jeans-Title": "Men's Bar & Shield Fleece Shorts",
           "Jeans-Color": "2 colours available",
-          "color-selector1": "true",
-          "color-selector2": "false",
+          "color_selector1": "true",
+          "color_selector2": "false",
           "Jeans-active-color": "Harley Black"
       },
       {
@@ -1147,8 +1147,8 @@
           "Jeans-Images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2024/99198-24vm/99198-24VM_F.jpg?impolicy=myresize&rw=480",
           "Jeans-Title": "Men's Bar & Shield Fleece Shorts",
           "Jeans-Color": "2 colours available",
-          "color-selector1": "true",
-          "color-selector2": "false",
+          "color_selector1": "true",
+          "color_selector2": "false",
           "Jeans-active-color": "Medium Grey Heather"
       },
       {
@@ -1156,8 +1156,8 @@
           "Jeans-Images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2024/99195-24vm/99195-24VM_F.jpg?impolicy=myresize&rw=480",
           "Jeans-Title": "Men's Harley-Davidson Sweatpants",
           "Jeans-Color": "2 colours available",
-          "color-selector1": "true",
-          "color-selector2": "false",
+          "color_selector1": "true",
+          "color_selector2": "false",
           "Jeans-active-color": "Harley Black"
       },
       {
@@ -1165,8 +1165,8 @@
           "Jeans-Images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/july-replenishment/96491-22vm/96491-22VM_F.jpg?impolicy=myresize&rw=480",
           "Jeans-Title": "Men's Harley-Davidson Original Straight Jean",
           "Jeans-Color": "3 colours available",
-          "color-selector1": "true",
-          "color-selector2": "false",
+          "color_selector1": "true",
+          "color_selector2": "false",
           "Jeans-active-color": "Black"
       },
       {
@@ -1174,8 +1174,8 @@
           "Jeans-Images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/july-replenishment/99031-23vm/99031-23VM_F.jpg?impolicy=myresize&rw=480",
           "Jeans-Title": "Men's Harley-Davidson Original Straight Jean",
           "Jeans-Color": "3 colours available",
-          "color-selector1": "true",
-          "color-selector2": "false",
+          "color_selector1": "true",
+          "color_selector2": "false",
           "Jeans-active-color": "Dark Indigo Stone Wash"
       },
       {
@@ -1183,8 +1183,8 @@
           "Jeans-Images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/96007-24vm/96007-24VM_F.jpg?impolicy=myresize&rw=480",
           "Jeans-Title": "Men's Milwaukee Pant",
           "Jeans-Color": "2 colours available",
-          "color-selector1": "true",
-          "color-selector2": "false",
+          "color_selector1": "true",
+          "color_selector2": "false",
           "Jeans-active-color": "Blackened Pearl"
       },
       {
@@ -1192,8 +1192,8 @@
           "Jeans-Images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/july-replenishment/99034-23vm/99034-23VM_F.jpg?impolicy=myresize&rw=480",
           "Jeans-Title": "Men's Harley-Davidson Tapered Jean",
           "Jeans-Color": "2 colours available",
-          "color-selector1": "true",
-          "color-selector2": "false",
+          "color_selector1": "true",
+          "color_selector2": "false",
           "Jeans-active-color": "Dark Indigo"
       },
       {
@@ -1201,8 +1201,8 @@
           "Jeans-Images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/96004-24vm/96004-24VM_F.jpg?impolicy=myresize&rw=480",
           "Jeans-Title": "Men's The Trooper Cargo Pant",
           "Jeans-Color": "2 colours available",
-          "color-selector1": "true",
-          "color-selector2": "false",
+          "color_selector1": "true",
+          "color_selector2": "false",
           "Jeans-active-color": "Black Beauty"
       },
       {
@@ -1210,64 +1210,64 @@
           "Jeans-Images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/96006-24vm/96006-24VM_F.jpg?impolicy=myresize&rw=480",
           "Jeans-Title": "Men's Milwaukee Pant",
           "Jeans-Color": "2 colours available",
-          "color-selector1": "true",
-          "color-selector2": "false",
+          "color_selector1": "true",
+          "color_selector2": "false",
           "Jeans-active-color": "Black Beauty"
       },
       {
           "id": "13",
           "Jeans-Title": "Men's Harley-Davidson Bootcut Jean",
           "Jeans-Color": "2 colours available",
-          "color-selector1": "true",
-          "color-selector2": "false",
+          "color_selector1": "true",
+          "color_selector2": "false",
           "Jeans-active-color": "Denim Washed Black"
       },
       {
           "id": "14",
           "Jeans-Title": "Men's Harley-Davidson Straight Jean",
           "Jeans-Color": "3 colours available",
-          "color-selector1": "true",
-          "color-selector2": "false",
+          "color_selector1": "true",
+          "color_selector2": "false",
           "Jeans-active-color": "Medium Wash Denim"
       },
       {
           "id": "15",
           "Jeans-Title": "Men's Harley-Davidson Sweatpants",
           "Jeans-Color": "2 colours available",
-          "color-selector1": "true",
-          "color-selector2": "false",
+          "color_selector1": "true",
+          "color_selector2": "false",
           "Jeans-active-color": "Medium Grey Heather"
       },
       {
           "id": "16",
           "Jeans-Title": "Men's Harley-Davidson Tapered Jean",
           "Jeans-Color": "2 colours available",
-          "color-selector1": "true",
-          "color-selector2": "false",
+          "color_selector1": "true",
+          "color_selector2": "false",
           "Jeans-active-color": "Washed Black Denim"
       },
       {
           "id": "17",
           "Jeans-Title": "Men's Harley-Davidson Straight Jean",
           "Jeans-Color": "3 colours available",
-          "color-selector1": "true",
-          "color-selector2": "false",
+          "color_selector1": "true",
+          "color_selector2": "false",
           "Jeans-active-color": "Dark Indigo"
       },
       {
           "id": "18",
           "Jeans-Title": "Men's Harley-Davidson Straight Jean",
           "Jeans-Color": "3 colours available",
-          "color-selector1": "true",
-          "color-selector2": "false",
+          "color_selector1": "true",
+          "color_selector2": "false",
           "Jeans-active-color": "Black"
       },
       {
           "id": "19",
           "Jeans-Title": "Men's The Trooper Cargo Pant",
           "Jeans-Color": "2 colours available",
-          "color-selector1": "true",
-          "color-selector2": "false",
+          "color_selector1": "true",
+          "color_selector2": "false",
           "Jeans-active-color": "Camouflage"
       },
       {
@@ -1278,8 +1278,8 @@
           "id": "21",
           "Jeans-Title": "Men's Milwaukee Pant",
           "Jeans-Color": "2 colours available",
-          "color-selector1": "true",
-          "color-selector2": "false",
+          "color_selector1": "true",
+          "color_selector2": "false",
           "Jeans-active-color": "Black Beauty"
       },
       {
@@ -1294,16 +1294,16 @@
           "id": "24",
           "Jeans-Title": "Men's Mechanic Pant",
           "Jeans-Color": "2 colours available",
-          "color-selector1": "true",
-          "color-selector2": "false",
+          "color_selector1": "true",
+          "color_selector2": "false",
           "Jeans-active-color": "Black Beauty"
       },
       {
           "id": "25",
           "Jeans-Title": "Men's Mechanic Pant",
           "Jeans-Color": "2 colours available",
-          "color-selector1": "true",
-          "color-selector2": "false",
+          "color_selector1": "true",
+          "color_selector2": "false",
           "Jeans-active-color": "Grape Leaf"
       },
       {
@@ -1318,8 +1318,8 @@
           "id": "28",
           "Jeans-Title": "Men's Milwaukee Cargo Short",
           "Jeans-Color": "2 colours available",
-          "color-selector1": "true",
-          "color-selector2": "false",
+          "color_selector1": "true",
+          "color_selector2": "false",
           "Jeans-active-color": "Black Beauty"
       },
       {
@@ -1330,8 +1330,8 @@
           "id": "30",
           "Jeans-Title": "Men's Milwaukee Pant",
           "Jeans-Color": "2 colours available",
-          "color-selector1": "true",
-          "color-selector2": "false",
+          "color_selector1": "true",
+          "color_selector2": "false",
           "Jeans-active-color": "Chestnut"
       },
       {
@@ -1346,8 +1346,8 @@
           "id": "33",
           "Jeans-Title": "Men's Milwaukee Cargo Short",
           "Jeans-Color": "2 colours available",
-          "color-selector1": "true",
-          "color-selector2": "false",
+          "color_selector1": "true",
+          "color_selector2": "false",
           "Jeans-active-color": "Grape Leaf"
       },
       {
@@ -1366,348 +1366,25 @@
           "id": "37",
           "Jeans-Title": "Men's Harley-Davidson Sweatpant",
           "Jeans-Color": "2 colours available",
-          "color-selector1": "true",
-          "color-selector2": "false",
+          "color_selector1": "true",
+          "color_selector2": "false",
           "Jeans-active-color": "Medium Grey Heather (B25)"
       },
       {
           "id": "38",
           "Jeans-Title": "Men's Bar & Shield Shorts",
           "Jeans-Color": "2 colours available",
-          "color-selector1": "true",
-          "color-selector2": "false",
+          "color_selector1": "true",
+          "color_selector2": "false",
           "Jeans-active-color": "Heather Grey"
       },
       {
           "id": "39",
           "Jeans-Title": "Men's Harley-Davidson Sweatpant",
           "Jeans-Color": "2 colours available",
-          "color-selector1": "true",
-          "color-selector2": "false",
+          "color_selector1": "true",
+          "color_selector2": "false",
           "Jeans-active-color": "Black Beauty"
-      }
-  ],
-
-  "Women-Jacket": [
-      {
-          "id": "1",
-          "W-Jacket-Images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/batch-2/98408-19vw/98408-19VW_F.jpg?impolicy=myresize&rw=480",
-          "jacket-Title": "Women's Miss Enthusiast Soft Shell Jacket"
-      },
-      {
-          "id": "2",
-          "W-Jacket-Images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/97431-24vw/97431-24VW_F.jpg?impolicy=myresize&rw=480",
-          "jacket-Title": "Women's Miss Enthusiast 3-in-1 Jacket"
-      },
-      {
-          "id": "3",
-          "W-Jacket-Images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/july-replenishment/98403-23vw/98403-23VW_F.jpg?impolicy=myresize&rw=480",
-          "jacket-Title": "Women's Iconic Sleeve Stripe Bomber Jacket"
-      },
-      {
-          "id": "4",
-          "W-Jacket-Images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/july-replenishment/99041-23vw/99041-23VW_F.jpg?impolicy=myresize&rw=480",
-          "jacket-Title": "Women's Essential Bar & Shield Denim Jacket",
-          "Jacket-color-available": "2 colours available",
-          "color-selector1": "false",
-          "color-selector2": "true",
-          "Jacket-active-colors": "Black Denim"
-      },
-      {
-          "id": "5",
-          "W-Jacket-Images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/98152-24vw/98152-24VW_F.jpg?impolicy=myresize&rw=480",
-          "jacket-Title": "Women's H-D Flex Layering System Lightweight Mid Layer",
-          "Jacket-color-available": "2 colours available",
-          "color-selector1": "false",
-          "color-selector2": "true",
-          "Jacket-active-colors": "Cloud Dancer & Black Beauty"
-      },
-      {
-          "id": "6",
-          "W-Jacket-Images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2024/97466-24vw/97466-24VW_F.jpg?impolicy=myresize&rw=480",
-          "jacket-Title": "Women's Sunset Miss Enthusiast 3-in-1 Jacket"
-      },
-      {
-          "id": "7",
-          "W-Jacket-Images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/98401-24vw/98401-24VW_F.jpg?impolicy=myresize&rw=480",
-          "jacket-Title": "Women's Willie G  Skull 3-in-1 Jacket"
-      },
-      {
-          "id": "8",
-          "W-Jacket-Images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2024/97467-24vw/97467-24VW_F.jpg?impolicy=myresize&rw=480",
-          "jacket-Title": "Women's Pink Label 3-in-1 Denim Jacket"
-      },
-      {
-          "id": "9",
-          "W-Jacket-Images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/96275-24vw/96275-24VW_F.jpg?impolicy=myresize&rw=480",
-          "jacket-Title": "Women's Onwards Shirt Jacket",
-          "Jacket-color-available": "3 colours available",
-          "color-selector1": "false",
-          "color-selector2": "true",
-          "Jacket-active-colors": "Black Beauty"
-      },
-      {
-          "id": "10",
-          "W-Jacket-Images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2024/96618-24vw/96618-24VW_F.jpg?impolicy=myresize&rw=480",
-          "jacket-Title": "Women's Studded Out Embellished Denim Jacket"
-      },
-      {
-          "id": "11",
-          "W-Jacket-Images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/batch-2/98519-12vw/98519-12VW_F.jpg?impolicy=myresize&rw=480",
-          "jacket-Title": "Women's Miss Enthusiast 3-in-1 Casual Jacket"
-      },
-      {
-          "id": "12",
-          "W-Jacket-Images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/99057-23vw/99057-23VW_F.jpg?impolicy=myresize&rw=480",
-          "jacket-Title": "Women's Silver Wing Stretch Denim Jacket",
-          "Jacket-color-available": "2 colours available",
-          "color-selector1": "false",
-          "color-selector2": "true",
-          "Jacket-active-colors": "Black Denim"
-      },
-      {
-          "id": "13",
-          "W-Jacket-Images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/july-replenishment/99040-23vw/99040-23VW_F.jpg?impolicy=myresize&rw=480",
-          "jacket-Title": "Women's Essential Bar & Shield Denim Jacket",
-          "Jacket-color-available": "2 colours available",
-          "color-selector1": "false",
-          "color-selector2": "true",
-          "Jacket-active-colors": "Medium Indigo"
-      },
-      {
-          "id": "14",
-          "W-Jacket-Images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/98404-23vw/98404-23VW_F.jpg?impolicy=myresize&rw=480",
-          "jacket-Title": "Women's Miss Enthusiast 3-in-1 Soft Shell Jacket"
-      },
-      {
-          "id": "15",
-          "W-Jacket-Images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/97419-24vw/97419-24VW_F.jpg?impolicy=myresize&rw=480",
-          "jacket-Title": "Women's Pink Label Bomber Jacket"
-      },
-      {
-          "id": "16",
-          "W-Jacket-Images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/98151-24vw/98151-24VW_F.jpg?impolicy=myresize&rw=480",
-          "jacket-Title": "Women's H-D Flex Layering System Lightweight Mid Layer",
-          "Jacket-color-available": "2 colours available",
-          "color-selector1": "false",
-          "color-selector2": "true",
-          "Jacket-active-colors": "Black Beauty & True Blue"
-      },
-      {
-          "id": "17",
-          "W-Jacket-Images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/96241-24vw/96241-24VW_F.jpg?impolicy=myresize&rw=480",
-          "jacket-Title": "Women's Bar & Shield Zip Front Hoodie",
-          "Jacket-color-available": "2 colours available",
-          "color-selector1": "false",
-          "color-selector2": "true",
-          "Jacket-active-colors": "Colorblocked - Black Beauty"
-      },
-      {
-          "id": "18",
-          "W-Jacket-Images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/98146-23vw/98146-23VW_F.jpg?impolicy=myresize&rw=480",
-          "jacket-Title": "Women's H-D Flex Layering System Windproof Mid Layer"
-      },
-      {
-          "id": "19",
-          "W-Jacket-Images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/96265-24vw/96265-24VW_F.jpg?impolicy=myresize&rw=480",
-          "jacket-Title": "Women's Onwards Shirt Jacket",
-          "Jacket-color-available": "3 colours available",
-          "color-selector1": "false",
-          "color-selector2": "true",
-          "Jacket-active-colors": "YD Plaid - Black Beauty"
-      },
-      {
-          "id": "20",
-          "W-Jacket-Images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/july-replenishment/98401-23vw/98401-23VW_F.jpg?impolicy=myresize&rw=480",
-          "jacket-Title": "Women's Milwaukee Quilted Jacket"
-      },
-      {
-          "id": "21",
-          "W-Jacket-Images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/96279-24vw/96279-24VW_F.jpg?impolicy=myresize&rw=480",
-          "jacket-Title": "Women's Essential Shirt Jacket with Removable Hood"
-      },
-      {
-          "id": "22",
-          "W-Jacket-Images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/99056-23vw/99056-23VW_F.jpg?impolicy=myresize&rw=480",
-          "jacket-Title": "Women's Silver Wing Stretch Denim Jacket",
-          "Jacket-color-available": "2 colours available",
-          "color-selector1": "false",
-          "color-selector2": "true",
-          "Jacket-active-colors": "Light Indigo"
-      },
-      {
-          "id": "23",
-          "W-Jacket-Images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2024/97457-24vw/97457-24VW_F.jpg?impolicy=myresize&rw=480",
-          "jacket-Title": "Women's Bar & Shield Packable Anorack"
-      },
-      {
-          "id": "24",
-          "W-Jacket-Images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/museum/2021/jan/99505-21mw/99505-21MW_F.jpg?impolicy=myresize&rw=480",
-          "jacket-Title": "Women's Applique Full Zip Hoodie"
-      },
-      {
-          "id": "25",
-          "W-Jacket-Images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/97413-24vw/97413-24VW_F.jpg?impolicy=myresize&rw=480",
-          "jacket-Title": "Women's Wild Side Reversible Jacket"
-      },
-      {
-          "id": "26",
-          "W-Jacket-Images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/99049-23vw/99049-23VW_F.jpg?impolicy=myresize&rw=480",
-          "jacket-Title": "Women's Special Bar & Shield Zip Front Hoodie",
-          "Jacket-color-available": "2 colours available",
-          "color-selector1": "false",
-          "color-selector2": "true",
-          "Jacket-active-colors": "Black Beauty"
-      },
-      {
-          "id": "27",
-          "W-Jacket-Images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/97416-24vw/97416-24VW_F.jpg?impolicy=myresize&rw=480",
-          "jacket-Title": "Women's #1 Racing Jacket with Reflectivity"
-      },
-      {
-          "id": "28",
-          "W-Jacket-Images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/96242-24vw/96242-24VW_F.jpg?impolicy=myresize&rw=480",
-          "jacket-Title": "Women's Bar & Shield Zip Front Hoodie",
-          "Jacket-color-available": "2 colours available",
-          "color-selector1": "false",
-          "color-selector2": "true",
-          "Jacket-active-colors": "Colorblocked - Cloud Dancer"
-      },
-      {
-          "id": "29",
-          "W-Jacket-Images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/99050-23vw/99050-23VW_F.jpg?impolicy=myresize&rw=480",
-          "jacket-Title": "Women's Special Bar & Shield Zip Front Hoodie",
-          "Jacket-color-available": "2 colours available",
-          "color-selector1": "false",
-          "color-selector2": "true",
-          "Jacket-active-colors": "Colorblocked"
-      },
-      {
-          "id": "30",
-          "W-Jacket-Images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/97418-24vw/97418-24VW_F.jpg?impolicy=myresize&rw=480",
-          "jacket-Title": "Women's California 3-in-1 Jacket",
-          "Jacket-color-available": "2 colours available",
-          "color-selector1": "false",
-          "color-selector2": "true",
-          "Jacket-active-colors": "Tannin"
-      },
-      {
-          "id": "31",
-          "W-Jacket-Images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/97415-24vw/97415-24VW_F.jpg?impolicy=myresize&rw=480",
-          "jacket-Title": "Women's Edgy Shop Jacket"
-      },
-      {
-          "id": "32",
-          "W-Jacket-Images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/97417-24vw/97417-24VW_F.jpg?impolicy=myresize&rw=480",
-          "jacket-Title": "Women's California 3-in-1 Jacket",
-          "Jacket-color-available": "2 colours available",
-          "color-selector1": "false",
-          "color-selector2": "true",
-          "Jacket-active-colors": "Black Beauty"
-      },
-      {
-          "id": "33",
-          "W-Jacket-Images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/january-replenishment/womens/99094-22vw/99094-22VW_F.jpg?impolicy=myresize&rw=480",
-          "jacket-Title": "Women's Rally Stripe Zip Front Hoodie"
-      },
-      {
-          "id": "34",
-          "W-Jacket-Images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/98147-23vw/98147-23VW_F.jpg?impolicy=myresize&rw=480",
-          "jacket-Title": "Women's H-D Flex Layering System Lightweight Mid Layer"
-      },
-      {
-          "id": "35",
-          "W-Jacket-Images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/july-replenishment/98402-23vw/98402-23VW_F.jpg?impolicy=myresize&rw=480",
-          "jacket-Title": "Women's Forever Harley Mesh Jacket"
-      },
-      {
-          "id": "36",
-          "W-Jacket-Images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/97416-23vw/97416-23VW_F.jpg?impolicy=myresize&rw=480",
-          "jacket-Title": "Women's Mechanic Canvas Jacket",
-          "Jacket-color-available": "2 colours available",
-          "color-selector1": "false",
-          "color-selector2": "true",
-          "Jacket-active-colors": "Oatmeal"
-      },
-      {
-          "id": "37",
-          "W-Jacket-Images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2024/97459-24vw/97459-24VW_F.jpg?impolicy=myresize&rw=480",
-          "jacket-Title": "Women's Rocket Queen Jacket"
-      },
-      {
-          "id": "38",
-          "W-Jacket-Images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/96266-24vw/96266-24VW_F.jpg?impolicy=myresize&rw=480",
-          "jacket-Title": "Women's Onwards Shirt Jacket",
-          "Jacket-color-available": "3 colours available",
-          "color-selector1": "false",
-          "color-selector2": "true",
-          "Jacket-active-colors": "YD Plaid - Chili Pepper"
-      },
-      {
-          "id": "39",
-          "W-Jacket-Images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2024/97465-24vw/97465-24VW_F.jpg?impolicy=myresize&rw=480",
-          "jacket-Title": "Women's Sedona Orange Satin Bomber Jacket"
-      },
-      {
-          "id": "40",
-          "W-Jacket-Images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/96104-24vw/96104-24VW_F.jpg?impolicy=myresize&rw=480",
-          "jacket-Title": "Women's Shadow Zip Fleece"
-      },
-      {
-          "id": "41",
-          "W-Jacket-Images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/97417-23vw/97417-23VW_F.jpg?impolicy=myresize&rw=480",
-          "jacket-Title": "Women's Forever Harley Eagle Coaches Jacket"
-      },
-      {
-          "id": "42",
-          "W-Jacket-Images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/97415-23vw/97415-23VW_F.jpg?impolicy=myresize&rw=480",
-          "jacket-Title": "Women's Mechanic Canvas Jacket",
-          "Jacket-color-available": "2 colours available",
-          "color-selector1": "false",
-          "color-selector2": "true",
-          "Jacket-active-colors": "Grape Leaf"
-      },
-      {
-          "id": "43",
-          "W-Jacket-Images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/97413-23vw/97413-23VW_F.jpg?impolicy=myresize&rw=480",
-          "jacket-Title": "Women's Transcendent Corduroy Jacket",
-          "Jacket-color-available": "2 colours available",
-          "color-selector1": "false",
-          "color-selector2": "true",
-          "Jacket-active-colors": "Silver Sage"
-      },
-      {
-          "id": "44",
-          "W-Jacket-Images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/97533-23vw/97533-23VW_F.jpg?impolicy=myresize&rw=480",
-          "jacket-Title": "Women's Miss Enthusiast Softshell Jacket"
-      },
-      {
-          "id": "45",
-          "W-Jacket-Images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/96288-24vw/96288-24VW_F.jpg?impolicy=myresize&rw=480",
-          "jacket-Title": "Women's Powerslide Oversized Denim Jacket"
-      },
-      {
-          "id": "46",
-          "W-Jacket-Images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/97537-23vw/97537-23VW_F.jpg?impolicy=myresize&rw=480",
-          "jacket-Title": "Women's Kickstart 3-in-1 Black Denim Jacket",
-          "Jacket-color-available": "2 colours available",
-          "color-selector1": "false",
-          "color-selector2": "true",
-          "Jacket-active-colors": "Black Beauty"
-      },
-      {
-          "id": "47",
-          "W-Jacket-Images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/96670-23vw/96670-23VW_F.jpg?impolicy=myresize&rw=480",
-          "jacket-Title": "Women's Hill Climber Crew Zip Front Fleece Jacket",
-          "Jacket-color-available": "2 colours available",
-          "color-selector1": "false",
-          "color-selector2": "true",
-          "Jacket-active-colors": "Black Beauty"
-      },
-      {
-          "id": "48",
-          "W-Jacket-Images": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/batch-3/97429-21vw/97429-21VW_F.jpg?impolicy=myresize&rw=480",
-          "jacket-Title": "Women's Puffer Vest"
       }
   ],
 
