@@ -19,7 +19,7 @@ import { Cards } from '../ProductCard/Cards';
 
 
 export const Products = () => {
-  const [filter, setFilter] = React.useState('')
+  const [filter, setFilter] = React.useState("")
   const dispatch = useDispatch();
   const state = useSelector((store:RootState)=>store.pro.data)
   const baseurl = "https://tista-method-019-1.onrender.com"
@@ -55,7 +55,7 @@ export const Products = () => {
 
 
     const handleChange = (event: SelectChangeEvent) => {
-      setFilter(event.target.value as string);
+      setFilter(event.target.value);
     };
 
 
@@ -102,8 +102,8 @@ export const Products = () => {
 
        
       </div>
-      <div className='m2'>
-      <Box sx={{minWidth:220}} style={{border:"1px solid", borderRadius:"5px"}}>
+      {/* <div className='m2'> */}
+      {/* <Box sx={{minWidth:220}} style={{border:"1px solid", borderRadius:"5px"}}>
       <FormControl className='fc1'>
         <InputLabel id="demo-simple-select-label" style={{fontWeight:"bold", color:"black"}}>Filter</InputLabel>
         <Select
@@ -135,8 +135,8 @@ export const Products = () => {
           <MenuItem value="black">black</MenuItem>
         </Select>
       </FormControl>
-      
-            </div>
+       */}
+            {/* </div> */}
 
             <Cards/>
     </>

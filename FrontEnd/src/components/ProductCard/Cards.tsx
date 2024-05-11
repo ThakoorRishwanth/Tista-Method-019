@@ -1,13 +1,15 @@
 import { useDispatch, useSelector } from "react-redux"
 import { FETCH_FAILURE, FETCH_REQUEST, FETCH_SUCCESS } from "../../redux/actionTypes";
 import axios from "axios"
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import '../../styles/card/card.css'
 
 
 const baseurl = "https://tista-method-019-1.onrender.com"
 
-export const Cards = () => {
+export const Cards = () =>{
+  const [filter, setFilter] = useState<string>('');
+
     const dispatch = useDispatch();
     const state1 = useSelector((store:any)=>store.card.data);
 
@@ -25,9 +27,29 @@ export const Cards = () => {
       useEffect(()=>{
         FetchCard(`${baseurl}/Men-Women-Jacket`)
       },[])
+
+      const handleFilter =(category:string)=>{
+        // const category= e.target.value;
+        let url = `${baseurl}/Men-Women-Jacket`;
+        if (category !== 'All') {
+            url += `?category=${category}`;
+        }
+        FetchCard(url);
+    setFilter(category);
+      }
   
   return (
     <>
+    {/* <input type="text" placeholder="Filter" onChange={(e)=>handleFilter(e.target.value)}/> */}
+    <div className="m2">
+
+<h5>Filter :</h5>
+    <select onChange={(e)=>handleFilter(e.target.value)}>
+      <option value='All'>ALL</option>
+      <option value='Men'>MEN</option>
+      <option value='Women'>WOMEN</option>
+    </select>
+    </div>
     <div className="card1">
         {state1.map((el:any)=>(
            
