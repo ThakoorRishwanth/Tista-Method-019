@@ -78,7 +78,7 @@ export const Navbar = () => {
     </div>
     <div className='header'>
         <div className='d1'>
-            <img src="../../../image/Harley-Davidson_logo.svg.png" alt="logo"/>
+            <Link to="/"><img src="../../../image/Harley-Davidson_logo.svg.png" alt="logo"/></Link>
             <ul><Link to="">BIKES</Link>
                 <div className='u1'>
                 <li><Link to="">MOTORCYCLES</Link></li>
@@ -98,9 +98,9 @@ export const Navbar = () => {
                     <li><Link to="">Shop All Parts</Link></li>
                 </div>
             </ul>
-            <ul><Link to="">MENS</Link>
+            <ul><Link to="/men">MENS</Link>
                 <div className='u3'>
-                    <li><Link to="">New Arrivals</Link></li>
+                    <li><Link to="/mens">New Arrivals</Link></li>
                     <li><Link to="">Helmets</Link></li>
                     <li><Link to="">Jeans, Pants & Shorts</Link></li>
                     <li><Link to="">Casual Jackets</Link></li>
@@ -108,7 +108,7 @@ export const Navbar = () => {
                 </div>
             </ul>
 
-            <ul><Link to="">WOMENS</Link> 
+            <ul><Link to="/women">WOMENS</Link> 
                 <div className='u4'>
                     <li><Link to="">New Arrivals</Link></li>
                     <li><Link to="">Casual Jackets</Link></li>

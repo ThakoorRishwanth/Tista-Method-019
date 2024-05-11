@@ -11,7 +11,7 @@ import { fetch_failure, fetch_request, fetch_success } from '../../redux/actionT
 import axios from 'axios'
 import { RootState } from '../../redux/store';
 import { Link } from 'react-router-dom';
-import { Cards } from '../ProductCard/Cards';
+
 
 
 
@@ -61,10 +61,9 @@ export const Products = () => {
 
   return (
       <>
-      <Navbar/>
       <div
       className='m1'>
-            <h1>Men's Motorcycle Jeans</h1>
+            <h1>Men's Motorcycle Jackets</h1>
       </div>
       <div className="cont">
         <h1>ALL CATEGORIES</h1>
@@ -138,7 +137,7 @@ export const Products = () => {
        */}
             {/* </div> */}
 
-            <Cards/>
+            {/* <Cards/> */}
     </>
   )
 }
