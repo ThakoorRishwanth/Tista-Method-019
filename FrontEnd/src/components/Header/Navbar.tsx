@@ -51,17 +51,17 @@ export const Navbar = () => {
               <List>
                 <ListItem disablePadding>
                   <ListItemButton>
-                    <ListItemText primary="Men's Gear" />
+                    <Link to="/men"><ListItemText primary="Men's Gear" /> </Link>
                   </ListItemButton>
                 </ListItem>
                 <ListItem disablePadding>
                   <ListItemButton>
-                    <ListItemText primary="Helmet" />
+                    <Link to=""><ListItemText primary="Helmet" /></Link>
                   </ListItemButton>
                 </ListItem>
                 <ListItem disablePadding>
                   <ListItemButton>
-                    <ListItemText primary="Women's Jacket" />
+                    <Link to="/women"><ListItemText primary="Women's Jacket" /> </Link>
                   </ListItemButton>
                 </ListItem>
               </List>

@@ -9,6 +9,7 @@ import { Signup } from './components/LoginSignup/Signup'
 // import { AllRoutes } from './routes/AllRoutes'
 import { Navbar } from './components/Header/Navbar'
 import { Men } from './components/Add Cards/Men'
+import { Footer } from './components/Footer/Footer'
 
 function App() {
   
@@ -27,6 +28,7 @@ function App() {
       <Route path='/women' element={<Women/>}></Route>
       <Route path='/signup' element={<Signup/>}></Route>
     </Routes>
+    <Footer/>
     </>
   )
 }

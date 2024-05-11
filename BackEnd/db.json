@@ -795,319 +795,716 @@
     ],
 
   "Men-Helmet": [
-      {
-          "id": "1",
-          "Helmet-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2021/august/helmets/98100-22vx/98100-22VX_F.jpg?impolicy=myresize&rw=480",
-          "title": "Outrush R Modular Bluetooth Helmet",
-          "Helmet-Available": "2 colours available",
-          "color_selector1": "true",
-          "color_selector2": "false",
-          "Helmet_active_color": "Matte Black"
-      },
-      {
-          "id": "2",
-          "Helmet-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/january-replenishment/helmets/98154-22vx/98154-22VX_F.jpg?impolicy=myresize&rw=480",
-          "title": "Gargoyle X07 3-in-1 Helmet"
-      },
-      {
-          "id": "3",
-          "Helmet-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/98160-24vx/98160-24VX_F.jpg?impolicy=myresize&rw=480",
-          "title": "Division X15 Sunshield Full Face Helmet"
-      },
-      {
-          "id": "4",
-          "Helmet-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2021/august/helmets/98101-22vx/98101-22VX_F.jpg?impolicy=myresize&rw=480",
-          "title": "Outrush R Modular Bluetooth Helmet",
-          "Helmet-Available": "2 colours available",
-          "color_selector1": "true",
-          "color_selector2": "false",
-          "Helmet_active_color": "Matte Silver"
-      },
-      {
-          "id": "5",
-          "Helmet-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2024/97121-24vx/97121-24VX_F.jpg?impolicy=myresize&rw=480",
-          "title": "Outrush-R N03 Bluetooth Modular Helmet"
-      },
-      {
-          "id": "6",
-          "Helmet-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/98118-24vx/98118-24VX_F.jpg?impolicy=myresize&rw=480",
-          "title": "Pilot II 2-in-1 Willie G Skull Helmet",
-          "Helmet-Available": "2 colours available",
-          "color_selector1": "true",
-          "color_selector2": "false",
-          "Helmet_active_color": "Matte Dark Grey"
-      },
-      {
-          "id": "7",
-          "Helmet-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2021/january/helmets/98159-21vx/98159-21VX_F.jpg?impolicy=myresize&rw=480",
-          "title": "Capstone Sun Shield II H31 Modular Helmet"
-      },
-      {
-          "id": "8",
-          "Helmet-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/batch-2/98390-16vm/98390-16VM_F.jpg?impolicy=myresize&rw=480",
-          "title": "Lucid Ultra-Light Sun Shield J03 Half Helmet",
-          "Helmet-Available": "2 colours available",
-          "color_selector1": "true",
-          "color_selector2": "false",
-          "Helmet_active_color": "Matte Black"
-      },
-      {
-          "id": "9",
-          "Helmet-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/batch-2/98193-17vx/98193-17VX_F.jpg?impolicy=myresize&rw=480",
-          "title": "Pilot 3-in-1 X04 Helmet"
-      },
-      {
-          "id": "10",
-          "Helmet-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/batch-2/98335-15vm/98335-15VM_F.jpg?impolicy=myresize&rw=480",
-          "title": "Overdrive Low Profile Half Helmet"
-      },
-      {
-          "id": "11",
-          "Helmet-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/98158-24vx/98158-24VX_F.jpg?impolicy=myresize&rw=480",
-          "title": "H-D X14 SUN SHIELD 3/4 HELMET"
-      },
-      {
-          "id": "12",
-          "Helmet-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/parts/january-2024/76001372/76001372_TT.jpg?impolicy=myresize&rw=480",
-          "title": "Harley-Davidson Packtalk Edge - Dual Pack"
-      },
-      {
-          "id": "13",
-          "Helmet-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/98009-23vx/98009-23VX_F.jpg?impolicy=myresize&rw=480",
-          "title": "Fury N04 Bluetooth 3/4 Helmet",
-          "Helmet-Available": "2 colours available",
-          "color_selector1": "true",
-          "color_selector2": "false",
-          "Helmet_active_color": "Matte Black"
-      },
-      {
-          "id": "14",
-          "Helmet-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/january-replenishment/helmets/98159-22vx/98159-22VX_F.jpg?impolicy=myresize&rw=480",
-          "title": "Maywood II Sun Shield H33 3/4 Helmet",
-          "Helmet-Available": "3 colours available",
-          "color_selector1": "true",
-          "color_selector2": "false",
-          "Helmet_active_color": "Matte Black"
-      },
-      {
-          "id": "15",
-          "Helmet-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/98013-23vx/98013-23VX_F.jpg?impolicy=myresize&rw=480",
-          "title": "Capstone Sun Shield II H31 Modular Helmet",
-          "Helmet-Available": "4 colours available",
-          "color_selector1": "true",
-          "color_selector2": "false",
-          "Helmet_active_color": "Gloss Reef Blue"
-      },
-      {
-          "id": "16",
-          "Helmet-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2024/97126-24vx/97126-24VX_F.jpg?impolicy=myresize&rw=480",
-          "title": "Busby Ultra-Light Sun Shield J03 1/2 Helmet",
-          "Helmet-Available": "3 colours available",
-          "color_selector1": "true",
-          "color_selector2": "false",
-          "Helmet_active_color": "Matte Cloud Dancer"
-      },
-      {
-          "id": "17",
-          "Helmet-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/98116-24vx/98116-24VX_F.jpg?impolicy=myresize&rw=480",
-          "title": "H-D Evo X17 Sunshield Modular Helmet"
-      },
-      {
-          "id": "18",
-          "Helmet-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/january-replenishment/helmets/98153-22vx/98153-22VX_F.jpg?impolicy=myresize&rw=480",
-          "title": "Busby Ultra-Light Sun Shield J03 1/2 Helmet",
-          "Helmet-Available": "3 colours available",
-          "color_selector1": "true",
-          "color_selector2": "false",
-          "Helmet_active_color": "Matte Black"
-      },
-      {
-          "id": "19",
-          "Helmet-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/january-replenishment/helmets/98151-22vx/98151-22VX_F.jpg?impolicy=myresize&rw=480",
-          "title": "Lucid Ultra-Light Sun Shield J03 1/2 Helmet",
-          "Helmet-Available": "2 colours available",
-          "color_selector1": "true",
-          "color_selector2": "false",
-          "Helmet_active_color": "Matte Black Silver"
-      },
-      {
-          "id": "20",
-          "Helmet-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/98121-23vx/98121-23VX_F.jpg?impolicy=myresize&rw=480",
-          "title": "Busby Ultra-Light Sun Shield J03 1/2 Helmet",
-          "Helmet-Available": "3 colours available",
-          "color_selector1": "true",
-          "color_selector2": "false",
-          "Helmet_active_color": "White Sand Pearl Gloss"
-      },
-      {
-          "id": "21",
-          "Helmet-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/january-replenishment/helmets/98150-22vx/98150-22VX_F.jpg?impolicy=myresize&rw=480",
-          "title": "Ventura Sun Shield X06 Half Helmet"
-      },
-      {
-          "id": "22",
-          "Helmet-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2021/january/helmets/98158-21vx/98158-21VX_F.jpg?impolicy=myresize&rw=480",
-          "title": "Capstone Sun Shield II H31 Modular Helmet"
-      },
-      {
-          "id": "23",
-          "Helmet-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2021/january/helmets/98122-21vx/98122-21VX_F.jpg?impolicy=myresize&rw=480",
-          "title": "Capstone Sun Shield II H31 Modular Helmet",
-          "Helmet-Available": "4 colours available",
-          "color_selector1": "true",
-          "color_selector2": "false",
-          "Helmet_active_color": "Billiard Red"
-      },
-      {
-          "id": "24",
-          "Helmet-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/january-replenishment/helmets/98158-22vx/98158-22VX_F.jpg?impolicy=myresize&rw=480",
-          "title": "Maywood II Sun Shield H33 3/4 Helmet",
-          "Helmet-Available": "3 colours available",
-          "color_selector1": "true",
-          "color_selector2": "false",
-          "Helmet_active_color": "Gloss Black/Matte Black"
-      },
-      {
-          "id": "25",
-          "Helmet-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/parts/batch-4/76000768/76000768_TT.jpg?impolicy=myresize&rw=480",
-          "title": "Wireless Headset Interface Module"
-      },
-      {
-          "id": "26",
-          "Helmet-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/parts/january-2024/76001366/76001366_ALT01.jpg?impolicy=myresize&rw=480",
-          "title": "Harley-Davidson Freecom 4x"
-      },
-      {
-          "id": "27",
-          "Helmet-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2021/january/helmets/98130-21vx/98130-21VX_ALT01.jpg?impolicy=myresize&rw=480",
-          "title": "Men's H-D Brawler Carbon Fiber X09 Full Face with Sun Shield Helmet"
-      },
-      {
-          "id": "28",
-          "Helmet-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2024/97125-24vx/97125-24VX_F.jpg?impolicy=myresize&rw=480",
-          "title": "Busby Ultra-Light Sun Shield J03 1/2 Helmet",
-          "Helmet-Available": "3 colours available",
-          "color_selector1": "true",
-          "color_selector2": "false",
-          "Helmet_active_color": "Matte Black"
-      },
-      {
-          "id": "29",
-          "Helmet-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/parts/batch-2/77117-10/77117-10_TT.jpg?impolicy=myresize&rw=480",
-          "title": "Boom! Audio Full Helmet Premium Music and Communications Headset"
-      },
-      {
-          "id": "30",
-          "Helmet-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/january-replenishment/helmets/98156-22vx/98156-22VX_F.jpg?impolicy=myresize&rw=480",
-          "title": "Apex Sun Shield X14 3/4 Helmet"
-      },
-      {
-          "id": "31",
-          "Helmet-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2021/february/98134-21vx/98134-21VX_F.jpg?impolicy=myresize&rw=480",
-          "title": "Passage Adventure J10 Modular Helmet"
-      },
-      {
-          "id": "32",
-          "Helmet-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/batch-2/98240-18vx/98240-18VX_F.jpg?impolicy=myresize&rw=480",
-          "title": "Curbside Sun Shield X06 Half Helmet"
-      },
-      {
-          "id": "33",
-          "Helmet-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/january-replenishment/helmets/98160-22vx/98160-22VX_F.jpg?impolicy=myresize&rw=480",
-          "title": "Maywood II Sun Shield H33 3/4 Helmet",
-          "Helmet-Available": "3 colours available",
-          "color_selector1": "true",
-          "color_selector2": "false",
-          "Helmet_active_color": "Matte Black Silver"
-      },
-      {
-          "id": "34",
-          "Helmet-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/parts/january-2024/76001367/76001367_ALT01.jpg?impolicy=myresize&rw=480",
-          "title": "Harley-Davidson Packtalk Edge"
-      },
-      {
-          "id": "35",
-          "Helmet-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2024/97122-24vx/97122-24VX_F.jpg?impolicy=myresize&rw=480",
-          "title": "Capstone Sun Shield II H31 Modular Helmet"
-      },
-      {
-          "id": "36",
-          "Helmet-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2021/january/helmets/98121-21vx/98121-21VX_F.jpg?impolicy=myresize&rw=480",
-          "title": "Capstone Sun Shield II H31 Modular Helmet",
-          "Helmet-Available": "4 colours available",
-          "color_selector1": "true",
-          "color_selector2": "false",
-          "Helmet_active_color": "Gauntlet Grey"
-      },
-      {
-          "id": "37",
-          "Helmet-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/batch-2/98210-16vm/98210-16VM_F.jpg?impolicy=myresize&rw=480",
-          "title": "Aura Ultra-Light J02 Half Helmet"
-      },
-      {
-          "id": "38",
-          "Helmet-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2024/97147-24vx/97147-24VX_F.jpg?impolicy=myresize&rw=480",
-          "title": "Capstone Sun Shield II H31 Modular Helmet"
-      },
-      {
-          "id": "39",
-          "Helmet-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/parts/batch-4/76000838/76000838_TT.jpg?impolicy=myresize&rw=480",
-          "title": "Boom! Audio 30K Bluetooth Helmet Single Headset"
-      },
-      {
-          "id": "40",
-          "Helmet-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2024/97124-24vx/97124-24VX_F.jpg?impolicy=myresize&rw=480",
-          "title": "Division X15 Sunshield Full Face Helmet",
-          "Helmet-Available": "2 colours available",
-          "color_selector1": "true",
-          "color_selector2": "false",
-          "Helmet_active_color": "Gloss - Cloud Dancer"
-      },
-      {
-          "id": "41",
-          "Helmet-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/98122-24vr/98122-24VR_F.jpg?impolicy=myresize&rw=480",
-          "title": "X15 Shell Replacement Pinlock Prepared Face Shield Mirrored",
-          "Helmet-Available": "4 colours available",
-          "color_selector1": "true",
-          "color_selector2": "false",
-          "Helmet_active_color": "Blue Mirrored"
-      },
-      {
-          "id": "42",
-          "Helmet-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/july-replenishment/98120-23vx/98120-23VX_F.jpg?impolicy=myresize&rw=480",
-          "title": "Classic #1 X14 Sun Shield 3/4 Helmet"
-      },
-      {
-          "id": "43",
-          "Helmet-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/98117-24vx/98117-24VX_F.jpg?impolicy=myresize&rw=480",
-          "title": "Division X15 Sunshield Full Face Helmet"
-      },
-      {
-          "id": "44",
-          "Helmet-Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/parts/batch-2/76572-09/76572-09_TT.jpg?impolicy=myresize&rw=480",
-          "title": "Boom! Audio Half Helmet Music and Communications Headset"
-      },
-      {
-          "id": "45",
-          "title": "H-D Evo X17 Sunshield Modular Helmet"
-      },
-      {
-          "id": "46",
-          "title": "H-D X14 SUN SHIELD 3/4 HELMET"
-      },
-      {
-          "id": "47",
-          "title": "Harley-Davidson Freecom 4x – Dual Pack"
-      },
-      {
-          "id": "48",
-          "title": "J06 Shell Replacement Sun Shield",
-          "Helmet-Available": "2 colours available",
-          "color_selector1": "true",
-          "color_selector2": "false",
-          "Helmet_active_color": "Clear"
-      }
-  ],
+    {
+        "id": "1",
+        "Helmet_Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2021/august/helmets/98100-22vx/98100-22VX_F.jpg?impolicy=myresize&rw=480",
+        "title": "Outrush R Modular Bluetooth Helmet",
+        "Helmet_Available": "2 colours available",
+        "color_selector1": "TRUE",
+        "color_selector2": "FALSE",
+        "Helmet_active_color": "Matte Black",
+        "category": "Men_Helmet"
+    },
+    {
+        "id": "2",
+        "Helmet_Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/january-replenishment/helmets/98154-22vx/98154-22VX_F.jpg?impolicy=myresize&rw=480",
+        "title": "Gargoyle X07 3-in-1 Helmet",
+        "category": "Men_Helmet"
+    },
+    {
+        "id": "3",
+        "Helmet_Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/98160-24vx/98160-24VX_F.jpg?impolicy=myresize&rw=480",
+        "title": "Division X15 Sunshield Full Face Helmet",
+        "category": "Men_Helmet"
+    },
+    {
+        "id": "4",
+        "Helmet_Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2021/august/helmets/98101-22vx/98101-22VX_F.jpg?impolicy=myresize&rw=480",
+        "title": "Outrush R Modular Bluetooth Helmet",
+        "Helmet_Available": "2 colours available",
+        "color_selector1": "TRUE",
+        "color_selector2": "FALSE",
+        "Helmet_active_color": "Matte Silver",
+        "category": "Men_Helmet"
+    },
+    {
+        "id": "5",
+        "Helmet_Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2024/97121-24vx/97121-24VX_F.jpg?impolicy=myresize&rw=480",
+        "title": "Outrush-R N03 Bluetooth Modular Helmet",
+        "category": "Men_Helmet"
+    },
+    {
+        "id": "6",
+        "Helmet_Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/98118-24vx/98118-24VX_F.jpg?impolicy=myresize&rw=480",
+        "title": "Pilot II 2-in-1 Willie G Skull Helmet",
+        "Helmet_Available": "2 colours available",
+        "color_selector1": "TRUE",
+        "color_selector2": "FALSE",
+        "Helmet_active_color": "Matte Dark Grey",
+        "category": "Men_Helmet"
+    },
+    {
+        "id": "7",
+        "Helmet_Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2021/january/helmets/98159-21vx/98159-21VX_F.jpg?impolicy=myresize&rw=480",
+        "title": "Capstone Sun Shield II H31 Modular Helmet",
+        "category": "Men_Helmet"
+    },
+    {
+        "id": "8",
+        "Helmet_Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/batch-2/98390-16vm/98390-16VM_F.jpg?impolicy=myresize&rw=480",
+        "title": "Lucid Ultra-Light Sun Shield J03 Half Helmet",
+        "Helmet_Available": "2 colours available",
+        "color_selector1": "TRUE",
+        "color_selector2": "FALSE",
+        "Helmet_active_color": "Matte Black",
+        "category": "Men_Helmet"
+    },
+    {
+        "id": "9",
+        "Helmet_Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/batch-2/98193-17vx/98193-17VX_F.jpg?impolicy=myresize&rw=480",
+        "title": "Pilot 3-in-1 X04 Helmet",
+        "category": "Men_Helmet"
+    },
+    {
+        "id": "10",
+        "Helmet_Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/batch-2/98335-15vm/98335-15VM_F.jpg?impolicy=myresize&rw=480",
+        "title": "Overdrive Low Profile Half Helmet",
+        "category": "Men_Helmet"
+    },
+    {
+        "id": "11",
+        "Helmet_Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/98158-24vx/98158-24VX_F.jpg?impolicy=myresize&rw=480",
+        "title": "H-D X14 SUN SHIELD 3/4 HELMET",
+        "category": "Men_Helmet"
+    },
+    {
+        "id": "12",
+        "Helmet_Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/parts/january-2024/76001372/76001372_TT.jpg?impolicy=myresize&rw=480",
+        "title": "Harley-Davidson Packtalk Edge - Dual Pack",
+        "category": "Men_Helmet"
+    },
+    {
+        "id": "13",
+        "Helmet_Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/98009-23vx/98009-23VX_F.jpg?impolicy=myresize&rw=480",
+        "title": "Fury N04 Bluetooth 3/4 Helmet",
+        "Helmet_Available": "2 colours available",
+        "color_selector1": "TRUE",
+        "color_selector2": "FALSE",
+        "Helmet_active_color": "Matte Black",
+        "category": "Men_Helmet"
+    },
+    {
+        "id": "14",
+        "Helmet_Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/january-replenishment/helmets/98159-22vx/98159-22VX_F.jpg?impolicy=myresize&rw=480",
+        "title": "Maywood II Sun Shield H33 3/4 Helmet",
+        "Helmet_Available": "3 colours available",
+        "color_selector1": "TRUE",
+        "color_selector2": "FALSE",
+        "Helmet_active_color": "Matte Black",
+        "category": "Men_Helmet"
+    },
+    {
+        "id": "15",
+        "Helmet_Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/98013-23vx/98013-23VX_F.jpg?impolicy=myresize&rw=480",
+        "title": "Capstone Sun Shield II H31 Modular Helmet",
+        "Helmet_Available": "4 colours available",
+        "color_selector1": "TRUE",
+        "color_selector2": "FALSE",
+        "Helmet_active_color": "Gloss Reef Blue",
+        "category": "Men_Helmet"
+    },
+    {
+        "id": "16",
+        "Helmet_Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2024/97126-24vx/97126-24VX_F.jpg?impolicy=myresize&rw=480",
+        "title": "Busby Ultra-Light Sun Shield J03 1/2 Helmet",
+        "Helmet_Available": "3 colours available",
+        "color_selector1": "TRUE",
+        "color_selector2": "FALSE",
+        "Helmet_active_color": "Matte Cloud Dancer",
+        "category": "Men_Helmet"
+    },
+    {
+        "id": "17",
+        "Helmet_Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/98116-24vx/98116-24VX_F.jpg?impolicy=myresize&rw=480",
+        "title": "H-D Evo X17 Sunshield Modular Helmet",
+        "category": "Men_Helmet"
+    },
+    {
+        "id": "18",
+        "Helmet_Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/january-replenishment/helmets/98153-22vx/98153-22VX_F.jpg?impolicy=myresize&rw=480",
+        "title": "Busby Ultra-Light Sun Shield J03 1/2 Helmet",
+        "Helmet_Available": "3 colours available",
+        "color_selector1": "TRUE",
+        "color_selector2": "FALSE",
+        "Helmet_active_color": "Matte Black",
+        "category": "Men_Helmet"
+    },
+    {
+        "id": "19",
+        "Helmet_Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/january-replenishment/helmets/98151-22vx/98151-22VX_F.jpg?impolicy=myresize&rw=480",
+        "title": "Lucid Ultra-Light Sun Shield J03 1/2 Helmet",
+        "Helmet_Available": "2 colours available",
+        "color_selector1": "TRUE",
+        "color_selector2": "FALSE",
+        "Helmet_active_color": "Matte Black Silver",
+        "category": "Men_Helmet"
+    },
+    {
+        "id": "20",
+        "Helmet_Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/98121-23vx/98121-23VX_F.jpg?impolicy=myresize&rw=480",
+        "title": "Busby Ultra-Light Sun Shield J03 1/2 Helmet",
+        "Helmet_Available": "3 colours available",
+        "color_selector1": "TRUE",
+        "color_selector2": "FALSE",
+        "Helmet_active_color": "White Sand Pearl Gloss",
+        "category": "Men_Helmet"
+    },
+    {
+        "id": "21",
+        "Helmet_Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/january-replenishment/helmets/98150-22vx/98150-22VX_F.jpg?impolicy=myresize&rw=480",
+        "title": "Ventura Sun Shield X06 Half Helmet",
+        "category": "Men_Helmet"
+    },
+    {
+        "id": "22",
+        "Helmet_Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2021/january/helmets/98158-21vx/98158-21VX_F.jpg?impolicy=myresize&rw=480",
+        "title": "Capstone Sun Shield II H31 Modular Helmet",
+        "category": "Men_Helmet"
+    },
+    {
+        "id": "23",
+        "Helmet_Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2021/january/helmets/98122-21vx/98122-21VX_F.jpg?impolicy=myresize&rw=480",
+        "title": "Capstone Sun Shield II H31 Modular Helmet",
+        "Helmet_Available": "4 colours available",
+        "color_selector1": "TRUE",
+        "color_selector2": "FALSE",
+        "Helmet_active_color": "Billiard Red",
+        "category": "Men_Helmet"
+    },
+    {
+        "id": "24",
+        "Helmet_Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/january-replenishment/helmets/98158-22vx/98158-22VX_F.jpg?impolicy=myresize&rw=480",
+        "title": "Maywood II Sun Shield H33 3/4 Helmet",
+        "Helmet_Available": "3 colours available",
+        "color_selector1": "TRUE",
+        "color_selector2": "FALSE",
+        "Helmet_active_color": "Gloss Black/Matte Black",
+        "category": "Men_Helmet"
+    },
+    {
+        "id": "25",
+        "Helmet_Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/parts/batch-4/76000768/76000768_TT.jpg?impolicy=myresize&rw=480",
+        "title": "Wireless Headset Interface Module",
+        "category": "Men_Helmet"
+    },
+    {
+        "id": "26",
+        "Helmet_Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/parts/january-2024/76001366/76001366_ALT01.jpg?impolicy=myresize&rw=480",
+        "title": "Harley-Davidson Freecom 4x",
+        "category": "Men_Helmet"
+    },
+    {
+        "id": "27",
+        "Helmet_Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2021/january/helmets/98130-21vx/98130-21VX_ALT01.jpg?impolicy=myresize&rw=480",
+        "title": "Men's H-D Brawler Carbon Fiber X09 Full Face with Sun Shield Helmet",
+        "category": "Men_Helmet"
+    },
+    {
+        "id": "28",
+        "Helmet_Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2024/97125-24vx/97125-24VX_F.jpg?impolicy=myresize&rw=480",
+        "title": "Busby Ultra-Light Sun Shield J03 1/2 Helmet",
+        "Helmet_Available": "3 colours available",
+        "color_selector1": "TRUE",
+        "color_selector2": "FALSE",
+        "Helmet_active_color": "Matte Black",
+        "category": "Men_Helmet"
+    },
+    {
+        "id": "29",
+        "Helmet_Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/parts/batch-2/77117-10/77117-10_TT.jpg?impolicy=myresize&rw=480",
+        "title": "Boom! Audio Full Helmet Premium Music and Communications Headset",
+        "category": "Men_Helmet"
+    },
+    {
+        "id": "30",
+        "Helmet_Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/january-replenishment/helmets/98156-22vx/98156-22VX_F.jpg?impolicy=myresize&rw=480",
+        "title": "Apex Sun Shield X14 3/4 Helmet",
+        "category": "Men_Helmet"
+    },
+    {
+        "id": "31",
+        "Helmet_Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2021/february/98134-21vx/98134-21VX_F.jpg?impolicy=myresize&rw=480",
+        "title": "Passage Adventure J10 Modular Helmet",
+        "category": "Men_Helmet"
+    },
+    {
+        "id": "32",
+        "Helmet_Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/batch-2/98240-18vx/98240-18VX_F.jpg?impolicy=myresize&rw=480",
+        "title": "Curbside Sun Shield X06 Half Helmet",
+        "category": "Men_Helmet"
+    },
+    {
+        "id": "33",
+        "Helmet_Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/january-replenishment/helmets/98160-22vx/98160-22VX_F.jpg?impolicy=myresize&rw=480",
+        "title": "Maywood II Sun Shield H33 3/4 Helmet",
+        "Helmet_Available": "3 colours available",
+        "color_selector1": "TRUE",
+        "color_selector2": "FALSE",
+        "Helmet_active_color": "Matte Black Silver",
+        "category": "Men_Helmet"
+    },
+    {
+        "id": "34",
+        "Helmet_Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/parts/january-2024/76001367/76001367_ALT01.jpg?impolicy=myresize&rw=480",
+        "title": "Harley-Davidson Packtalk Edge",
+        "category": "Men_Helmet"
+    },
+    {
+        "id": "35",
+        "Helmet_Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2024/97122-24vx/97122-24VX_F.jpg?impolicy=myresize&rw=480",
+        "title": "Capstone Sun Shield II H31 Modular Helmet",
+        "category": "Men_Helmet"
+    },
+    {
+        "id": "36",
+        "Helmet_Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2021/january/helmets/98121-21vx/98121-21VX_F.jpg?impolicy=myresize&rw=480",
+        "title": "Capstone Sun Shield II H31 Modular Helmet",
+        "Helmet_Available": "4 colours available",
+        "color_selector1": "TRUE",
+        "color_selector2": "FALSE",
+        "Helmet_active_color": "Gauntlet Grey",
+        "category": "Men_Helmet"
+    },
+    {
+        "id": "37",
+        "Helmet_Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/batch-2/98210-16vm/98210-16VM_F.jpg?impolicy=myresize&rw=480",
+        "title": "Aura Ultra-Light J02 Half Helmet",
+        "category": "Men_Helmet"
+    },
+    {
+        "id": "38",
+        "Helmet_Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2024/97147-24vx/97147-24VX_F.jpg?impolicy=myresize&rw=480",
+        "title": "Capstone Sun Shield II H31 Modular Helmet",
+        "category": "Men_Helmet"
+    },
+    {
+        "id": "39",
+        "Helmet_Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/parts/batch-4/76000838/76000838_TT.jpg?impolicy=myresize&rw=480",
+        "title": "Boom! Audio 30K Bluetooth Helmet Single Headset",
+        "category": "Men_Helmet"
+    },
+    {
+        "id": "40",
+        "Helmet_Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2024/97124-24vx/97124-24VX_F.jpg?impolicy=myresize&rw=480",
+        "title": "Division X15 Sunshield Full Face Helmet",
+        "Helmet_Available": "2 colours available",
+        "color_selector1": "TRUE",
+        "color_selector2": "FALSE",
+        "Helmet_active_color": "Gloss - Cloud Dancer",
+        "category": "Men_Helmet"
+    },
+    {
+        "id": "41",
+        "Helmet_Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/98122-24vr/98122-24VR_F.jpg?impolicy=myresize&rw=480",
+        "title": "X15 Shell Replacement Pinlock Prepared Face Shield Mirrored",
+        "Helmet_Available": "4 colours available",
+        "color_selector1": "TRUE",
+        "color_selector2": "FALSE",
+        "Helmet_active_color": "Blue Mirrored",
+        "category": "Men_Helmet"
+    },
+    {
+        "id": "42",
+        "Helmet_Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/july-replenishment/98120-23vx/98120-23VX_F.jpg?impolicy=myresize&rw=480",
+        "title": "Classic #1 X14 Sun Shield 3/4 Helmet",
+        "category": "Men_Helmet"
+    },
+    {
+        "id": "43",
+        "Helmet_Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/98117-24vx/98117-24VX_F.jpg?impolicy=myresize&rw=480",
+        "title": "Division X15 Sunshield Full Face Helmet",
+        "category": "Men_Helmet"
+    },
+    {
+        "id": "44",
+        "Helmet_Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/parts/batch-2/76572-09/76572-09_TT.jpg?impolicy=myresize&rw=480",
+        "title": "Boom! Audio Half Helmet Music and Communications Headset",
+        "category": "Men_Helmet"
+    },
+    {
+        "id": "45",
+        "title": "H-D Evo X17 Sunshield Modular Helmet",
+        "category": "Men_Helmet"
+    },
+    {
+        "id": "46",
+        "title": "H-D X14 SUN SHIELD 3/4 HELMET",
+        "category": "Men_Helmet"
+    },
+    {
+        "id": "47",
+        "title": "Harley-Davidson Freecom 4x – Dual Pack",
+        "category": "Men_Helmet"
+    },
+    {
+        "id": "48",
+        "title": "J06 Shell Replacement Sun Shield",
+        "Helmet_Available": "2 colours available",
+        "color_selector1": "TRUE",
+        "color_selector2": "FALSE",
+        "Helmet_active_color": "Clear",
+        "category": "Men_Helmet"
+    },
+
+    {
+        "id": "49",
+        "Helmet_Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/january-replenishment/helmets/98154-22vx/98154-22VX_F.jpg?impolicy=myresize&rw=480",
+        "title": "Gargoyle X07 3-in-1 Helmet",
+        "category": "Women_Helmet"
+    },
+    {
+        "id": "50",
+        "Helmet_Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2021/august/helmets/98100-22vx/98100-22VX_F.jpg?impolicy=myresize&rw=480",
+        "title": "Outrush R Modular Bluetooth Helmet",
+        "Helmet_Available": "2 colours available",
+        "color_selector1": "true",
+        "color_selector2": "false",
+        "Helmet_active_color": "Matte Black",
+        "category": "Women_Helmet"
+    },
+    {
+        "id": "51",
+        "Helmet_Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2021/august/helmets/98101-22vx/98101-22VX_F.jpg?impolicy=myresize&rw=480",
+        "title": "Outrush R Modular Bluetooth Helmet",
+        "Helmet_Available": "2 colours available",
+        "color_selector1": "true",
+        "color_selector2": "false",
+        "Helmet_active_color": "Matte Silver",
+        "category": "Women_Helmet"
+    },
+    {
+        "id": "52",
+        "Helmet_Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/98160-24vx/98160-24VX_F.jpg?impolicy=myresize&rw=480",
+        "title": "Division X15 Sunshield Full Face Helmet",
+        "category": "Women_Helmet"
+    },
+    {
+        "id": "53",
+        "Helmet_Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2021/january/helmets/98159-21vx/98159-21VX_F.jpg?impolicy=myresize&rw=480",
+        "title": "Capstone Sun Shield II H31 Modular Helmet",
+        "category": "Women_Helmet"
+    },
+    {
+        "id": "54",
+        "Helmet_Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/batch-2/98335-15vm/98335-15VM_F.jpg?impolicy=myresize&rw=480",
+        "title": "Overdrive Low Profile Half Helmet",
+        "category": "Women_Helmet"
+    },
+    {
+        "id": "55",
+        "Helmet_Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2024/97121-24vx/97121-24VX_F.jpg?impolicy=myresize&rw=480",
+        "title": "Outrush-R N03 Bluetooth Modular Helmet",
+        "category": "Women_Helmet"
+    },
+    {
+        "id": "56",
+        "Helmet_Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/batch-2/98193-17vx/98193-17VX_F.jpg?impolicy=myresize&rw=480",
+        "title": "Pilot 3-in-1 X04 Helmet",
+        "category": "Women_Helmet"
+    },
+    {
+        "id": "57",
+        "Helmet_Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/98118-24vx/98118-24VX_F.jpg?impolicy=myresize&rw=480",
+        "title": "Pilot II 2-in-1 Willie G Skull Helmet",
+        "Helmet_Available": "2 colours available",
+        "color_selector1": "true",
+        "color_selector2": "false",
+        "Helmet_active_color": "Matte Dark Grey",
+        "category": "Women_Helmet"
+    },
+    {
+        "id": "58",
+        "Helmet_Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/january-replenishment/helmets/98159-22vx/98159-22VX_F.jpg?impolicy=myresize&rw=480",
+        "title": "Maywood II Sun Shield H33 3/4 Helmet",
+        "Helmet_Available": "3 colours available",
+        "color_selector1": "true",
+        "color_selector2": "false",
+        "Helmet_active_color": "Matte Black",
+        "category": "Women_Helmet"
+    },
+    {
+        "id": "59",
+        "Helmet_Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/98158-24vx/98158-24VX_F.jpg?impolicy=myresize&rw=480",
+        "title": "H-D X14 SUN SHIELD 3/4 HELMET",
+        "category": "Women_Helmet"
+    },
+    {
+        "id": "60",
+        "Helmet_Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/batch-2/98390-16vm/98390-16VM_F.jpg?impolicy=myresize&rw=480",
+        "title": "Lucid Ultra-Light Sun Shield J03 Half Helmet",
+        "Helmet_Available": "2 colours available",
+        "color_selector1": "true",
+        "color_selector2": "false",
+        "Helmet_active_color": "Matte Black",
+        "category": "Women_Helmet"
+    },
+    {
+        "id": "61",
+        "Helmet_Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/january-replenishment/helmets/98153-22vx/98153-22VX_F.jpg?impolicy=myresize&rw=480",
+        "title": "Busby Ultra-Light Sun Shield J03 1/2 Helmet",
+        "Helmet_Available": "3 colours available",
+        "color_selector1": "true",
+        "color_selector2": "false",
+        "Helmet_active_color": "Matte Black",
+        "category": "Women_Helmet"
+    },
+    {
+        "id": "62",
+        "Helmet_Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/98009-23vx/98009-23VX_F.jpg?impolicy=myresize&rw=480",
+        "title": "Fury N04 Bluetooth 3/4 Helmet",
+        "Helmet_Available": "2 colours available",
+        "color_selector1": "true",
+        "color_selector2": "false",
+        "Helmet_active_color": "Matte Black",
+        "category": "Women_Helmet"
+    },
+    {
+        "id": "63",
+        "Helmet_Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/98013-23vx/98013-23VX_F.jpg?impolicy=myresize&rw=480",
+        "title": "Capstone Sun Shield II H31 Modular Helmet",
+        "Helmet_Available": "4 colours available",
+        "color_selector1": "true",
+        "color_selector2": "false",
+        "Helmet_active_color": "Gloss Reef Blue",
+        "category": "Women_Helmet"
+    },
+    {
+        "id": "64",
+        "Helmet_Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2021/january/helmets/98158-21vx/98158-21VX_F.jpg?impolicy=myresize&rw=480",
+        "title": "Capstone Sun Shield II H31 Modular Helmet",
+        "category": "Women_Helmet"
+    },
+    {
+        "id": "65",
+        "Helmet_Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2024/97122-24vx/97122-24VX_F.jpg?impolicy=myresize&rw=480",
+        "title": "Capstone Sun Shield II H31 Modular Helmet",
+        "category": "Women_Helmet"
+    },
+    {
+        "id": "66",
+        "Helmet_Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/98119-24vx/98119-24VX_F.jpg?impolicy=myresize&rw=480",
+        "title": "Pilot II 2-in-1 Willie G Skull Helmet",
+        "Helmet_Available": "2 colours available",
+        "color_selector1": "true",
+        "color_selector2": "false",
+        "Helmet_active_color": "Matte Gunship Grey",
+        "category": "Women_Helmet"
+    },
+    {
+        "id": "67",
+        "Helmet_Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/january-replenishment/helmets/98150-22vx/98150-22VX_F.jpg?impolicy=myresize&rw=480",
+        "title": "Ventura Sun Shield X06 Half Helmet",
+        "category": "Women_Helmet"
+    },
+    {
+        "id": "68",
+        "Helmet_Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/january-replenishment/helmets/98160-22vx/98160-22VX_F.jpg?impolicy=myresize&rw=480",
+        "title": "Maywood II Sun Shield H33 3/4 Helmet",
+        "Helmet_Available": "3 colours available",
+        "color_selector1": "true",
+        "color_selector2": "false",
+        "Helmet_active_color": "Matte Black Silver",
+        "category": "Women_Helmet"
+    },
+    {
+        "id": "69",
+        "Helmet_Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/january-replenishment/helmets/98158-22vx/98158-22VX_F.jpg?impolicy=myresize&rw=480",
+        "title": "Maywood II Sun Shield H33 3/4 Helmet",
+        "Helmet_Available": "3 colours available",
+        "color_selector1": "true",
+        "color_selector2": "false",
+        "Helmet_active_color": "Gloss Black/Matte Black",
+        "category": "Women_Helmet"
+    },
+    {
+        "id": "70",
+        "Helmet_Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/98121-23vx/98121-23VX_F.jpg?impolicy=myresize&rw=480",
+        "title": "Busby Ultra-Light Sun Shield J03 1/2 Helmet",
+        "Helmet_Available": "3 colours available",
+        "color_selector1": "true",
+        "color_selector2": "false",
+        "Helmet_active_color": "White Sand Pearl Gloss",
+        "category": "Women_Helmet"
+    },
+    {
+        "id": "71",
+        "Helmet_Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/parts/batch-4/76000768/76000768_TT.jpg?impolicy=myresize&rw=480",
+        "title": "Wireless Headset Interface Module",
+        "category": "Women_Helmet"
+    },
+    {
+        "id": "72",
+        "Helmet_Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2022/january-replenishment/helmets/98156-22vx/98156-22VX_F.jpg?impolicy=myresize&rw=480",
+        "title": "Apex Sun Shield X14 3/4 Helmet",
+        "category": "Women_Helmet"
+    },
+    {
+        "id": "73",
+        "Helmet_Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2023/98116-24vx/98116-24VX_F.jpg?impolicy=myresize&rw=480",
+        "title": "H-D Evo X17 Sunshield Modular Helmet",
+        "category": "Women_Helmet"
+    },
+    {
+        "id": "74",
+        "Helmet_Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2021/january/helmets/98122-21vx/98122-21VX_F.jpg?impolicy=myresize&rw=480",
+        "title": "Capstone Sun Shield II H31 Modular Helmet",
+        "Helmet_Available": "4 colours available",
+        "color_selector1": "true",
+        "color_selector2": "false",
+        "Helmet_active_color": "Billiard Red",
+        "category": "Women_Helmet"
+    },
+    {
+        "id": "75",
+        "Helmet_Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/merchandise/2024/97126-24vx/97126-24VX_F.jpg?impolicy=myresize&rw=480",
+        "title": "Busby Ultra-Light Sun Shield J03 1/2 Helmet",
+        "Helmet_Available": "3 colours available",
+        "color_selector1": "true",
+        "color_selector2": "false",
+        "Helmet_active_color": "Matte Cloud Dancer",
+        "category": "Women_Helmet"
+    },
+    {
+        "id": "76",
+        "Helmet_Image": "https://www.harley-davidson.com/content/dam/h-d/images/product-images/parts/batch-2/77117-10/77117-10_TT.jpg?impolicy=myresize&rw=480",
+        "title": "Boom! Audio Full Helmet Premium Music and Communications Headset",
+        "category": "Women_Helmet"
+    },
+    {
+        "id": "77",
+        "title": "Lucid Ultra-Light Sun Shield J03 1/2 Helmet",
+        "Helmet_Available": "2 colours available",
+        "color_selector1": "true",
+        "color_selector2": "false",
+        "Helmet_active_color": "Matte Black Silver",
+        "category": "Women_Helmet"
+    },
+    {
+        "id": "78",
+        "title": "Division X15 Sunshield Full Face Helmet",
+        "category": "Women_Helmet"
+    },
+    {
+        "id": "79",
+        "title": "Capstone Sun Shield II H31 Modular Helmet",
+        "category": "Women_Helmet"
+    },
+    {
+        "id": "80",
+        "title": "Capstone Sun Shield II H31 Modular Helmet",
+        "Helmet_Available": "4 colours available",
+        "color_selector1": "true",
+        "color_selector2": "false",
+        "Helmet_active_color": "Gauntlet Grey",
+        "category": "Women_Helmet"
+    },
+    {
+        "id": "81",
+        "title": "Aura Ultra-Light J02 Half Helmet",
+        "category": "Women_Helmet"
+    },
+    {
+        "id": "82",
+        "title": "Boom! Audio Half Helmet Music and Communications Headset",
+        "category": "Women_Helmet"
+    },
+    {
+        "id": "83",
+        "title": "Busby Ultra-Light Sun Shield J03 1/2 Helmet",
+        "Helmet_Available": "3 colours available",
+        "color_selector1": "true",
+        "color_selector2": "false",
+        "Helmet_active_color": "Matte Black",
+        "category": "Women_Helmet"
+    },
+    {
+        "id": "84",
+        "title": "H-D X14 SUN SHIELD 3/4 HELMET",
+        "category": "Women_Helmet"
+    },
+    {
+        "id": "85",
+        "title": "H-D Evo X17 Sunshield Modular Helmet",
+        "category": "Women_Helmet"
+    },
+    {
+        "id": "86",
+        "title": "Capstone Sun Shield II H31 Modular Helmet",
+        "category": "Women_Helmet"
+    },
+    {
+        "id": "87",
+        "title": "Harley-Davidson Helmet Lock",
+        "category": "Women_Helmet"
+    },
+    {
+        "id": "88",
+        "title": "X15 Shell Replacement Pinlock Prepared Face Shield Mirrored",
+        "Helmet_Available": "4 colours available",
+        "color_selector1": "true",
+        "color_selector2": "false",
+        "Helmet_active_color": "Blue Mirrored",
+        "category": "Women_Helmet"
+    },
+    {
+        "id": "89",
+        "title": "Division X15 Sunshield Full Face Helmet",
+        "Helmet_Available": "2 colours available",
+        "color_selector1": "true",
+        "color_selector2": "false",
+        "Helmet_active_color": "Gloss - Cloud Dancer",
+        "category": "Women_Helmet"
+    },
+    {
+        "id": "90",
+        "title": "Men's H-D Brawler Carbon Fiber X09 Full Face with Sun Shield Helmet",
+        "category": "Women_Helmet"
+    },
+    {
+        "id": "91",
+        "title": "Curbside Sun Shield X06 Half Helmet",
+        "category": "Women_Helmet"
+    },
+    {
+        "id": "92",
+        "title": "Boom! Audio 20S Bluetooth Helmet Dual Headset Pack",
+        "category": "Women_Helmet"
+    },
+    {
+        "id": "93",
+        "title": "Grit Adventure J09 Modular Helmet",
+        "category": "Women_Helmet"
+    },
+    {
+        "id": "94",
+        "title": "H31 Replacement Shield",
+        "Helmet_Available": "3 colours available",
+        "color_selector1": "true",
+        "color_selector2": "false",
+        "Helmet_active_color": "Dark Smoked",
+        "category": "Women_Helmet"
+    },
+    {
+        "id": "95",
+        "title": "J03 Shell Replacement Sun Shield",
+        "category": "Women_Helmet"
+    },
+    {
+        "id": "96",
+        "title": "Passage Adventure J10 Modular Helmet",
+        "category": "Women_Helmet"
+    }
+],
 
   "Men-Jeans": [
       {

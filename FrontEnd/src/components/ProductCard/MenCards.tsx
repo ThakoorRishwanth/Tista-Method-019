@@ -1,6 +1,6 @@
 import { useDispatch, useSelector } from "react-redux"
 import { FETCH_FAILURE, FETCH_REQUEST, FETCH_SUCCESS } from "../../redux/actionTypes";
-import axios from "axios"
+import axios from 'axios'
 import { useEffect, useState } from "react";
 import '../../styles/card/card.css'
 // import { Products } from "../Products/Products";
@@ -52,10 +52,10 @@ export const MenCards = () =>{
       <option value='Women'>WOMEN</option>
     </select>
     </div>
-    <div className="card1">
+    <div className="car1">
         {state1.map((el:any)=>(
            
-            <div key={el.id} className="card2">
+            <div key={el.id} className="car2">
             <img src={el.Product_image} alt="img"/>
             <p>{el.Title}</p>
           </div>

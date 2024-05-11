@@ -1,4 +1,4 @@
-.card1{
+.car1{
     /* border: 1px solid; */
     display: flex;
     flex-wrap: wrap;
@@ -7,7 +7,7 @@
     background-color: 
     #eeeceb;
 }
-.card2{
+.car2{
     /* border: 1px solid; */
     border-radius:5px ;
     margin-top: 20px;

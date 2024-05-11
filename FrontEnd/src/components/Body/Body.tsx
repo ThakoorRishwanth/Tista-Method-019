@@ -119,7 +119,7 @@ export const Body = () => {
         <h1>Shop Parts & Apparel</h1>
         <div className="btw-main">
         <div className="ch1">
-            <Link to=""><img src="../../../image/img99.jpg" alt="mens"/></Link>
+            <Link to="/men"><img src="../../../image/img99.jpg" alt="mens"/></Link>
             <h4><Link to="">SHOP MEN'S GEAR & APPAREL</Link></h4>
           </div>
           <div className="ch1">
@@ -128,8 +128,8 @@ export const Body = () => {
           </div>
 
           <div className="ch1">
-            <Link to=""><img src="../../../image/img11.jpg" alt="Womens"/></Link>
-            <h4><Link to="">SHOP WOMEN'S GEAR & APPAREL</Link></h4>
+            <Link to="/women"><img src="../../../image/img11.jpg" alt="Womens"/></Link>
+            <h4><Link to="/women">SHOP WOMEN'S GEAR & APPAREL</Link></h4>
           </div>
 
           <div className="ch1">
