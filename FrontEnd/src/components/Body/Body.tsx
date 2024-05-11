@@ -6,7 +6,7 @@ import { Link } from "react-router-dom"
 export const Body = () => {
     return (
         <>
-      <Navbar/>
+      {/* <Navbar/> */}
     <div>
           <div className='head2'>
     <div id="carouselExampleControlsNoTouching" className="carousel slide" data-bs-touch="false">
