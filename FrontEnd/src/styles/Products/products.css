@@ -13,23 +13,9 @@
     }
 }
 
-.m2{
-    margin-top: 20px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-
-    
-}
-
-.fc1{
-    width: 100%;
-}
-
 .cont{
-    border: 1px solid;
+    /* border: 1px solid; */
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
     text-align: center;
     h1{
         margin-top: 20px;
