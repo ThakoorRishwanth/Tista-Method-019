@@ -2,6 +2,8 @@ import { Spinner } from '@chakra-ui/react';
 import React, { useContext, useEffect, useRef, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import Bikes from './Bikes';
+import '../css/motorcyclye.css'
+
 import { BikeDetailsContext } from './Context';
 
 interface BikeData {
@@ -179,8 +181,8 @@ function MotorCycle() {
                 <img src="https://www.harley-davidson.com/content/dam/h-d/images/category-images/2024/tall-hero/index-header-thd.jpg?impolicy=myresize&rw=1280" alt="moto-img1" />
                 <h1>2024<br /> MOTORCYCLES</h1>
             </section>
-            <section id='moto-bikes' style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
-                <ul style={{ display: 'flex', gap: '16px' }}>
+            <section id='moto-bikes' style={{ display: 'flex', justifyContent: 'space-between', marginTop:'10px'}}>
+                <ul style={{ display: 'flex', gap: '16px', marginTop:'10px'}}>
                     <li>SEE ALL</li>
                     <li>HARLEY-DAVIDSON X</li>
                     <li>GRAND AMERICAN TOURING</li>
@@ -314,7 +316,7 @@ function MotorCycle() {
 
                 }
             </>
-            <div style={{ position: 'relative' }}>
+            <div style={{ position: 'relative', marginTop:'20px'}}>
                 <img src="https://www.harley-davidson.com/content/dam/h-d/images/product-images/bikes/motorcycle/2023/2023-h-d-x-440/story/x440-header-thd.jpg?impolicy=myresize&rw=1800" alt="img-2" style={{ width: '100%' }} />
                 <div style={{ position: 'absolute', top: '350px', left: '100px', color: 'white' }}>
                     <h1>Harley-Davidson X™ </h1>
@@ -332,10 +334,66 @@ function MotorCycle() {
                                 <p style={{ textAlign: 'center' }}>4 colors Available</p>
                             </section>
                             <section className='diff-color' style={{ display: 'flex', gap: '4px', justifyContent: 'center' }}>
-                                <div onMouseEnter={() => setColors("img1")} ></div>
-                                <div onMouseEnter={() => setColors("img2")}></div>
-                                <div onMouseEnter={() => setColors("img3")}></div>
-                                <div onMouseEnter={() => setColors("img4")}></div>
+                                <div onMouseEnter={() => setColors("img1")} onClick={()=>{
+                                       setBikeDetails({
+                                        title: bikeInfo[1].Title,
+                                        activeurl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwcwT3zy-XTEYSnKNltrpIoGmaLRCLg3QZHw&usqp=CAU",
+                                        price: bikeInfo[1].Price,
+                                        color: 'blue',
+                                        colors: ['blue', 'white', 'green', 'orange'],
+                                        urls: [
+                                          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwcwT3zy-XTEYSnKNltrpIoGmaLRCLg3QZHw&usqp=CAU',
+                                          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxaz-JbqYbsUy9Vc7fCv9OIekAufHh4MVFAQ&usqp=CAU',
+                                          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVHgkondoSCmDLzKFOY8-8OGXi1rL2mpQyrQ&usqp=CAU',
+                                          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQeGKDxFU-JDKZOf8i9M-L6OT3XA2Yfh9KRA&usqp=CAU&reload=on'
+                                        ]
+                                      })
+                                      }} ></div>
+                                <div onMouseEnter={() => setColors("img2")} onClick={()=>{
+                                       setBikeDetails({
+                                        title: bikeInfo[1].Title,
+                                        activeurl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxaz-JbqYbsUy9Vc7fCv9OIekAufHh4MVFAQ&usqp=CAU',
+                                        price: bikeInfo[1].Price,
+                                        color: 'white',
+                                        colors: ['blue', 'white', 'green', 'orange'],
+                                        urls: [
+                                          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwcwT3zy-XTEYSnKNltrpIoGmaLRCLg3QZHw&usqp=CAU',
+                                          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxaz-JbqYbsUy9Vc7fCv9OIekAufHh4MVFAQ&usqp=CAU',
+                                          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVHgkondoSCmDLzKFOY8-8OGXi1rL2mpQyrQ&usqp=CAU',
+                                          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQeGKDxFU-JDKZOf8i9M-L6OT3XA2Yfh9KRA&usqp=CAU&reload=on'
+                                        ]
+                                      })
+                                      }}></div>
+                                <div onMouseEnter={() => setColors("img3")} onClick={()=>{
+                                       setBikeDetails({
+                                        title: bikeInfo[1].Title,
+                                        activeurl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVHgkondoSCmDLzKFOY8-8OGXi1rL2mpQyrQ&usqp=CAU',
+                                        price: bikeInfo[1].Price,
+                                        color: 'green',
+                                        colors: ['blue', 'white', 'green', 'orange'],
+                                        urls: [
+                                          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwcwT3zy-XTEYSnKNltrpIoGmaLRCLg3QZHw&usqp=CAU',
+                                          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxaz-JbqYbsUy9Vc7fCv9OIekAufHh4MVFAQ&usqp=CAU',
+                                          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVHgkondoSCmDLzKFOY8-8OGXi1rL2mpQyrQ&usqp=CAU',
+                                          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQeGKDxFU-JDKZOf8i9M-L6OT3XA2Yfh9KRA&usqp=CAU&reload=on'
+                                        ]
+                                      })
+                                      }}></div>
+                                <div onMouseEnter={() => setColors("img4")} onClick={()=>{
+                                       setBikeDetails({
+                                        title: bikeInfo[1].Title,
+                                        activeurl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQeGKDxFU-JDKZOf8i9M-L6OT3XA2Yfh9KRA&usqp=CAU&reload=on',
+                                        price: bikeInfo[1].Price,
+                                        color: 'orange',
+                                        colors: ['blue', 'white', 'green', 'orange'],
+                                        urls: [
+                                          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwcwT3zy-XTEYSnKNltrpIoGmaLRCLg3QZHw&usqp=CAU',
+                                          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxaz-JbqYbsUy9Vc7fCv9OIekAufHh4MVFAQ&usqp=CAU',
+                                          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVHgkondoSCmDLzKFOY8-8OGXi1rL2mpQyrQ&usqp=CAU',
+                                          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQeGKDxFU-JDKZOf8i9M-L6OT3XA2Yfh9KRA&usqp=CAU&reload=on'
+                                        ]
+                                      })
+                                      }}></div>
                             </section>
                             <p style={{ textAlign: 'center' }}>Active color:{colors === "img1" ? "Blue Burst" : colors === "img2" ? "White Onyx Pearl" : colors === "img3" ? "Alpine Green" : "Whiskey Fire"}</p>
                         </>
@@ -360,12 +418,46 @@ function MotorCycle() {
                                 <p style={{ textAlign: 'center' }}>4 colors Available</p>
                             </section>
                             <section className='diff-color' style={{ display: 'flex', gap: '4px', justifyContent: 'center' }}>
-                                <div onMouseEnter={() => setColors("img1")}
-                                  
-                                ></div>
-                                <div onMouseEnter={() => setColors("img2")}></div>
-                                <div onMouseEnter={() => setColors("img3")}></div>
-                                <div onMouseEnter={() => setColors("img4")}></div>
+                                <div onMouseEnter={() => setColors("img1")} onClick={()=>{
+                                       setBikeDetails({
+                                        title: bikeInfo[2].Title,
+                                        activeurl: imageurl2[1],
+                                        price: bikeInfo[2].Price,
+                                        color: 'blue',
+                                        colors: ['blue', 'white', 'green', 'orange'],
+                                        urls: imageurl2
+                                      })
+                                      }}></div>
+                                <div onMouseEnter={() => setColors("img2")} onClick={()=>{
+                                       setBikeDetails({
+                                        title: bikeInfo[2].Title,
+                                        activeurl: imageurl2[2],
+                                        price: bikeInfo[2].Price,
+                                        color: 'white',
+                                        colors: ['blue', 'white', 'green', 'orange'],
+                                        urls: imageurl2
+                                      })
+                                    }}></div>
+                                <div onMouseEnter={() => setColors("img3")} onClick={()=>{
+                                       setBikeDetails({
+                                        title: bikeInfo[2].Title,
+                                        activeurl: imageurl2[3],
+                                        price: bikeInfo[2].Price,
+                                        color: 'green',
+                                        colors: ['blue', 'white', 'green', 'orange'],
+                                        urls: imageurl2
+                                      })
+                                    }}></div>
+                                <div onMouseEnter={() => setColors("img4")} onClick={()=>{
+                                       setBikeDetails({
+                                        title: bikeInfo[2].Title,
+                                        activeurl: imageurl2[4],
+                                        price: bikeInfo[2].Price,
+                                        color: 'orange',
+                                        colors: ['blue', 'white', 'green', 'orange'],
+                                        urls: imageurl2
+                                      })
+                                    }}></div>
                             </section>
                             <p style={{ textAlign: 'center' }}>Active color:{colors === "img1" ? "Blue Burst" : colors === "img2" ? "White Onyx Pearl" : colors === "img3" ? "Alpine Green" : "Whiskey Fire"}</p>
                         </>
@@ -384,21 +476,43 @@ function MotorCycle() {
                                 <div onMouseEnter={() => setColors2("img11")} onClick={()=>{
                                     setBikeDetails({
                                         title: bikeInfo[1].Title,
-                                        activeurl: imageurl1[0],
+                                        activeurl:imageurl1[0],
                                         price: bikeInfo[1].Price,
                                         color: 'blue',
                                         colors: ['blue', 'white', 'green', 'orange'],
-                                        urls: [
-                                          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwcwT3zy-XTEYSnKNltrpIoGmaLRCLg3QZHw&usqp=CAU',
-                                          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxaz-JbqYbsUy9Vc7fCv9OIekAufHh4MVFAQ&usqp=CAU',
-                                          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVHgkondoSCmDLzKFOY8-8OGXi1rL2mpQyrQ&usqp=CAU',
-                                          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQeGKDxFU-JDKZOf8i9M-L6OT3XA2Yfh9KRA&usqp=CAU&reload=on'
-                                        ]
+                                        urls: imageurl1
                                       })
                                 }}></div>
-                                <div onMouseEnter={() => setColors2("img22")}></div>
-                                <div onMouseEnter={() => setColors2("img33")}></div>
-                                <div onMouseEnter={() => setColors2("img44")}></div>
+                                <div onMouseEnter={() => setColors2("img22")} onClick={()=>{
+                                       setBikeDetails({
+                                        title: bikeInfo[1].Title,
+                                        activeurl: imageurl1[1],
+                                        price: bikeInfo[1].Price,
+                                        color: 'white',
+                                        colors: ['blue', 'white', 'green', 'orange'],
+                                        urls: imageurl1
+                                      })
+                                }}></div>
+                                <div onMouseEnter={() => setColors2("img33")}onClick={()=>{
+                                       setBikeDetails({
+                                        title: bikeInfo[2].Title,
+                                        activeurl: imageurl1[2],
+                                        price: bikeInfo[2].Price,
+                                        color: 'green',
+                                        colors: ['blue', 'white', 'green', 'orange'],
+                                        urls: imageurl1
+                                      })
+                                }}></div>
+                                <div onMouseEnter={() => setColors2("img44")}onClick={()=>{
+                                       setBikeDetails({
+                                        title: bikeInfo[3].Title,
+                                        activeurl: imageurl1[3],
+                                        price: bikeInfo[3].Price,
+                                        color: 'orange',
+                                        colors: ['blue', 'white', 'green', 'orange'],
+                                        urls: imageurl1
+                                      })
+                                }}></div>
                             </section>
                             <p style={{ textAlign: 'center' }}>Active color:{colors2 === "img1" ? "Blue Burst" : colors2 === "img2" ? "White Onyx Pearl" : colors2 === "img3" ? "Alpine Green" : "Whiskey Fire"}</p>
                         </>

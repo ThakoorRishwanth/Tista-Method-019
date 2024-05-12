@@ -1,14 +1,20 @@
+import { Route, Routes } from 'react-router-dom'
 import './App.css'
-import { Navbar } from './components/Header/Navbar'
-import Motorcycle from './components/components/BikeCatelog/Motorcycle'
+import ViewData from './components/components/Admin/ViewData'
+import AddData from './components/components/Admin/AddData'
+import { Admin } from './pages/Admin'
 
 function App() {
   
 
   return (
     <>
-
-   <Motorcycle/>
+     <Routes>
+       <Route path='/' element={<Admin />}></Route>
+       <Route path='/viewdata' element={<ViewData/>}></Route>
+       <Route path='/adddata' element={<AddData/>}></Route>
+    </Routes>
+   
     </>
   )
 }
