@@ -1,11 +1,11 @@
-import React, { useEffect, useState } from 'react'
-import { Navbar } from '../Header/Navbar'
+import  { useEffect } from 'react'
+// import { Navbar } from '../Header/Navbar'
 import '../../styles/Products/products.css'
-import Box from '@mui/material/Box';
-import InputLabel from '@mui/material/InputLabel';
-import MenuItem from '@mui/material/MenuItem';
-import FormControl from '@mui/material/FormControl';
-import Select, { SelectChangeEvent } from '@mui/material/Select';
+// import Box from '@mui/material/Box';
+// import InputLabel from '@mui/material/InputLabel';
+// import MenuItem from '@mui/material/MenuItem';
+// import FormControl from '@mui/material/FormControl';
+// import Select, { SelectChangeEvent } from '@mui/material/Select';
 import { useDispatch, useSelector } from 'react-redux';
 import { fetch_failure, fetch_request, fetch_success } from '../../redux/actionTypes';
 import axios from 'axios'
@@ -19,7 +19,7 @@ import { Link } from 'react-router-dom';
 
 
 export const Products = () => {
-  const [filter, setFilter] = React.useState("")
+  // const [filter, setFilter] = useState("")
   const dispatch = useDispatch();
   const state = useSelector((store:RootState)=>store.pro.data)
   const baseurl = "https://tista-method-019-1.onrender.com"
@@ -54,9 +54,9 @@ export const Products = () => {
     fetchPro(`${baseurl}/Men-Product`)
 
 
-    const handleChange = (event: SelectChangeEvent) => {
-      setFilter(event.target.value);
-    };
+    // const handleChange = (event: SelectChangeEvent) => {
+    //   setFilter(event.target.value);
+    // };
 
 
   return (

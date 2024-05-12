@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux';
 import { Fetch_Fail, Fetch_req, Fetch_succ } from '../../redux/actionTypes';
 import axios from 'axios';

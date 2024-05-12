@@ -1,4 +1,4 @@
-import { Navbar } from "../Header/Navbar"
+// import { Navbar } from "../Header/Navbar"
 import '../../styles/Body/body.css'
 import { Link } from "react-router-dom"
 
