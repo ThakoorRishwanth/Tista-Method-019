@@ -1,6 +1,7 @@
 import React, { useState, ChangeEvent, FormEvent } from 'react';
 import '../../styles/Registration/registration.css';
 import immg from '../../../image/immg.jpg';
+import { Link } from 'react-router-dom';
 
 interface FormData {
   username: string;
@@ -119,7 +120,7 @@ export const Registration: React.FC = () => {
             />
             {errors.confirmPassword && <span>{errors.confirmPassword}</span>}
           </div>
-          <button type="submit">Submit</button>
+          <button  type="submit"><Link to={'/admin'}> Submit </Link></button>
         </form>
       </div>
     </div>
