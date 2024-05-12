@@ -12,6 +12,7 @@ import ListItemButton from '@mui/material/ListItemButton';
 import ListItemText from '@mui/material/ListItemText';
 // import InboxIcon from '@mui/icons-material/MoveToInbox';
 // import MailIcon from '@mui/icons-material/Mail';
+import img from '../../../image/Harley-Davidson_logo.svg.png'
 
 type Anchor = 'top' | 'left' | 'bottom' | 'right';
 
@@ -78,7 +79,7 @@ export const Navbar = () => {
     </div>
     <div className='header'>
         <div className='d1'>
-            <Link to="/"><img src="../../../image/Harley-Davidson_logo.svg.png" alt="logo"/></Link>
+            <Link to="/"><img src={img} alt="logo"/></Link>
             <ul><Link to="">BIKES</Link>
                 <div className='u1'>
                 <li><Link to="">MOTORCYCLES</Link></li>
