@@ -15,13 +15,13 @@ interface BikeData {
     features: string[];
 }
 
-function ViewData() {
+function ViewData(): JSX.Element {
     const [datas, setData] = useState<BikeData[]>([]);
     const [totalRevenue, setTotalRevenue] = useState<number>(0);
-    const chartRef = useRef("");
-    const chartRef2 = useRef("");
+    const chartRef = useRef<Chart<"bar"> | null>(null);
+    const chartRef2 = useRef<Chart<"bar"> | null>(null);
 
-    async function fetchData() {
+    async function fetchData(): Promise<void> {
         try {
             const res = await fetch('https://tista-method-019-1.onrender.com/motorcycles');
             const data = await res.json();
@@ -74,7 +74,7 @@ function ViewData() {
         const colorsMap = datas.reduce((acc, curr) => {
             acc[curr.color] = (acc[curr.color] || 0) + 1;
             return acc;
-        }, {});
+        }, {} as { [key: string]: number });
         const labels = Object.keys(colorsMap);
         const data = Object.values(colorsMap);
         chartRef2.current = new Chart(ctx, {
@@ -112,7 +112,6 @@ function ViewData() {
                 <div className="card">
                     <canvas id="colorChart"></canvas>
                 </div>
-
             </section>
         </div>
     );

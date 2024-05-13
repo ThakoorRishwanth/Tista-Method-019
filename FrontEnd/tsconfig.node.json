@@ -3,9 +3,11 @@
     "composite": true,
     "skipLibCheck": true,
     "module": "ESNext",
-    "moduleResolution": "bundler",
+    "moduleResolution": "node",
     "allowSyntheticDefaultImports": true,
-    "strict": true
+    "strict": true,
+    "target": "ESNext", // Optionally specify the target version of JavaScript
+    "jsx": "react" // If you're using React, specify JSX mode
   },
-  "include": ["vite.config.ts"]
+  "include": ["src"] // Update to include your source directory
 }
