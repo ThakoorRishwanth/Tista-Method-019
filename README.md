@@ -174,4 +174,37 @@ Warning: The project is built around the deployed server which can be accessed u
 
 ## Usage
 
-The website lands on the home page. On the home page, the following functions can be performed:
+1. The website lands on the home page. On the home page, the following functions can be performed:
+![Screenshot 2024-05-13 193948](https://github.com/ThakoorRishwanth/Tista-Method-019/assets/154314786/39414e8a-cf03-4348-bcf4-6bea71014154)
+
+2.  hovering on the elements which are present on the navbar can see the Dropdown of elements.
+ ![Screenshot 2024-05-13 194743](https://github.com/ThakoorRishwanth/Tista-Method-019/assets/154314786/5cfeff4a-19b5-49ec-80e1-0674adaf7641)
+
+3. When Scroll Down on Landing Page there are some Cards Which has the latest bike images and their short description.
+ ![image]![Screenshot 2024-04-04 220153](https://github.com/ThakoorRishwanth/ZEN-Mart/assets/154314786/0550165a-f39b-4fdf-a6c6-4705d58eb1e5) 
+![Screenshot 2024-05-13 194029](https://github.com/ThakoorRishwanth/Tista-Method-019/assets/154314786/a46dfbc0-9862-4612-b8d9-7f4266939778)
+
+4. Next we have Learn and More With ome image of Harley-Davidson Bike, it has one explore more button by clicking on the explore more we are redirected to the the bikes page where you can get more clear information about bikes
+![Screenshot 2024-05-13 194051](https://github.com/ThakoorRishwanth/Tista-Method-019/assets/154314786/0577f0a7-77ff-45d6-9b1d-634d38852286)
+
+5. We have shop and Appreal cards those cards were clickable it will route us to their specific page
+    ![Screenshot 2024-05-13 194112](https://github.com/ThakoorRishwanth/Tista-Method-019/assets/154314786/e6916b8c-7c76-4edc-bd41-068dffb03e47)
+
+   6. We have use friendly footer where the user has any issues any help the user can contact us from the footer where the information is added
+      ![Screenshot 2024-05-13 194128](https://github.com/ThakoorRishwanth/Tista-Method-019/assets/154314786/0d819de7-589b-4d0d-8372-abb5a7b5bf02)
+
+7. From Navbar when we hover on elements and click on the elements it will redirect us to thier specific page.
+   ![Screenshot 2024-05-13 194312](https://github.com/ThakoorRishwanth/Tista-Method-019/assets/154314786/b774c41a-b0ac-4ca8-b13c-47e810b1c8c4)
+
+
+ ## Technology Stack
+
+- HTML
+- CSS
+- JavaScript
+- Bootstrap Library (Bootstrap 5.3)
+- React.JS
+
+
+
+
