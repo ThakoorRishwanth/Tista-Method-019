@@ -52,17 +52,17 @@ export const Navbar = () => {
               <List>
                 <ListItem disablePadding>
                   <ListItemButton>
-                    <Link to="/men"><ListItemText primary="Men's Gear" /> </Link>
+                    <Link to="/men" style={{textDecoration:'none',color:'black'}}><ListItemText primary="Men's Gear" /> </Link>
                   </ListItemButton>
                 </ListItem>
                 <ListItem disablePadding>
                   <ListItemButton>
-                    <Link to=""><ListItemText primary="Helmet" /></Link>
+                    <Link to="" style={{textDecoration:'none',color:'black'}}><ListItemText primary="Helmet" /></Link>
                   </ListItemButton>
                 </ListItem>
                 <ListItem disablePadding>
                   <ListItemButton>
-                    <Link to="/women"><ListItemText primary="Women's Jacket" /> </Link>
+                    <Link to="/women" style={{textDecoration:'none',color:'black'}}><ListItemText primary="Women's Jacket" /> </Link>
                   </ListItemButton>
                 </ListItem>
               </List>

@@ -1,7 +1,23 @@
-import React, { createContext, useState } from 'react';
+import React, { createContext, useState, ReactNode } from 'react';
 
-// Create context with initial value of null
-export const BikeDetailsContext = createContext<initial[]>();
+export interface BikeDetailsContextType {
+    bikeDetails: initial;
+    setBikeDetails: React.Dispatch<React.SetStateAction<initial>>;
+}
+
+
+
+export const BikeDetailsContext = createContext<BikeDetailsContextType>({
+    bikeDetails: {
+        title: '',
+        activeurl: '',
+        price: '',
+        activecolor: '',
+        colors: [],
+        urls: []
+    },
+    setBikeDetails: () => {}
+});
 
 interface initial {
     title: string;
@@ -12,16 +28,23 @@ interface initial {
     urls: string[];
 }
 
-export function Context({ children }) {
-    // Initialize state variable
-    const [bikeDetails, setBikeDetails] = useState<initial>();
+interface Props {
+    children: ReactNode;
+}
 
-    // Pass the state variable and any functions to update it as the value prop of the context provider
+export function Context({ children }: Props): JSX.Element {
+    const [bikeDetails, setBikeDetails] = useState<initial>({
+        title: '',
+        activeurl: '',
+        price: '',
+        activecolor: '',
+        colors: [],
+        urls: []
+    });
+
     return (
         <BikeDetailsContext.Provider value={{ bikeDetails, setBikeDetails }}>
             {children}
         </BikeDetailsContext.Provider>
     );
 }
-
-

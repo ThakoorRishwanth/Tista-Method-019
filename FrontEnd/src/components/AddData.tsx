@@ -15,7 +15,7 @@ interface BikeData {
     features: string[];
 }
 
-function reducer(state: BikeData, action: { type: string, payload: any }): BikeData {
+function reducer(state: BikeData, action: { type: string, payload: string }): BikeData {
     switch (action.type) {
         case 'name':
             return { ...state, name: action.payload };
@@ -53,14 +53,24 @@ function AddData() {
 
     const [state, dispatch] = useReducer(reducer, initialState);
     const [data, setData] = useState<BikeData[]>([]);
+    const [message, setMessage]=useState<string>("");
+    const [ismessage, setisMessage]=useState<boolean>(false);
+
 
     function handleChange(e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>, type: string) {
         dispatch({ type, payload: e.target.value });
     }
     async function HandleSubmit() {
-        const data = await axios.post('https://tista-method-019-1.onrender.com/motorcycles', state);
-        setData([...data, data.data]); 
-        console.log(data.data)
+        try {
+            const response = await axios.post('https://tista-method-019-1.onrender.com/motorcycles', state);
+            setData([...data, response.data]);
+            setMessage('Data added successfully.');
+            setisMessage(true)
+        } catch (error) {
+            console.error('Error:', error);
+            setMessage('Failed to add data. Please try again.');
+            setisMessage(false);
+        }
     }
     async function fetchData() {
         try {
@@ -114,10 +124,13 @@ function AddData() {
                     </div>
                     <div>
                         <label htmlFor="features">Enter Features with ',': </label>
-                        <input type='text' value={state.features.join(',')} onChange={(e) => handleChange(e, 'features')} />
+                        <input type='text' name='features' placeholder='enter features with","' value={state.features.join(',') } onChange={(e) => handleChange(e, 'features')} />
                     </div>
                     <button onClick={HandleSubmit}>Add Data</button>
                 </div>
+                 {ismessage && 
+                  <p>{message}</p>
+                 }
             </div>
             <div id='formdata'>
                 <div id='headings'>

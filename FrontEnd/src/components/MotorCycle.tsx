@@ -1,10 +1,8 @@
-import { Spinner } from '@chakra-ui/react';
-import React, { useContext, useEffect, useRef, useState } from 'react';
+import { useContext, useEffect, useState } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
-import Bikes from './Bikes';
-import '../css/motorcyclye.css'
 
-import { BikeDetailsContext } from './Context';
+import '../css/motorcyclye.css';
+import { BikeDetailsContext, BikeDetailsContextType } from './Context';
 
 interface BikeData {
     id: number;
@@ -17,33 +15,27 @@ interface BikeData {
     description: string;
     features: string[];
 }
-interface initial {
-    title: string;
-    activeurl: string;
-    price: string;
-    activecolor: string;
-    colors: string[];
-    urls: string[];
-}
-interface typeData {
+
+interface TypeData {
     types: string[];
 }
-interface bikeInfo {
-    Title: "string",
-    Title_URL: "string",
-    Image: "string",
-    Price: "string",
-    Price1: "string",
-    Label: "string",
-    colorselectoritem_container: "string",
-    colorselectoritem_container2: "string",
-    colorselectoritem_container3: "string",
-    colorselectoritem_container4: "string",
-    colorselectoritem_container5: "string",
-    colorselectoritem_container6: "string",
-    activecolortext: "string"
+
+interface BikeInfo {
+    Title: string;
+    Title_URL: string;
+    Image: string;
+    Price: string;
+    Price1: string;
+    Label: string;
+    colorselectoritem_container: string;
+    colorselectoritem_container2: string;
+    colorselectoritem_container3: string;
+    colorselectoritem_container4: string;
+    colorselectoritem_container5: string;
+    colorselectoritem_container6: string;
+    activecolortext: string;
 }
-const obj:initial={};
+
 function MotorCycle() {
     const { user_id } = useParams();
     const [spanHovered, setSpanHovered] = useState<boolean>(false);
@@ -57,95 +49,96 @@ function MotorCycle() {
     const [imagehover4, setImageHover4] = useState<boolean>(false);
     const [imagehover5, setImageHover5] = useState<boolean>(false);
     const [datas, setData] = useState<BikeData[]>([]);
-    const [biketypes, setType] = useState<typeData>({ types: [] });
-    const [bikeInfo, setBikeInfo] = useState<bikeInfo[]>([]);
+    const [biketypes, setType] = useState<TypeData>({ types: [] });
+    const [bikeInfo, setBikeInfo] = useState<BikeInfo[]>([]);
     const [colors, setColors] = useState<string>('');
     const [colors2, setColors2] = useState<string>('');
-    const [colors3, setColors3] = useState<string>('')
-    const [colors4, setColors4] = useState<string>('')
-    const [colors5, setColors5] = useState<string>('')
+    const [colors3, setColors3] = useState<string>('');
+    const [colors4, setColors4] = useState<string>('');
+    const [colors5, setColors5] = useState<string>('');
     const [isLoading, setLoading] = useState<boolean>(false);
     const [value, setValue] = useState<string>("");
     const [value2, setValue2] = useState<string>("");
     const [value3, setValue3] = useState<string>("");
-    const [value4, setValue4] = useState<string>("");
-    const [filterdata, setFilterDatas] = useState<BikeData[]>([])
     const [btnclick1, setbtnClick1] = useState<boolean>(false);
     const [btnclick2, setbtnClick2] = useState<boolean>(false);
     const [btnclick3, setbtnClick3] = useState<boolean>(false);
-    const [btnclick4, setbtnClick4] = useState<boolean>(false);
-    const [prevFilterData, setPrevFilterData] = useState<BikeData[]>([]);
-    const [query1, setQuery1] = useState("");
-    const [query2, setQuery2] = useState("");
-    const [query3, setQuery3] = useState("");
-    const [query4, setQuery4] = useState("");
-    const navigate=useNavigate();
-    let{ bikeDetails, setBikeDetails}=useContext(BikeDetailsContext);
-    const imageurl1: string[] = ['https://cdp.azureedge.net/products/USA/HD/2023/MC/TOUR/ROAD_GLIDESUP1-SUP/50/REEF_BLUE/2000000001.jpg',
-        "https://cdn.powergo.ca/media/catalog/2024/4/a752993f2bc147ba820e8af34977e4ee_1024x768_webp/2024-harley-davidson-road-glide-white-onyx-pearl-chrome-finish-0.webp",
-        "https://cdp.azureedge.net/products/USA/HD/2022/MC/TOUR/ROAD_GLIDE_LIMITED/50/MINERAL_GREEN_METALLIC_CHROME_OPTION/2000000001.jpg",
-        "https://cdp.azureedge.net/products/USA/HD/2022/MC/CVO/CVO_ROAD_GLIDE/50/WICKED_ORANGE_PEARL/2000000002.jpg"
+    const [query1, setQuery1] = useState<string>("");
+    const [query2, setQuery2] = useState<string>("");
+    const [query3, setQuery3] = useState<string>("");
+    const navigate = useNavigate();
+    const { bikeDetails, setBikeDetails } = useContext<BikeDetailsContextType>(BikeDetailsContext);
+    const imageurl1: string[] = [
+        'https://cdp.azureedge.net/products/USA/HD/2023/MC/TOUR/ROAD_GLIDESUP1-SUP/50/REEF_BLUE/2000000001.jpg',
+        'https://cdn.powergo.ca/media/catalog/2024/4/a752993f2bc147ba820e8af34977e4ee_1024x768_webp/2024-harley-davidson-road-glide-white-onyx-pearl-chrome-finish-0.webp',
+        'https://cdp.azureedge.net/products/USA/HD/2022/MC/TOUR/ROAD_GLIDE_LIMITED/50/MINERAL_GREEN_METALLIC_CHROME_OPTION/2000000001.jpg',
+        'https://cdp.azureedge.net/products/USA/HD/2022/MC/CVO/CVO_ROAD_GLIDE/50/WICKED_ORANGE_PEARL/2000000002.jpg'
     ];
-
-    const imageurl2: string[] = ['https://www.harley-davidson.com/content/dam/h-d/images/product-images/bikes/motorcycle/2024/2024-street-glide/2024-street-glide-m13/360/2024-street-glide-m13-motorcycle-01.jpg?impolicy=myresize&rw=1600',
+    console.log(bikeDetails);
+    const imageurl2: string[] = [
+        'https://www.harley-davidson.com/content/dam/h-d/images/product-images/bikes/motorcycle/2024/2024-street-glide/2024-street-glide-m13/360/2024-street-glide-m13-motorcycle-01.jpg?impolicy=myresize&rw=1600',
         'https://www.harley-davidson.com/content/dam/h-d/images/product-images/bikes/motorcycle/2024/2024-street-glide/2024-street-glide-m07/360/2024-street-glide-m07-motorcycle-01.jpg?impolicy=myresize&rw=1600',
         'https://www.harley-davidson.com/content/dam/h-d/images/product-images/bikes/motorcycle/2024/2024-street-glide/2024-street-glide-m14/360/2024-street-glide-m14-motorcycle-01.jpg?impolicy=myresize&rw=1600',
         'https://www.harley-davidson.com/content/dam/h-d/images/product-images/bikes/motorcycle/2024/2024-street-glide/2024-street-glide-m12/360/2024-street-glide-m12-motorcycle-01.jpg?impolicy=myresize&rw=1600'
-    ]
-    const imageurl3: string[] = ['https://www.harley-davidson.com/content/dam/h-d/images/product-images/bikes/motorcycle/2024/2024-fat-bob-114/2024-fat-bob-114-m04b/360/2024-fat-bob-114-m04b-motorcycle-01.jpg?impolicy=myresize&rw=1600',
+    ];
+
+    const imageurl3: string[] = [
+        'https://www.harley-davidson.com/content/dam/h-d/images/product-images/bikes/motorcycle/2024/2024-fat-bob-114/2024-fat-bob-114-m04b/360/2024-fat-bob-114-m04b-motorcycle-01.jpg?impolicy=myresize&rw=1600',
         'https://www.harley-davidson.com/content/dam/h-d/images/product-images/bikes/motorcycle/2024/2024-fat-bob-114/2024-fat-bob-114-m02b/360/2024-fat-bob-114-m02b-motorcycle-01.jpg?impolicy=myresize&rw=1600'
-    ]
-    const imageurl4: string[] = ['https://www.harley-davidson.com/content/dam/h-d/images/product-images/bikes/motorcycle/2024/2024-heritage-classic-114/2024-heritage-classic-114-m04/360/2024-heritage-classic-114-m04-motorcycle-01.jpg?impolicy=myresize&rw=1600',
+    ];
+
+    const imageurl4: string[] = [
+        'https://www.harley-davidson.com/content/dam/h-d/images/product-images/bikes/motorcycle/2024/2024-heritage-classic-114/2024-heritage-classic-114-m04/360/2024-heritage-classic-114-m04-motorcycle-01.jpg?impolicy=myresize&rw=1600',
         'https://www.harley-davidson.com/content/dam/h-d/images/product-images/bikes/motorcycle/2024/2024-heritage-classic-114/2024-heritage-classic-114-m02/360/2024-heritage-classic-114-m02-motorcycle-01.jpg?impolicy=myresize&rw=1600',
+    ];
 
-
-    ]
-    const imageurl5: string[] = ['https://www.harley-davidson.com/content/dam/h-d/images/product-images/bikes/motorcycle/2024/2024-breakout-117/2024-breakout-117-m04/360/2024-breakout-117-m04-motorcycle-01.jpg?impolicy=myresize&rw=1600',
+    const imageurl5: string[] = [
+        'https://www.harley-davidson.com/content/dam/h-d/images/product-images/bikes/motorcycle/2024/2024-breakout-117/2024-breakout-117-m04/360/2024-breakout-117-m04-motorcycle-01.jpg?impolicy=myresize&rw=1600',
         'https://www.harley-davidson.com/content/dam/h-d/images/product-images/bikes/motorcycle/2024/2024-breakout-117/2024-breakout-117-m02/360/2024-breakout-117-m02-motorcycle-01.jpg?impolicy=myresize&rw=1600'
+    ];
 
+    const img1: string = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwcwT3zy-XTEYSnKNltrpIoGmaLRCLg3QZHw&usqp=CAU';
+    const img2: string = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxaz-JbqYbsUy9Vc7fCv9OIekAufHh4MVFAQ&usqp=CAU';
+    const img3: string = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVHgkondoSCmDLzKFOY8-8OGXi1rL2mpQyrQ&usqp=CAU';
+    const img4: string = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQeGKDxFU-JDKZOf8i9M-L6OT3XA2Yfh9KRA&usqp=CAU&reload=on';
 
-    ]
-    const img1: string = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwcwT3zy-XTEYSnKNltrpIoGmaLRCLg3QZHw&usqp=CAU";
-    const img2: string = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxaz-JbqYbsUy9Vc7fCv9OIekAufHh4MVFAQ&usqp=CAU"
-    const img3: string = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVHgkondoSCmDLzKFOY8-8OGXi1rL2mpQyrQ&usqp=CAU"
-    const img4: string = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQeGKDxFU-JDKZOf8i9M-L6OT3XA2Yfh9KRA&usqp=CAU&reload=on"
     console.log(user_id);
+
     async function fetchData() {
         setLoading(true);
-       
         try {
             const res = await fetch(`https://tista-method-019-1.onrender.com/motorcycles?${query1}&&${query2}&&${query3}`);
             const data = await res.json();
             setData(data);
-            setFilterDatas(data);
-            const uniqueTypes = Array.from(new Set(data.map(ele => ele.type)));
+            const uniqueTypes: string[] = Array.from(new Set(data.map((ele: BikeData) => ele.type)));
             setType({ types: uniqueTypes });
-            setLoading(false)
+            setLoading(false);
         } catch (err) {
             console.log(err);
         }
     }
+
     async function fetchBikeData() {
         try {
-            const res = await fetch("https://tista-method-019-1.onrender.com/Bike")
+            const res = await fetch("https://tista-method-019-1.onrender.com/Bike");
             const data = await res.json();
             setBikeInfo(data);
-        }
-        catch (err) {
+        } catch (err) {
             console.log(err);
         }
-
     }
-    function HandleRouting(){
-         navigate('/bike')
+
+    function handleRouting() {
+        navigate('/bike');
     }
 
     useEffect(() => {
         fetchBikeData();
-        fetchData()
-    }, [query1,query2,query3]);
+        fetchData();
+    }, [query1, query2, query3]);
 
     console.log(datas);
+
     const handleColorDropdownToggle = () => {
         setColorDropdownOpen(prevState => !prevState);
         setTypeDropdownOpen(false);
@@ -160,7 +153,6 @@ function MotorCycle() {
         setEngineCCDropdownOpen(false);
     };
 
-
     const handlePriceDropdownToggle = () => {
         setPriceDropdownOpen(prevState => !prevState);
         setColorDropdownOpen(false);
@@ -174,19 +166,14 @@ function MotorCycle() {
         setTypeDropdownOpen(false);
         setPriceDropdownOpen(false);
     };
-
-
-
-
-
     return (
         <div>
             <section id='moto-home'>
                 <img src="https://www.harley-davidson.com/content/dam/h-d/images/category-images/2024/tall-hero/index-header-thd.jpg?impolicy=myresize&rw=1280" alt="moto-img1" />
                 <h1>2024<br /> MOTORCYCLES</h1>
             </section>
-            <section id='moto-bikes' style={{ display: 'flex', justifyContent: 'space-between', marginTop:'10px'}}>
-                <ul style={{ display: 'flex', gap: '16px', marginTop:'10px'}}>
+            <section id='moto-bikes' style={{ display: 'flex', justifyContent: 'space-between', marginTop: '10px' }}>
+                <ul style={{ display: 'flex', gap: '16px', marginTop: '10px' }}>
                     <li>SEE ALL</li>
                     <li>HARLEY-DAVIDSON X</li>
                     <li>GRAND AMERICAN TOURING</li>
@@ -217,14 +204,14 @@ function MotorCycle() {
                                         setValue2('Black');
                                         setbtnClick2(true);
                                         setQuery2("color=Black");
-                                       
+
                                     }}>Black</p>
                                     <p onClick={() => {
                                         console.log("Clicked Grey"); // Log statement to check if the click event is firing
                                         setValue2('Grey');
                                         setbtnClick2(true);
                                         setQuery2("color=Grey");
-                                       
+
                                     }}>Grey</p>
                                     <p onClick={() => {
                                         console.log("Clicked Orange"); // Log statement to check if the click event is firing
@@ -242,10 +229,10 @@ function MotorCycle() {
 
                                 </div>
                                 <div>
-                                    <p onClick={() => {setValue2('Green');setbtnClick2(true);setQuery2("color=Green"); }}>Green</p>
-                                    <p onClick={() => {setValue2('Green');setbtnClick2(true);setQuery2("color=Red"); }}>Red</p>
-                                    <p onClick={() => {setValue2('Green');setbtnClick2(true);setQuery2("color=Yellow"); }}>Yellow</p>
-                                    <p onClick={() => {setValue2('Green');setbtnClick2(true);setQuery2("color=Silver"); }}>Silver</p>
+                                    <p onClick={() => { setValue2('Green'); setbtnClick2(true); setQuery2("color=Green"); }}>Green</p>
+                                    <p onClick={() => { setValue2('Green'); setbtnClick2(true); setQuery2("color=Red"); }}>Red</p>
+                                    <p onClick={() => { setValue2('Green'); setbtnClick2(true); setQuery2("color=Yellow"); }}>Yellow</p>
+                                    <p onClick={() => { setValue2('Green'); setbtnClick2(true); setQuery2("color=Silver"); }}>Silver</p>
                                 </div>
                             </section>
                         }
@@ -277,12 +264,15 @@ function MotorCycle() {
                         <button style={{ width: '130px', backgroundColor: 'white', display: 'flex', alignItems: 'center' }} onClick={handleEngineCCDropdownToggle}>Engine CC<span style={{ marginLeft: '3px' }} className="material-symbols-outlined">expand_more</span></button>
                         {isEngineCCDropdownOpen &&
                             <section id='engine-cc-drop'>
-                                <input type="radio" name='name' onClick={()=>{setValue3("7cc-500cc");setQuery3("engine_displacement_gte=7&engine_displacement_lte=500");setbtnClick3(true)}} />
-                                <label htmlFor="cc">7cc-500cc</label><br></br>
-                                <input type="radio" name='name' onClick={()=>{setValue3("500cc-1000cc");setQuery3("engine_displacement_gte=501&engine_displacement_lte=1000");setbtnClick3(true)}}  />
-                                <label htmlFor="cc1">500cc-1000cc</label><br></br>
-                                <input type="radio" name='name' onClick={()=>{setValue3("1000cc-2000cc");setQuery3("engine_displacement_gte=1000&engine_displacement_lte=2000");setbtnClick3(true)}}  />
-                                <label htmlFor="cc2">1000cc-2000cc</label>
+                                <div>
+                                    <input type="radio" id="cc" name="engine" onClick={() => { setValue3("7cc-500cc"); setQuery3("engine_displacement_gte=7&engine_displacement_lte=500"); setbtnClick3(true) }} />
+                                    <label htmlFor="cc">7cc-500cc</label><br />
+                                    <input type="radio" id="cc1" name="engine" onClick={() => { setValue3("500cc-1000cc"); setQuery3("engine_displacement_gte=501&engine_displacement_lte=1000"); setbtnClick3(true) }} />
+                                    <label htmlFor="cc1">500cc-1000cc</label><br />
+                                    <input type="radio" id="cc2" name="engine" onClick={() => { setValue3("1000cc-2000cc"); setQuery3("engine_displacement_gte=1000&engine_displacement_lte=2000"); setbtnClick3(true) }} />
+                                    <label htmlFor="cc2">1000cc-2000cc</label>
+                                </div>
+
 
                             </section>
                         }
@@ -300,19 +290,19 @@ function MotorCycle() {
                     <div style={{ width: '100%', height: '70px', backgroundColor: '#EEECEB', display: 'flex', gap: '10px', alignItems: 'center' }}>
                         {btnclick1 ? (
                             <div className={btnclick1 ? "filterdata" : ''}>
-                                <span className={btnclick1 ? "btn1cliked material-symbols-outlined" : ""} onClick={() => { setbtnClick1(false);setQuery1("")}}>close</span>
+                                <span className={btnclick1 ? "btn1cliked material-symbols-outlined" : ""} onClick={() => { setbtnClick1(false); setQuery1("") }}>close</span>
                                 <p>{value}{'('}{datas.length}{')'}</p>
                             </div>
                         ) : null}
                         {btnclick2 ? (
                             <div className={btnclick2 ? "filterdata2" : ''}>
-                                <span className={btnclick2 ? "btn1cliked2 material-symbols-outlined" : ""} onClick={() => { setbtnClick2(false); setQuery2("")}}>close</span>
+                                <span className={btnclick2 ? "btn1cliked2 material-symbols-outlined" : ""} onClick={() => { setbtnClick2(false); setQuery2("") }}>close</span>
                                 <p>{value2}{'('}{datas.length}{')'}</p>
                             </div>
                         ) : null}
                         {btnclick3 ? (
                             <div className={btnclick3 ? "filterdata3" : ''}>
-                                <span className={btnclick3 ? "btn1cliked3 material-symbols-outlined" : ""} onClick={() => { setbtnClick3(false); setQuery3("")}}>close</span>
+                                <span className={btnclick3 ? "btn1cliked3 material-symbols-outlined" : ""} onClick={() => { setbtnClick3(false); setQuery3("") }}>close</span>
                                 <p>{value3}{'('}{datas.length}{')'}</p>
                             </div>
                         ) : null}
@@ -320,7 +310,7 @@ function MotorCycle() {
 
                 }
             </>
-            <div style={{ position: 'relative', marginTop:'20px'}}>
+            <div style={{ position: 'relative', marginTop: '20px' }}>
                 <img src="https://www.harley-davidson.com/content/dam/h-d/images/product-images/bikes/motorcycle/2023/2023-h-d-x-440/story/x440-header-thd.jpg?impolicy=myresize&rw=1800" alt="img-2" style={{ width: '100%' }} />
                 <div style={{ position: 'absolute', top: '350px', left: '100px', color: 'white' }}>
                     <h1>Harley-Davidson X™ </h1>
@@ -338,66 +328,66 @@ function MotorCycle() {
                                 <p style={{ textAlign: 'center' }}>4 colors Available</p>
                             </section>
                             <section className='diff-color' style={{ display: 'flex', gap: '4px', justifyContent: 'center' }}>
-                                <div onMouseEnter={() => setColors("img1")} onClick={()=>{
-                                       setBikeDetails({
+                                <div onMouseEnter={() => setColors("img1")} onClick={() => {
+                                    setBikeDetails({
                                         title: bikeInfo[1].Title,
                                         activeurl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwcwT3zy-XTEYSnKNltrpIoGmaLRCLg3QZHw&usqp=CAU",
                                         price: bikeInfo[1].Price,
-                                        color: 'blue',
+                                        activecolor: 'blue',
                                         colors: ['blue', 'white', 'green', 'orange'],
                                         urls: [
-                                          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwcwT3zy-XTEYSnKNltrpIoGmaLRCLg3QZHw&usqp=CAU',
-                                          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxaz-JbqYbsUy9Vc7fCv9OIekAufHh4MVFAQ&usqp=CAU',
-                                          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVHgkondoSCmDLzKFOY8-8OGXi1rL2mpQyrQ&usqp=CAU',
-                                          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQeGKDxFU-JDKZOf8i9M-L6OT3XA2Yfh9KRA&usqp=CAU&reload=on'
+                                            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwcwT3zy-XTEYSnKNltrpIoGmaLRCLg3QZHw&usqp=CAU',
+                                            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxaz-JbqYbsUy9Vc7fCv9OIekAufHh4MVFAQ&usqp=CAU',
+                                            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVHgkondoSCmDLzKFOY8-8OGXi1rL2mpQyrQ&usqp=CAU',
+                                            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQeGKDxFU-JDKZOf8i9M-L6OT3XA2Yfh9KRA&usqp=CAU&reload=on'
                                         ]
-                                      });HandleRouting();
-                                      }} ></div>
-                                <div onMouseEnter={() => setColors("img2")} onClick={()=>{
-                                       setBikeDetails({
+                                    }); handleRouting();
+                                }} ></div>
+                                <div onMouseEnter={() => setColors("img2")} onClick={() => {
+                                    setBikeDetails({
                                         title: bikeInfo[1].Title,
                                         activeurl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxaz-JbqYbsUy9Vc7fCv9OIekAufHh4MVFAQ&usqp=CAU',
                                         price: bikeInfo[1].Price,
-                                        color: 'white',
+                                        activecolor: 'white',
                                         colors: ['blue', 'white', 'green', 'orange'],
                                         urls: [
-                                          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwcwT3zy-XTEYSnKNltrpIoGmaLRCLg3QZHw&usqp=CAU',
-                                          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxaz-JbqYbsUy9Vc7fCv9OIekAufHh4MVFAQ&usqp=CAU',
-                                          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVHgkondoSCmDLzKFOY8-8OGXi1rL2mpQyrQ&usqp=CAU',
-                                          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQeGKDxFU-JDKZOf8i9M-L6OT3XA2Yfh9KRA&usqp=CAU&reload=on'
+                                            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwcwT3zy-XTEYSnKNltrpIoGmaLRCLg3QZHw&usqp=CAU',
+                                            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxaz-JbqYbsUy9Vc7fCv9OIekAufHh4MVFAQ&usqp=CAU',
+                                            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVHgkondoSCmDLzKFOY8-8OGXi1rL2mpQyrQ&usqp=CAU',
+                                            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQeGKDxFU-JDKZOf8i9M-L6OT3XA2Yfh9KRA&usqp=CAU&reload=on'
                                         ]
-                                      });HandleRouting();
-                                      }}></div>
-                                <div onMouseEnter={() => setColors("img3")} onClick={()=>{
-                                       setBikeDetails({
+                                    }); handleRouting();
+                                }}></div>
+                                <div onMouseEnter={() => setColors("img3")} onClick={() => {
+                                    setBikeDetails({
                                         title: bikeInfo[1].Title,
                                         activeurl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVHgkondoSCmDLzKFOY8-8OGXi1rL2mpQyrQ&usqp=CAU',
                                         price: bikeInfo[1].Price,
-                                        color: 'green',
+                                        activecolor: 'green',
                                         colors: ['blue', 'white', 'green', 'orange'],
                                         urls: [
-                                          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwcwT3zy-XTEYSnKNltrpIoGmaLRCLg3QZHw&usqp=CAU',
-                                          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxaz-JbqYbsUy9Vc7fCv9OIekAufHh4MVFAQ&usqp=CAU',
-                                          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVHgkondoSCmDLzKFOY8-8OGXi1rL2mpQyrQ&usqp=CAU',
-                                          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQeGKDxFU-JDKZOf8i9M-L6OT3XA2Yfh9KRA&usqp=CAU&reload=on'
+                                            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwcwT3zy-XTEYSnKNltrpIoGmaLRCLg3QZHw&usqp=CAU',
+                                            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxaz-JbqYbsUy9Vc7fCv9OIekAufHh4MVFAQ&usqp=CAU',
+                                            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVHgkondoSCmDLzKFOY8-8OGXi1rL2mpQyrQ&usqp=CAU',
+                                            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQeGKDxFU-JDKZOf8i9M-L6OT3XA2Yfh9KRA&usqp=CAU&reload=on'
                                         ]
-                                      });HandleRouting();
-                                      }}></div>
-                                <div onMouseEnter={() => setColors("img4")} onClick={()=>{
-                                       setBikeDetails({
+                                    }); handleRouting();
+                                }}></div>
+                                <div onMouseEnter={() => setColors("img4")} onClick={() => {
+                                    setBikeDetails({
                                         title: bikeInfo[1].Title,
                                         activeurl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQeGKDxFU-JDKZOf8i9M-L6OT3XA2Yfh9KRA&usqp=CAU&reload=on',
                                         price: bikeInfo[1].Price,
-                                        color: 'orange',
+                                        activecolor: 'orange',
                                         colors: ['blue', 'white', 'green', 'orange'],
                                         urls: [
-                                          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwcwT3zy-XTEYSnKNltrpIoGmaLRCLg3QZHw&usqp=CAU',
-                                          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxaz-JbqYbsUy9Vc7fCv9OIekAufHh4MVFAQ&usqp=CAU',
-                                          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVHgkondoSCmDLzKFOY8-8OGXi1rL2mpQyrQ&usqp=CAU',
-                                          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQeGKDxFU-JDKZOf8i9M-L6OT3XA2Yfh9KRA&usqp=CAU&reload=on'
+                                            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwcwT3zy-XTEYSnKNltrpIoGmaLRCLg3QZHw&usqp=CAU',
+                                            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxaz-JbqYbsUy9Vc7fCv9OIekAufHh4MVFAQ&usqp=CAU',
+                                            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVHgkondoSCmDLzKFOY8-8OGXi1rL2mpQyrQ&usqp=CAU',
+                                            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQeGKDxFU-JDKZOf8i9M-L6OT3XA2Yfh9KRA&usqp=CAU&reload=on'
                                         ]
-                                      });HandleRouting();
-                                      }}></div>
+                                    }); handleRouting();
+                                }}></div>
                             </section>
                             <p style={{ textAlign: 'center' }}>Active color:{colors === "img1" ? "Blue Burst" : colors === "img2" ? "White Onyx Pearl" : colors === "img3" ? "Alpine Green" : "Whiskey Fire"}</p>
                         </>
@@ -422,46 +412,46 @@ function MotorCycle() {
                                 <p style={{ textAlign: 'center' }}>4 colors Available</p>
                             </section>
                             <section className='diff-color' style={{ display: 'flex', gap: '4px', justifyContent: 'center' }}>
-                                <div onMouseEnter={() => setColors("img1")} onClick={()=>{
-                                       setBikeDetails({
+                                <div onMouseEnter={() => setColors("img1")} onClick={() => {
+                                    setBikeDetails({
                                         title: bikeInfo[2].Title,
                                         activeurl: imageurl2[1],
                                         price: bikeInfo[2].Price,
-                                        color: 'blue',
+                                        activecolor: 'blue',
                                         colors: ['blue', 'white', 'green', 'orange'],
                                         urls: imageurl2
-                                      });HandleRouting();
-                                      }}></div>
-                                <div onMouseEnter={() => setColors("img2")} onClick={()=>{
-                                       setBikeDetails({
+                                    }); handleRouting();
+                                }}></div>
+                                <div onMouseEnter={() => setColors("img2")} onClick={() => {
+                                    setBikeDetails({
                                         title: bikeInfo[2].Title,
                                         activeurl: imageurl2[2],
                                         price: bikeInfo[2].Price,
-                                        color: 'white',
+                                        activecolor: 'white',
                                         colors: ['blue', 'white', 'green', 'orange'],
                                         urls: imageurl2
-                                      });HandleRouting();
-                                    }}></div>
-                                <div onMouseEnter={() => setColors("img3")} onClick={()=>{
-                                       setBikeDetails({
+                                    }); handleRouting();
+                                }}></div>
+                                <div onMouseEnter={() => setColors("img3")} onClick={() => {
+                                    setBikeDetails({
                                         title: bikeInfo[2].Title,
                                         activeurl: imageurl2[3],
                                         price: bikeInfo[2].Price,
-                                        color: 'green',
+                                        activecolor: 'green',
                                         colors: ['blue', 'white', 'green', 'orange'],
                                         urls: imageurl2
-                                      });HandleRouting();
-                                    }}></div>
-                                <div onMouseEnter={() => setColors("img4")} onClick={()=>{
-                                       setBikeDetails({
+                                    }); handleRouting();
+                                }}></div>
+                                <div onMouseEnter={() => setColors("img4")} onClick={() => {
+                                    setBikeDetails({
                                         title: bikeInfo[2].Title,
                                         activeurl: imageurl2[4],
                                         price: bikeInfo[2].Price,
-                                        color: 'orange',
+                                        activecolor: 'orange',
                                         colors: ['blue', 'white', 'green', 'orange'],
                                         urls: imageurl2
-                                      });HandleRouting();
-                                    }}></div>
+                                    }); handleRouting();
+                                }}></div>
                             </section>
                             <p style={{ textAlign: 'center' }}>Active color:{colors === "img1" ? "Blue Burst" : colors === "img2" ? "White Onyx Pearl" : colors === "img3" ? "Alpine Green" : "Whiskey Fire"}</p>
                         </>
@@ -477,45 +467,45 @@ function MotorCycle() {
                                 <p style={{ textAlign: 'center' }}>4 colors Available</p>
                             </section>
                             <section className='diff-color' style={{ display: 'flex', gap: '4px', justifyContent: 'center' }}>
-                                <div onMouseEnter={() => setColors2("img11")} onClick={()=>{
+                                <div onMouseEnter={() => setColors2("img11")} onClick={() => {
                                     setBikeDetails({
                                         title: bikeInfo[1].Title,
-                                        activeurl:imageurl1[0],
+                                        activeurl: imageurl1[0],
                                         price: bikeInfo[1].Price,
-                                        color: 'blue',
+                                        activecolor: 'blue',
                                         colors: ['blue', 'white', 'green', 'orange'],
                                         urls: imageurl1
-                                      });HandleRouting();
+                                    }); handleRouting();
                                 }}></div>
-                                <div onMouseEnter={() => setColors2("img22")} onClick={()=>{
-                                       setBikeDetails({
+                                <div onMouseEnter={() => setColors2("img22")} onClick={() => {
+                                    setBikeDetails({
                                         title: bikeInfo[1].Title,
                                         activeurl: imageurl1[1],
                                         price: bikeInfo[1].Price,
-                                        color: 'white',
+                                        activecolor: 'white',
                                         colors: ['blue', 'white', 'green', 'orange'],
                                         urls: imageurl1
-                                      });HandleRouting();
+                                    }); handleRouting();
                                 }}></div>
-                                <div onMouseEnter={() => setColors2("img33")}onClick={()=>{
-                                       setBikeDetails({
+                                <div onMouseEnter={() => setColors2("img33")} onClick={() => {
+                                    setBikeDetails({
                                         title: bikeInfo[2].Title,
                                         activeurl: imageurl1[2],
                                         price: bikeInfo[2].Price,
-                                        color: 'green',
+                                        activecolor: 'green',
                                         colors: ['blue', 'white', 'green', 'orange'],
                                         urls: imageurl1
-                                      });HandleRouting();
+                                    }); handleRouting();
                                 }}></div>
-                                <div onMouseEnter={() => setColors2("img44")}onClick={()=>{
-                                       setBikeDetails({
+                                <div onMouseEnter={() => setColors2("img44")} onClick={() => {
+                                    setBikeDetails({
                                         title: bikeInfo[3].Title,
                                         activeurl: imageurl1[3],
                                         price: bikeInfo[3].Price,
-                                        color: 'orange',
+                                        activecolor: 'orange',
                                         colors: ['blue', 'white', 'green', 'orange'],
                                         urls: imageurl1
-                                      });HandleRouting();
+                                    }); handleRouting();
                                 }}></div>
                             </section>
                             <p style={{ textAlign: 'center' }}>Active color:{colors2 === "img1" ? "Blue Burst" : colors2 === "img2" ? "White Onyx Pearl" : colors2 === "img3" ? "Alpine Green" : "Whiskey Fire"}</p>
