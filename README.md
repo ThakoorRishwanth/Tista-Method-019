@@ -181,7 +181,6 @@ Warning: The project is built around the deployed server which can be accessed u
  ![Screenshot 2024-05-13 194743](https://github.com/ThakoorRishwanth/Tista-Method-019/assets/154314786/5cfeff4a-19b5-49ec-80e1-0674adaf7641)
 
 3. When Scroll Down on Landing Page there are some Cards Which has the latest bike images and their short description.
- ![image]![Screenshot 2024-04-04 220153](https://github.com/ThakoorRishwanth/ZEN-Mart/assets/154314786/0550165a-f39b-4fdf-a6c6-4705d58eb1e5) 
 ![Screenshot 2024-05-13 194029](https://github.com/ThakoorRishwanth/Tista-Method-019/assets/154314786/a46dfbc0-9862-4612-b8d9-7f4266939778)
 
 4. Next we have Learn and More With ome image of Harley-Davidson Bike, it has one explore more button by clicking on the explore more we are redirected to the the bikes page where you can get more clear information about bikes
