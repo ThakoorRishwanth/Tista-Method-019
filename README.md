@@ -116,13 +116,17 @@ Harley-Davidson
 
 ```
 
-##video Walkthrough of the project
+## video Walkthrough of the project
+
+https://youtu.be/kWMG7auWLrI
 
 A detailed walkthrough of all the features of our project can be found here:
 
 -----
 
 ## video Walkthrough of the project
+
+https://youtu.be/kWMG7auWLrI
 
 A quick walkthrough of the project can be found here: 
 
