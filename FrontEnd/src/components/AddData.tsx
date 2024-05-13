@@ -53,8 +53,7 @@ function AddData() {
 
     const [state, dispatch] = useReducer(reducer, initialState);
     const [data, setData] = useState<BikeData[]>([]);
-    const [message, setMessage]=useState<string>("");
-    const [ismessage, setisMessage]=useState<boolean>(false);
+
 
 
     function handleChange(e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>, type: string) {
@@ -64,12 +63,10 @@ function AddData() {
         try {
             const response = await axios.post('https://tista-method-019-1.onrender.com/motorcycles', state);
             setData([...data, response.data]);
-            setMessage('Data added successfully.');
-            setisMessage(true)
+           alert("Data added Successfully")
         } catch (error) {
             console.error('Error:', error);
-            setMessage('Failed to add data. Please try again.');
-            setisMessage(false);
+            alert("Failed to add data. Please try again")
         }
     }
     async function fetchData() {
@@ -128,9 +125,7 @@ function AddData() {
                     </div>
                     <button onClick={HandleSubmit}>Add Data</button>
                 </div>
-                 {ismessage && 
-                  <p>{message}</p>
-                 }
+               
             </div>
             <div id='formdata'>
                 <div id='headings'>
@@ -142,6 +137,7 @@ function AddData() {
                     <div>price</div>
                     <div>Color</div>
                 </div>
+                
                 {data.length > 0 &&
                     data.map((ele, ind) => {
                         return <div className='Datapresent' key={ind}>
@@ -156,9 +152,10 @@ function AddData() {
 
                     })
                 }
+                </div>
             </div>
         </div>
-    </div>
+    
     );
 }
 
