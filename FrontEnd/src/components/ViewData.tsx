@@ -1,4 +1,6 @@
+// Removed unused React import
 import React, { useEffect, useRef, useState } from 'react';
+// Imported chart.js/auto module
 import Chart from 'chart.js/auto';
 import Sidebar from './Sidebar';
 import '../css/Dashboard.css';
@@ -18,6 +20,7 @@ interface BikeData {
 function ViewData(): JSX.Element {
     const [datas, setData] = useState<BikeData[]>([]);
     const [totalRevenue, setTotalRevenue] = useState<number>(0);
+    // Corrected type for chartRef and chartRef2
     const chartRef = useRef<Chart<"bar"> | null>(null);
     const chartRef2 = useRef<Chart<"bar"> | null>(null);
 
@@ -36,11 +39,13 @@ function ViewData(): JSX.Element {
     }, []);
 
     useEffect(() => {
+        // Calculate total revenue
         const revenue = datas.reduce((acc, bike) => acc + parseFloat(bike.price), 0);
         setTotalRevenue(revenue);
     }, [datas]);
 
     useEffect(() => {
+        // Create revenue chart
         const ctx = document.getElementById('revenueChart') as HTMLCanvasElement;
         if (chartRef.current) {
             chartRef.current.destroy();
@@ -67,11 +72,13 @@ function ViewData(): JSX.Element {
     }, [totalRevenue]);
 
     useEffect(() => {
+        // Create color chart
         const ctx = document.getElementById('colorChart') as HTMLCanvasElement;
         if (chartRef2.current) {
             chartRef2.current.destroy();
         }
-        const colorsMap = datas.reduce((acc, curr) => {
+        // Explicitly typed colorsMap
+        const colorsMap: { [key: string]: number } = datas.reduce((acc, curr) => {
             acc[curr.color] = (acc[curr.color] || 0) + 1;
             return acc;
         }, {} as { [key: string]: number });
@@ -104,7 +111,7 @@ function ViewData(): JSX.Element {
             <section id="info">
                 <div className="card">
                     <img src="https://tse2.mm.bing.net/th?id=OIP.Y59CgLVJSoFNM3D6OEzumQHaD4&pid=Api&P=0&h=180" alt="Card" className="card-image" />
-                    <p className="card-text">Number of Avaialble bikes: {datas.length}</p>
+                    <p className="card-text">Number of Available bikes: {datas.length}</p>
                 </div>
                 <div className="card">
                     <canvas id="revenueChart"></canvas>
@@ -118,3 +125,5 @@ function ViewData(): JSX.Element {
 }
 
 export default ViewData;
+
+

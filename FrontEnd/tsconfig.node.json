@@ -6,8 +6,8 @@
     "moduleResolution": "node",
     "allowSyntheticDefaultImports": true,
     "strict": true,
-    "target": "ESNext", // Optionally specify the target version of JavaScript
-    "jsx": "react" // If you're using React, specify JSX mode
+    "target": "ESNext",
+    "jsx": "react" 
   },
-  "include": ["src"] // Update to include your source directory
+  "include": ["src"] 
 }
