@@ -34,7 +34,7 @@ export const Body = () => {
     <div className="text2">
       <h5>MEET OUR 2024</h5>
       <h1>CRUISER MOTORCYCLES</h1>
-        <button><Link to="">SEE THE BIKES </Link><i className="fa-solid fa-arrow-right arrow"></i></button>
+        <button><Link to="/motorcycle">SEE THE BIKES </Link><i className="fa-solid fa-arrow-right arrow"></i></button>
         </div>
       <img src={img2} className="d-block w-100" alt="..."/>
     </div>
@@ -43,7 +43,7 @@ export const Body = () => {
       <h5>A NEW ERA OF</h5>
       <h1>GRAND AMERICAN</h1>
       <h1>TOURING</h1>
-        <button><Link to="">SEE THE BIKES </Link><i className="fa-solid fa-arrow-right arrow"></i></button>
+        <button><Link to="/motorcycle">SEE THE BIKES </Link><i className="fa-solid fa-arrow-right arrow"></i></button>
         </div>
       <img src={img3} className="d-block w-100" alt="..."/>
     </div>
@@ -70,15 +70,15 @@ export const Body = () => {
     </div>
     </div>
     <div className="b1">
-      <h5><Link to="">HARLEY-DAVIDSON X</Link></h5>
+      <h5><Link to="/bike">HARLEY-DAVIDSON X</Link></h5>
       <p>|</p>
-      <h5><Link to="">GRAND AMERICAN TOURING</Link></h5>
+      <h5><Link to="/bike">GRAND AMERICAN TOURING</Link></h5>
       <p>|</p>
-      <h5><Link to="">CRUISER</Link></h5>
+      <h5><Link to="/bike">CRUISER</Link></h5>
       <p>|</p>
-      <h5><Link to="">ADVENTURE TOURING</Link></h5>
+      <h5><Link to="/bike">ADVENTURE TOURING</Link></h5>
       <p>|</p>
-      <h5><Link to="">SPORT</Link></h5>
+      <h5><Link to="/bike">SPORT</Link></h5>
     </div>
 
     <div className="card1">
@@ -91,7 +91,7 @@ export const Body = () => {
         <h5>BREAKOUT</h5>
         <p>Dripping with chrome and packing Milwaukee-Eight<sup>TM</sup> 117-Twin muscle, the 2024 Breakout<sup>TM</sup>turns every night into bike night</p>
        <br/>
-        <button><Link to="">SEE THE BIKE <i className="fa-solid fa-arrow-right arrow"></i></Link></button>
+        <button><Link to="/bike">SEE THE BIKE <i className="fa-solid fa-arrow-right arrow"></i></Link></button>
       </div>
 
       <div className="card-img">
@@ -100,7 +100,7 @@ export const Body = () => {
         <p>Revolutionary tech and an athletic stance redefine the all-new 2024 Street Glide<sup>TM</sup>.</p>
         <br/>
         <br/>
-        <button><Link to="">SEE THE BIKE <i className="fa-solid fa-arrow-right arrow"></i></Link></button>
+        <button><Link to="/bike">SEE THE BIKE <i className="fa-solid fa-arrow-right arrow"></i></Link></button>
       </div>
 
       <div className="card-img">
@@ -108,7 +108,7 @@ export const Body = () => {
         <h5>SPORTSTER<sup>TM</sup>S</h5>
         <p>Building on a legacy in 1957, the sophisticatedly brutish 2024 Sportster S is Wickedly quick, impressively nimble, and way too much fun.<sup>TM</sup>.</p>
         <br/>
-        <button><Link to="">SEE THE BIKE <i className="fa-solid fa-arrow-right arrow"></i></Link></button>
+        <button><Link to="/bike">SEE THE BIKE <i className="fa-solid fa-arrow-right arrow"></i></Link></button>
       </div>
       
     </div>
@@ -118,7 +118,7 @@ export const Body = () => {
         <div className="para">
           <h1><Link to="">LEARN TO RIDE</Link></h1>
           <p>Whether it's first time throwing a leg over a bike, or you just want to brush up on your skills, H-D offers courses that will have you commanding a motorcycle with confidence in no time</p>
-          <h5><Link to="">EXPLORE MORE </Link><i className="fa-solid fa-arrow-right arrow"></i></h5>
+          <h5><Link to="/motorcycle">EXPLORE MORE </Link><i className="fa-solid fa-arrow-right arrow"></i></h5>
         </div>
         <div className="img1">
           <img src={img8} alt="logo"/>

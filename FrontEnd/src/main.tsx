@@ -5,11 +5,14 @@ import './index.css'
 import { BrowserRouter } from 'react-router-dom'
 import { Provider } from 'react-redux'
 import { store } from './redux/store.ts'
+import { Context } from './components/Context.tsx'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <Provider store={store}>
   <BrowserRouter>
+  <Context>
     <App />
+    </Context>
   </BrowserRouter>
   </Provider>
   
