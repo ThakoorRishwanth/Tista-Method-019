@@ -17,6 +17,7 @@ import ViewData from './components/ViewData'
 import AddData from './components/AddData'
 import Bikes from './components/Bikes'
 import MotorCycle from './components/MotorCycle'
+import { ChakraProvider } from '@chakra-ui/react'
 
 function App() {
   
@@ -36,11 +37,11 @@ function App() {
       <Route path='/helmet' element={<Helmet/>}></Route>
       <Route path="/user" element={<Registration/>}></Route>
       <Route path='/signup' element={<Signup/>}></Route>
-      <Route path='/admin' element={<Admin />}></Route>
-       <Route path='/viewdata' element={<ViewData/>}></Route>
-       <Route path='/adddata' element={<AddData/>}></Route>
-       <Route path='/bike' element={<Bikes/>}></Route>
-       <Route path='/motorcycle' element={<MotorCycle />}></Route>
+      <Route path='/admin' element={<ChakraProvider><Admin /></ChakraProvider>}></Route>
+       <Route path='/viewdata' element={<ChakraProvider><ViewData/></ChakraProvider>}></Route>
+       <Route path='/adddata' element={<ChakraProvider><AddData/></ChakraProvider>}></Route>
+       <Route path='/bike' element={<ChakraProvider><Bikes/></ChakraProvider>}></Route>
+       <Route path='/motorcycle' element={<ChakraProvider><MotorCycle /></ChakraProvider>}></Route>
     </Routes>
     <Footer/>
     </>
