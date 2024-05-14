@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import Chart from 'chart.js/auto';
 import Sidebar from './Sidebar';
 import '../css/Dashboard.css';
@@ -18,8 +18,8 @@ interface BikeData {
 function ViewData() {
     const [datas, setData] = useState<BikeData[]>([]);
     const [totalRevenue, setTotalRevenue] = useState<number>(0);
-    const chartRef = useRef("");
-    const chartRef2 = useRef("");
+    const chartRef = useRef<Chart<"bar", unknown[], string> | null>(null);
+    const chartRef2 = useRef<Chart<"bar", unknown[], string> | null>(null);
 
     async function fetchData() {
         try {
@@ -71,10 +71,12 @@ function ViewData() {
         if (chartRef2.current) {
             chartRef2.current.destroy();
         }
-        const colorsMap = datas.reduce((acc, curr) => {
+        const colorsMap = datas.reduce((acc:{ [key: string]: number }, curr) => {
             acc[curr.color] = (acc[curr.color] || 0) + 1;
             return acc;
         }, {});
+
+
         const labels = Object.keys(colorsMap);
         const data = Object.values(colorsMap);
         chartRef2.current = new Chart(ctx, {
